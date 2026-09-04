@@ -107,10 +107,10 @@ These skills load automatically when you discuss a relevant topic — you don't 
 
 | Skill | Covers | Key Topics |
 |-------|--------|-----------|
-| 🔒 **Privacy** | PIPEDA · Bill C-27 · Provincial laws | Data breaches, consent, privacy policies, PIAs, cross-border transfers |
+| 🔒 **Privacy** | PIPEDA · Bill C-36 (PPCDA) · Provincial laws | Data breaches, consent, privacy policies, PIAs, cross-border transfers |
 | 👷 **Employment & Labour** | ESA · Canada Labour Code · CHRA | Termination, notice, severance, overtime, leaves, human rights, pay equity |
 | 💰 **Financial & Securities** | FINTRAC · OSC · CIRO · PCMLTFA | AML/ATF, KYC, PEP screening, STRs, LCTRs, securities registration |
-| 🦺 **Health & Safety** | WHMIS 2015 · OHSA · CCOHS | Hazardous materials, SDS, workplace incidents, right to refuse, JHSC |
+| 🦺 **Health & Safety** | WHMIS (GHS-aligned) · OHSA · CCOHS | Hazardous materials, SDS, workplace incidents, right to refuse, JHSC |
 | 📧 **CASL** | Canada's Anti-Spam Legislation | CEMs, express/implied consent, unsubscribe rules, CRTC enforcement |
 | 🧾 **Tax** | CRA · GST/HST · Payroll · Corporate Tax | Sales tax, CPP/EI remittances, T4/T4A, SR&ED credits, contractor vs. employee |
 | ✈️ **Immigration** | IRCC · ESDC · TFWP · IMP | LMIA, work permits, CUSMA, Express Entry, PNPs, employer compliance |

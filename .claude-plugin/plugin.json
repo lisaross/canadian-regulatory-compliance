@@ -1,7 +1,7 @@
 {
   "name": "canadian-regulatory-compliance",
   "version": "0.5.0",
-  "description": "Canadian regulatory compliance assistant covering Privacy (PIPEDA/Bill C-27), Employment & Labour, Financial & Securities (FINTRAC/OSC), Health & Safety (WHMIS), CASL, Tax, Immigration (LMIA/IMP), Environmental (CEPA/carbon pricing), Corporate Governance (CBCA), OSFI Prudential, and FCAC Consumer Protection across federal and provincial jurisdictions.",
+  "description": "Canadian regulatory compliance assistant covering Privacy (PIPEDA/Bill C-36 (PPCDA)), Employment & Labour, Financial & Securities (FINTRAC/OSC), Health & Safety (WHMIS), CASL, Tax, Immigration (LMIA/IMP), Environmental (CEPA/carbon pricing), Corporate Governance (CBCA), OSFI Prudential, and FCAC Consumer Protection across federal and provincial jurisdictions.",
   "author": {
     "name": "Srivatsa Kasagar"
   },
