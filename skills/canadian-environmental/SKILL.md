@@ -159,7 +159,14 @@ The federal TDG Act regulates the transport of dangerous goods by road, rail, ai
 - Written report required within prescribed timeframe for significant spills
 
 ### BC (EMA + Spill Reporting Regulation, B.C. Reg. 187/2017)
-- Under s. 4(1), a responsible person must **immediately report** any spill — or imminent risk of a spill — by calling **1-800-663-3456**
+- The regulation applies to a spill of a **listed substance other than natural gas** where the spill
+  **enters, or is likely to enter, a body of water**, or the quantity spilled is (or is likely to be)
+  **equal to or greater than the listed quantity** for that substance (s.2)
+- For **natural gas**, it applies where the spill is caused by a break in a pipeline or fitting
+  operated **above 100 psi** producing a sudden and uncontrolled release, **and** the quantity is at
+  or above the listed quantity (10 kg) (s.3)
+- Where the regulation applies, s.4(1) requires the responsible person to **immediately report** the
+  spill — or imminent risk of one — by calling **1-800-663-3456**
 - That number reaches the **Emergency Coordination Centre (Emergency Management BC)**, which notifies the appropriate Environmental Emergency Response Officer
 - Marine pollution in Canadian waters: Canadian Coast Guard, 1-800-889-8852
 

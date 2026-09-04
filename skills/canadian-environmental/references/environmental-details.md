@@ -34,13 +34,20 @@
 
 **Who must report.** An NPRI report is required where any of the following applies, *and* a substance/activity threshold is met:
 - Employees and contractors work a total of **20,000 hours or more** in the calendar year (ECCC describes this as "about 10 full-time workers" — but the test is **hours**, not headcount). Counts all employees including students, part-time and term staff; all owner hours worked on-site; all contractor hours related to facility operations; and all paid overtime, vacation and sick leave.
-- Certain activities take place, **regardless of employee hours**: waste or sewage sludge incineration, wood preservation, fuel terminal operations, municipal wastewater collection/treatment, pit or quarry operations, operation of stationary combustion equipment.
-- The facility is a pipeline installation, or is subject to the Chromium Electroplating, Chromium Anodizing and Reverse Etching Regulations.
+- Certain activities take place, **regardless of employee hours**: incineration of ≥26 tonnes of
+  non-hazardous solid waste or of biomedical/hospital waste; hazardous waste incineration; sewage
+  sludge incineration; wood preservation; terminal operations; discharge of treated or untreated
+  wastewater from a wastewater collection system averaging **≥10,000 m³/day** to surface waters; and
+  production of **≥500,000 tonnes** at pits or quarries.
+- The facility is a pipeline installation, or is subject to the Chromium Electroplating, Chromium
+  Anodizing and Reverse Etching Regulations.
 - **Criteria air contaminant thresholds are met — whether or not the employee threshold is met.**
+  Facilities operating **stationary combustion equipment** must report Part 4 and Part 5 substances
+  released from fuel combustion regardless of employee hours, where the release thresholds are met.
 
 | Part | Substances | Threshold |
 |------|-----------|-----------|
-| 1A | 177 substances/groups (benzene, toluene, xylene, ammonia, hydrogen sulphide, methanol, zinc, phosphorus …) | **10 tonnes** manufactured, processed or otherwise used (MPO) at ≥1% concentration |
+| 1A | 177 substances/groups (benzene, toluene, xylene, ammonia, hydrogen sulphide, methanol, zinc, phosphorus …) | **10 tonnes**, being the total of: MPO at ≥1% concentration + incidentally manufactured, processed or otherwise used as a **by-product at any concentration** + contained in **tailings disposed of during the year at any concentration** + contained in **waste rock disposed of during the year** that is not clean or inert, at ≥1% |
 | 1B | 33 substances/groups | 1 kg to 1,000 kg depending on substance |
 | **1C** | **163 PFAS and PFAS salts/precursors** | **1 kg** MPO at ≥0.1% concentration |
 | 2 | 31 polycyclic aromatic hydrocarbons (PAHs) | 50 kg (any quantity where creosote wood preservation takes place) |
@@ -50,6 +57,12 @@
 | 4 (CACs) | **PM10** | **0.5 tonnes** released to air |
 | 4 (CACs) | **PM2.5** | **0.3 tonnes** released to air |
 | 5 | 62 speciated VOCs (incl. benzene, toluene, xylene individually) | **1 tonne** released to air |
+
+**Clean/inert exclusions.** Waste rock that is inert or clean under a valid federal or provincial
+operating permit, and tailings components that are inert and inorganic and not physically or
+chemically altered during extraction, recovery or beneficiation, are excluded from the threshold
+calculation (Notice Sch. 3 s.3(1)(b)(vii)–(viii)) — but any quantity of a substance **released** to
+air or surface waters from those materials is still included (s.3(4)).
 
 **Recent changes for 2025–2027:** PFAS, Basic Violet 3, Basic Violet 4, Basic Blue 7, MAPBAP Acetate, benzothiazoles that can form 2-mercaptobenzothiazole, and long-chain aliphatic amines were **added**. Thresholds were **lowered** for ethylene oxide (1 kg, 0.1%), hydrogen cyanide (1,000 kg, 0.1%), and C.I. Basic Green 4 / Malachite Green (100 kg, 1%).
 
