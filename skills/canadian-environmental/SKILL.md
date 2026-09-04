@@ -139,7 +139,7 @@ The federal TDG Act regulates the transport of dangerous goods by road, rail, ai
 
 | Province | System | Key Requirement |
 |---------|--------|----------------|
-| Ontario | Hazardous Waste Program Registry (RPRA) | Since **January 1, 2023**, generators, carriers and receivers register and report through the Resource Productivity and Recovery Authority's online registry, replacing the Ministry's HWIN system. Paper manifests ended; electronic manifesting via the registry and the RPRA HazTrack app. An Emergency Generator Registration (EGR) route exists for spill clean-up. Governed by amended O. Reg. 347. |
+| Ontario | Hazardous Waste Program Registry (RPRA) | Since **January 1, 2023**, generators, carriers and receivers register and report through the Resource Productivity and Recovery Authority's online registry, replacing the Ministry's HWIN system. Paper manifests ended; electronic manifesting via the registry and the RPRA HazTrack app. An emergency generator registration route exists for spill clean-up, which issues an Emergency Generator Number (EGN). Governed by amended O. Reg. 347. |
 | BC | BC Hazardous Waste Regulation | Licensed carriers; manifest system; storage limits and facility approvals |
 | Alberta | Hazardous Waste Regulation (EPEA) | Generator registration; manifest for transport; licensed disposal facilities only |
 
