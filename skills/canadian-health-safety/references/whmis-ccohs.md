@@ -13,9 +13,16 @@ Use this checklist to audit supplier and workplace labels:
 - [ ] Precautionary statement(s) — prevention, response, storage, disposal
 - [ ] SDS availability statement (if label space is limited)
 - [ ] Supplemental label elements (trade name, product use, directions, etc. as required)
-- [ ] Language: **both English and French** — a supplier label and SDS must be bilingual for any hazardous product sold or imported into Canada (HPA/HPR), in every province. Quebec imposes additional French-language requirements under the Charter of the French Language.
+- [ ] Language: **both English and French** — a supplier label and SDS must be bilingual (HPR
+      s.6.2(1)) for a hazardous product sold or imported **for use, handling or storage in a work
+      place in Canada** (HPA ss.13–14), in every province. Products excluded from the supplier
+      requirements — explosives, cosmetics/devices/drugs/foods, pest control products, consumer
+      products, wood, radioactive nuclear substances, hazardous waste for disposal, tobacco and
+      manufactured articles — are outside this duty. Quebec imposes additional French-language
+      requirements under the Charter of the French Language.
 
-**Workplace Label — Required Elements** (for decanted/bulk containers)
+**Workplace Label — Required Elements** (for products **produced at the workplace**, and for
+hazardous products decanted or transferred into another container)
 - [ ] Product identifier matching the supplier label / SDS
 - [ ] Safe handling information (key hazards and PPE required)
 - [ ] A statement that a safety data sheet is available (where one is supplied or produced) — e.g. "See Safety Data Sheet"
@@ -110,4 +117,4 @@ Use this checklist to audit supplier and workplace labels:
 | Major structural failure or collapse; major release of a hazardous substance; fire or explosion with potential to cause serious injury; blasting incident causing injury | Immediate notification — WCA s.68 |
 | Any incident above, plus injury requiring medical treatment, plus a minor/no-injury incident with potential for serious injury | Preliminary investigation report completed within 48 hours (to joint committee/worker rep or posted; to WorkSafeBC only on request) — WCA s.71 |
 | Same incidents | Full investigation report submitted to WorkSafeBC within 30 days — WCA s.72 |
-| Minor injury (first aid only) | Record in first aid record; no s.68 notification |
+| Minor injury (first aid only) | Record in first aid record; no s.68 notification. **But** where the incident had the potential to cause serious injury, the employer's investigation duties still apply — preliminary investigation report within **48 hours** (s.71) and full investigation report to WorkSafeBC within **30 days** (s.72) |
