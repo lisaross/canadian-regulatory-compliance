@@ -36,16 +36,26 @@ The test is **purpose**, not content. A single commercial purpose is enough — 
 - Instant messages promoting services
 - "We miss you" re-engagement emails
 
-**Messages excluded from s.6 (still CEMs, but consent/ID/unsubscribe rules do not apply):**
-- Pure transactional/relationship messages (order confirmations, password resets, account statements) with no promotional content
-- Messages between individuals with a personal relationship
-- Messages sent in response to a request, inquiry, or complaint
-- Internal business communications (employee to employee, same organization)
-- Messages between employees of two organizations that have a relationship, concerning the recipient organization's activities (B2B exemption — GIC Regulations SOR/2013-221 s.3(a)(ii))
-- Messages to registered charities or political parties soliciting donations
-- Due diligence messages in merger/acquisition transactions
+**Still CEMs, but with relief from some or all of s.6:**
 
-Note: most of these are CEMs excluded from s.6 by the Governor in Council Regulations (SOR/2013-221) s.3, not messages that fail the CEM "purpose" test above. The exclusion can be lost if the conditions supporting it stop being met.
+*Consent not required (s.6(6)) — identification and unsubscribe under s.6(2) still apply:*
+- Messages that **solely** provide a requested quote or estimate
+- Messages that **solely** facilitate, complete or confirm a previously agreed transaction
+- Messages that **solely** provide warranty, recall, safety or security information
+- Messages that **solely** give factual notice about an ongoing subscription, membership, account or loan
+- Messages that **solely** provide information about a current employment relationship or benefit plan
+- Messages that **solely** deliver a product, goods or service (including updates/upgrades) owed under a prior transaction
+
+*Section 6 does not apply at all (s.6(5) and GIC Regs SOR/2013-221 s.3):*
+- Messages between individuals with a personal or family relationship (s.6(5)(a))
+- Messages to a person engaged in commercial activity consisting solely of an inquiry about that activity (s.6(5)(b))
+- Internal business communications, and messages between employees of two organizations that have a relationship, concerning the recipient organization's activities (s.3(a))
+- Messages sent in response to a request, inquiry or complaint, or otherwise solicited (s.3(b))
+- Messages sent to satisfy or enforce a legal obligation, right, court order, judgment or tariff (s.3(c))
+- Messages sent **by or on behalf of** a registered charity whose **primary purpose is raising funds for the charity** (s.3(g))
+- Messages sent **by or on behalf of** a political party, organization or candidate whose **primary purpose is soliciting a contribution** (s.3(h))
+
+Note: these are all CEMs under s.1(2) — they pass the "purpose" test but are relieved of consent (s.6(6)) or of all of s.6 (s.6(5), SOR/2013-221 s.3). A message with no commercial purpose at all is simply not a CEM and CASL s.6 never engages. Relief is lost if the supporting conditions stop being met.
 
 ---
 
