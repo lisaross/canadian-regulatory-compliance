@@ -169,14 +169,14 @@ Published and effective **July 5, 2023**. Sets FCAC's expectations that FRFIs pr
 
 All federally regulated banks must have a **complaint handling process** that meets FCAC standards:
 
-### Tier 1 — Bank's Internal Process
+### Tier 1 — Bank's Internal Process (currently in force)
 1. The bank must treat **any expression of dissatisfaction** with a product or service, or with how it was sold or provided, as a complaint — through any channel
-2. Written acknowledgement of the date received, **without delay** (no 5-business-day standard). Under the revised Guideline this is a **Notice of Acknowledgement**
+2. Written acknowledgement of the date received, **without delay** (no 5-business-day standard)
 3. If not dealt with within **14 calendar days**, escalate internally to a **designated employee** with the experience, competence and authority for complex complaints
 4. Deal with the complaint within **56 calendar days** of the day received (s.627.43; FCPF Regs s.14). **The 56-day period may not be paused for any reason.** Where exceeded for reasons beyond the bank's control, document and record the reason
-5. Issue a **Notice of Final Decision** — titled as such, stating it concludes the internal process, with the date first communicated, time taken, statement of facts with timelines, the decision and how it was reached, the method used to determine redress and remediation, and the right to escalate
+5. Issue a final written response stating the decision reached and the consumer's right to escalate to the ECB
 
-**Revised Guideline:** published **June 23, 2026**, implementation date **June 23, 2027**. Formalizes both notices, shifts "reimbursement" to "remediation" on a harm basis, and adds detailed ECB information-sharing duties.
+**From June 23, 2027 (revised Guideline):** published **June 23, 2026**, implementation date **June 23, 2027**. The step-2 acknowledgement becomes a formally titled **Notice of Acknowledgement**, and the step-5 final response becomes a **Notice of Final Decision** — titled as such, stating it concludes the internal process, with the date first communicated, time taken, statement of facts with timelines, the decision and how it was reached, and the method used to determine redress. The Guideline also shifts "reimbursement" to **"remediation" on a harm basis**, and adds detailed **ECB information-sharing duties**.
 
 ### Tier 2 — External Complaints Body (ECB)
 **Since November 1, 2024, OBSI is Canada's single, sole ECB for all federally regulated banks.** The Minister of Finance designated OBSI in October 2023 following an FCAC-led application process; the multiple-ECB model ended. The six banks that used ADRBO (RBC, TD, Scotiabank, National Bank, Tangerine, Digital Commerce Bank) transferred to OBSI. **ADRBO no longer acts as an ECB.**
