@@ -106,7 +106,7 @@ AMWA is generally based on remittances from **two calendar years ago**.
 - **Deadline:** Last day of February following the calendar year. If that day falls on a Saturday, Sunday, or CRA-recognized holiday, the deadline moves to the next business day (for the 2025 tax year: March 2, 2026).
 - Issue T4 to every employee who received employment income in the calendar year
 - File T4 Summary with CRA
-- **T4A:** For self-employed/contractor payments of $500+ in a calendar year (fees for services in Box 048)
+- **T4A:** For self-employed/contractor payments of more than $500 in a calendar year (fees for services in Box 048)
 - Penalty for late-filed information returns: the greater of $100 and a per-day amount based on the number of slips (max 100 days), per type of return — 1–50: $10/day (max $1,000) · 51–500: $15/day (max $1,500) · 501–2,500: $25/day (max $2,500) · 2,501–10,000: $50/day (max $5,000) · 10,001+: $75/day (max $7,500). Late T4s and late T5s are penalized separately. Filing more than 5 slips of one type on paper attracts its own penalty ($125–$2,500).
 
 ---
