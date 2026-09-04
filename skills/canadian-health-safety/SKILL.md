@@ -111,7 +111,10 @@ SDS must follow the 16-section GHS format:
 15. Regulatory information
 16. Other information (including SDS preparation/revision date)
 
-**Employer obligations:** Obtain an SDS for every **hazardous product** received (the WHMIS 1988 term "controlled product" is repealed); make the SDS readily accessible to exposed workers and to the JHSC or representative at all times during a shift; update as soon as practicable when significant new data is received. Ontario employers preparing their own SDS must update within **90 days** of significant new data (O. Reg. 860 s.18(3)). Suppliers must update within **90 days** (HPR s.5.12). Federally regulated, BC, SK, NL, NWT, NS, NU and YT employers must additionally **actively seek an updated SDS every 3 years**.
+**Employer obligations:** Obtain an SDS for every **hazardous product** received (the WHMIS 1988 term "controlled product" is repealed); make the SDS readily accessible to exposed workers and to the JHSC or representative at all times during a shift; update as soon as practicable when significant new data is received. Ontario employers preparing their own SDS must update within **90 days** of significant new data (O. Reg. 860 s.18(3)). Suppliers must provide an accurate SDS at **every sale or importation**; where significant new data became
+available within the 90 days before that sale or importation, HPR s.5.12(2)–(3) lets the supplier provide the
+existing SDS together with a document setting out the required changes and the date the data became available.
+There is no freestanding 90-day duty to rewrite an SDS absent a sale or importation. Federally regulated, BC, SK, NL, NWT, NS, NU and YT employers must additionally **actively seek an updated SDS every 3 years**.
 
 ## Workers' Three Fundamental Rights
 
@@ -147,10 +150,15 @@ MLITSD reads "leg" to include the ankle/foot and "arm" to include the wrist/hand
 **Do not disturb the scene** (except to assist injured workers or prevent further injury) until authorized by an inspector.
 
 ### Written Reports
-- **Ontario:** immediate notice by telephone or other direct means to an MLITSD inspector, the JHSC/HSR and the union for a fatality or critical injury, followed by a **written report within 48 hours** to a Director (OHSA s.51; O. Reg. 420/21). For a non-critical injury requiring medical attention or disabling a worker from usual work: **written notice within 4 days** to the JHSC/HSR and union (to the Director only if an inspector requires it) (s.52(1)). Occupational illness: written notice within 4 days to the Director, JHSC/HSR and union (s.52(2)). Retain copies **3 years**.
+- **Ontario:** immediate notice by telephone or other direct means to an MLITSD inspector, the JHSC/HSR and the union for a fatality or critical injury, followed by a **written report within 48 hours** to a Director **and to the JHSC/HSR and the union, if any**
+(OHSA s.51(1); contents prescribed by O. Reg. 420/21 s.3(2)). For a non-critical injury requiring medical attention or disabling a worker from usual work: **written notice within 4 days** to the JHSC/HSR and union (to the Director only if an inspector requires it) (s.52(1)). Occupational illness: written notice within 4 days to the Director, JHSC/HSR and union (s.52(2)). Retain copies **3 years**.
 - **WSIB Form 7:** must be **received by the WSIB within three business days** (excluding statutory holidays) of the reporting obligation arising — triggered by health care beyond first aid, absence from work, reduced pay, modified work at less than regular pay, or modified work at regular pay for more than **seven calendar days**. Late filing: **$250**; over 30 calendar days: **$1,000**. Fatalities: call 1-800-387-0750 as soon as possible.
-- **BC:** **immediate** notification to WorkSafeBC for serious injury or death, major structural failure or collapse, major release of a hazardous substance, a fire or explosion with potential to cause serious injury, or a blasting incident causing injury (WCA s.68). **Preliminary** investigation report **completed within 48 hours** — given to the joint committee/worker rep or posted; sent to WorkSafeBC **only on request** (s.71). **Full** investigation report **submitted to WorkSafeBC within 30 days** (s.72); extensions available.
-- **Alberta:** report by phone to the OHS Contact Centre (1-866-415-8690) **as soon as possible** for a death, a hospital admission (beyond emergency room or urgent care), an unplanned explosion/fire/flood that caused or could have caused serious injury, a crane/derrick/hoist collapse or upset, or a building/structural collapse or failure (OHS Act s.33). **Potentially serious incidents (PSIs)** are reported online **after the investigation is complete** (s.33(6)) — immediate PSI reporting is no longer required. There is **no fixed deadline** for the investigation report; it must be given to the HSC/representative (or made available to workers), produced to an OHS officer on request, and **retained at least 2 years**.
+- **BC:** **immediate** notification to WorkSafeBC for serious injury or death, major structural failure or collapse, major release of a hazardous substance, a fire or explosion with potential to cause serious injury, or a blasting incident causing injury (WCA s.68). **Preliminary** investigation report **completed within 48 hours** — given to the joint committee/worker rep or posted; sent to WorkSafeBC **only on request** (s.71). **Full** investigation report **submitted to WorkSafeBC within 30 days** and, within those same 30 days,
+**provided to the joint committee or worker health and safety representative — or posted at the workplace if
+there is neither** (s.72(2)(b)–(c)); extensions available (s.72(3)).
+- **Alberta:** report by phone to the OHS Contact Centre (1-866-415-8690) **as soon as possible** for a death, a hospital admission (beyond emergency room or urgent care), an unplanned explosion/fire/flood that caused or could have caused serious injury, a crane/derrick/hoist collapse or upset, or a building/structural collapse or failure (OHS Act s.33). **Potentially serious incidents (PSIs)** are reported online **after the investigation is complete** (s.33(6)) — immediate PSI reporting is no longer required. There is **no fixed deadline** for the investigation report; once complete, a copy must be **provided to a
+Director** and to the HSC or health and safety representative (or, where there is neither, made available to
+workers) (s.33(6)(d)), produced to an OHS officer on request, and **retained at least 2 years**.
 
 ### Near-Miss Reporting
 All jurisdictions encourage near-miss reporting (incidents with potential for injury but where no injury occurred). Near-miss investigation is a leading indicator of safety performance. Establish a no-blame reporting culture.
@@ -181,7 +189,10 @@ Summary-conviction fines on an organization rose from $25,000 to **$100,000**; t
 The **Work Place Harassment and Violence Prevention Regulations (SOR/2020-130)** came into force **1 January 2021**, replacing COHSR Part XX. Employers under CLC Part II must:
 - jointly carry out a **workplace assessment** with the applicable partner (risk factors + preventive measures), reviewed at least **every 3 years**;
 - jointly develop a **prevention policy**, made available to all employees, reviewed at least every 3 years;
-- provide **training** to all employees, the designated recipient and the employer, at least every 3 years;
+- provide **training** to all employees, the designated recipient and the employer — at least every **3 years**,
+  and additionally **within 3 months of an employee's start date**, whenever the training material is updated
+  or an employee is assigned to a role with different risk exposure, and, for a **designated recipient**,
+  **before they assume those duties** (SOR/2020-130 s.12);
 - designate a **recipient** for notices of occurrence; contact the principal party **within 7 days**; begin negotiated resolution **no later than 45 days** after notice; complete the resolution process **within 1 year**; provide **monthly status updates**;
 - retain health and safety records for **10 years**;
 - file an **annual report** with the Head of Compliance and Enforcement **on or before March 1** each year.

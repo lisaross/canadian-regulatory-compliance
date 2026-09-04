@@ -105,7 +105,9 @@ hazardous products decanted or transferred into another container)
 ## Ontario OHSA — Forms Reference
 
 - **Form 7 (WSIB):** Report of Injury/Disease — must be **received by the WSIB within three business days** of the reporting obligation arising (health care beyond first aid, absence from work, reduced pay, modified work at less than regular pay, or modified work at regular pay beyond seven calendar days). $250 late penalty; $1,000 if over 30 calendar days.
-- **Ministry of Labour notice:** Telephone immediately for critical injury/fatality; written notice within 48 hours
+- **Ministry of Labour notice:** Telephone an inspector immediately for a critical injury or fatality (also
+  notifying the JHSC/HSR and union); **written report within 48 hours** to a **Director and to the JHSC/HSR
+  and the union, if any** (OHSA s.51(1); contents per O. Reg. 420/21 s.3(2))
 - **JHSC investigation:** Legally required for critical injuries; written report to be prepared
 
 ## WorkSafeBC Reporting Thresholds
@@ -114,7 +116,7 @@ hazardous products decanted or transferred into another container)
 |-------|----------------|
 | Worker fatality | Immediate notification to WorkSafeBC (Prevention Information Line) — WCA s.68 |
 | Serious injury (reasonably expected at the time to endanger life or cause permanent injury — major fractures, amputations, serious burns, major cuts, crush injuries, chemical/heat/cold exposure) | Immediate notification — WCA s.68 |
-| Major structural failure or collapse; major release of a hazardous substance; fire or explosion with potential to cause serious injury; blasting incident causing injury | Immediate notification — WCA s.68 |
+| Major structural failure or collapse; major release of a hazardous substance; fire or explosion with potential to cause serious injury; blasting accident causing injury — **and any other dangerous incident involving explosives, whether or not anyone was injured** | Immediate notification — WCA s.68; explosives incidents under **OHSR s.21.3(1)**, which also requires a written report to the Board without undue delay |
 | Any incident above, plus injury requiring medical treatment, plus a minor/no-injury incident with potential for serious injury | Preliminary investigation report completed within 48 hours (to joint committee/worker rep or posted; to WorkSafeBC only on request) — WCA s.71 |
-| Same incidents | Full investigation report submitted to WorkSafeBC within 30 days — WCA s.72 |
+| Same incidents | Full investigation report submitted to WorkSafeBC within 30 days **and, within the same 30 days, provided to the joint committee/worker rep or posted at the workplace if there is neither** — WCA s.72(2)(b)–(c) |
 | Minor injury (first aid only) | Record in first aid record; no s.68 notification. **But** where the incident had the potential to cause serious injury, the employer's investigation duties still apply — preliminary investigation report within **48 hours** (s.71) and full investigation report to WorkSafeBC within **30 days** (s.72) |
