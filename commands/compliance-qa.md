@@ -35,7 +35,7 @@ What should the person actually do based on this information? Give specific, act
 Link to the relevant regulator or government resource where the user can find more information:
 - Canada Labour Code, ESA Ontario, etc.: canlii.org (free Canadian legal database)
 - PIPEDA / OPC: priv.gc.ca
-- FINTRAC: fintrac-canafe.gc.ca
+- FINTRAC: fintrac-canafe.canada.ca
 - Ontario Ministry of Labour: ontario.ca/labour
 - WorkSafeBC: worksafebc.com
 - Alberta OHS: alberta.ca/ohs
