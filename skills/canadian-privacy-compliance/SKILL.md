@@ -37,7 +37,13 @@ Apply these principles when assessing any privacy practice or document:
 6. **Accuracy** — Keep personal information accurate, complete, and up to date.
 7. **Safeguards** — Use security appropriate to sensitivity (encryption, access controls, etc.).
 8. **Openness** — Make privacy policies readily available.
-9. **Individual Access** — Respond with due diligence and no later than 30 days (s.8(3)); a single extension of up to 30 further days is available (s.8(4)) but requires written notice inside the original 30 days. Failure to respond in time is a deemed refusal (s.8(5)).
+9. **Individual Access** — Respond with due diligence and no later than 30 days (s.8(3)). Two
+   extensions exist under s.8(4): a single extension of up to **30 further days** where meeting the
+   limit would unreasonably interfere with the organization's activities or necessary consultations
+   make it impracticable (s.8(4)(a)); and, separately, **the period necessary** to convert the
+   information into an alternative format, which is **not capped at 30 days** (s.8(4)(b)). Either way
+   written notice of the extension must go to the individual within the original 30 days. Failure to
+   respond in time is a deemed refusal (s.8(5)).
 10. **Challenging Compliance** — Establish complaint procedures.
 
 ## Breach Notification Requirements
@@ -47,7 +53,9 @@ Apply these principles when assessing any privacy practice or document:
 - **Notify OPC:** As soon as feasible; use the OPC Breach Report form.
 - **Notify affected individuals:** As soon as feasible when RROSH exists.
 - **Maintain breach log:** All breaches (regardless of RROSH) must be logged and retained for **24 months after the day the organization determines the breach occurred** (SOR/2018-64 s.6(1)); OPC may request the record at any time (s.10.3(2)).
-- **Penalties for non-compliance:** PIPEDA s.28 creates an offence — not an administrative penalty — for *knowingly* contravening s.8(8), s.10.1, s.10.3(1) or s.27.1(1), or obstructing the Commissioner: up to $10,000 on summary conviction, up to $100,000 on indictment. The OPC does not levy fines; it refers possible offences to the Attorney General. Under the proposed Bill C-36, AMPs would reach the **greater of** $10M **or** 3% of gross global revenue, with offences up to the greater of $25M or 5%.
+- **Penalties for non-compliance:** PIPEDA s.28 creates an offence — not an administrative penalty — for *knowingly* contravening s.8(8), s.10.1, s.10.3(1) or s.27.1(1), or obstructing the Commissioner: up to $10,000 on summary conviction, up to $100,000 on indictment. The OPC does not levy fines; it refers possible offences to the Attorney General. Under the proposed Bill C-36, AMPs would reach the **greater of** $10M **or** 3% of gross global
+revenue, with offences at the **greater of $25M or 5%** of gross global revenue on indictment and the
+**greater of $20M or 4%** on summary conviction.
 
 ### Alberta (PIPA AB)
 - **Trigger:** Real risk of significant harm (s.34.1).
@@ -64,7 +72,11 @@ Apply these principles when assessing any privacy practice or document:
 
 **Express consent** (required for sensitive information): explicit opt-in, clear language.
 **Implied consent** (appropriate for non-sensitive, obvious purposes): reasonable inference from context.
-**Invalid consent situations:** conditions of service, bundled consents without granularity, post-collection requests.
+**Invalid consent situations:** conditions of service (making consent to non-essential collection a
+condition of providing a product or service), bundled consents without granularity, and consent
+sought **after the information has already been used or disclosed** or obtained **without meaningful
+notice** of the purposes. Seeking consent after collection but **before** the use or disclosure — for
+example for a new secondary purpose — is not itself invalid.
 
 **Exceptions to consent (PIPEDA s.7):** law enforcement, emergencies threatening life, journalistic/artistic/literary purposes, business transactions (s.7.2), publicly available information (Regulations Specifying Publicly Available Information), employment relationship for federal works, undertakings and businesses (s.7.3). Note: the former "investigative body" exception was repealed in 2015 and replaced by s.7(3)(d.1)-(d.2).
 
