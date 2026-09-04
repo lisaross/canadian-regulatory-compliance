@@ -7,7 +7,7 @@
 | Federal (CLC) | After 8 hrs/day or 40 hrs/week | 1.5× regular rate |
 | Ontario (ESA) | After 44 hrs/week | 1.5× regular rate |
 | BC (BCESA) | After 8 hrs/day or 40 hrs/week; after 12 hrs/day | 1.5× / 2× after 12 hrs |
-| Alberta (ESC) | 8/44 rule — the **greater of** daily hours over 8 or weekly hours over 44 (never both) | 1.5× regular rate |
+| Alberta (ESC) | 8/44 rule — daily hours over 8 and weekly hours over 44 are **both** calculated for the week; the **greater** of the two totals is the number of overtime hours paid (they are not added together) | 1.5× regular rate |
 
 **Overtime averaging:**
 - **Ontario:** written or electronic agreement with the employee; averaging period **max 4 weeks**;
@@ -73,8 +73,10 @@ Employers must retain:
   to be in effect
 
 ### BC (BCESA)
-- Payroll records for 4 years
-- Time records showing start/end and breaks for hourly employees
+- Payroll records (s.28) must be retained for **7 years** after the employment terminates (s.28(2)(c))
+- Time records showing start/end, breaks and **the hours worked on each day for every employee** —
+  required **regardless of whether the employee is paid hourly, by salary, flat rate, piece rate,
+  commission or other incentive basis** (s.28(1)(d))
 
 ### Alberta (ESC ss.14–15)
 - Employment records must be kept for **at least 3 years from the date each record is made** (s.15)

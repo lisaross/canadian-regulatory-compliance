@@ -5,7 +5,7 @@ description: >
   "ESA", "termination", "notice period", "severance pay", "wrongful dismissal",
   "human rights", "CHRA", "pay equity", "maternity leave", "parental leave",
   "labour compliance", "minimum wage", "overtime", or any question about
-  Canadian employment law obligations across federal, Ontario, BC, Alberta, or Quebec jurisdictions.
+  Canadian employment law obligations across federal, Ontario, BC, or Alberta jurisdictions.
 version: 0.2.0
 last_verified: 2026-09-04
 ---
@@ -39,8 +39,13 @@ Federally regulated employers comprise roughly **6% of the Canadian workforce**.
   16 weeks' written notice to the **Head of Compliance and Enforcement** (Labour Program), with
   copies immediately to the Minister of Employment and Social Development, the Canada Employment
   Insurance Commission, and any union (or posted for unrepresented employees). Employer must also
-  establish a **Joint Planning Committee** and give each affected employee a statement of benefits
-  no later than 2 weeks before termination. Individual notice under s.230 still applies. Waivers may
+  establish a **Joint Planning Committee** — at least **4 members**, at least **half** appointed as
+  representatives of the redundant employees (the rest employer representatives, ss.214–215);
+  members must be appointed and hold their **first sitting within 2 weeks** of the s.212 notice. The
+  committee develops an adjustment program, to be completed as expeditiously as possible; if it is
+  not completed within **6 weeks**, either side may request the Minister appoint an arbitrator.
+  Employers must also give each affected employee a statement of benefits no later than 2 weeks
+  before termination. Individual notice under s.230 still applies. Waivers may
   be requested from the Minister of Labour; a waiver does not affect severance rights.
 
 ### Ontario (ESA, 2000 — Part XV)
@@ -67,10 +72,15 @@ Federally regulated employers comprise roughly **6% of the Canadian workforce**.
   number terminated, not individual service — 8 weeks (50–199), 12 weeks (200–499), 16 weeks (500+).
   Employer must file **Form 1** with the Director of Employment Standards; **notice to employees is
   not effective until the Director receives Form 1**. On the first day of the notice period the
-  employer must post Form 1 and give a copy to each affected employee. Since 26 Oct 2023,
+  employer must post Form 1 and give a copy to each affected employee — and, since **1 July 2025**,
+  must also give each affected employee the most recent version of the ministry's **Employment
+  Ontario Career Supports information sheet**. Since 26 Oct 2023,
   "establishment" **includes the home of an employee who works exclusively remotely**, so remote
   workers count toward the 50. Affected employees are also entitled to **job seeking leave** — up to
-  3 unpaid days during the notice period (since 27 Nov 2025).
+  3 unpaid, **job-protected** days during the notice period to engage in activities related to
+  finding employment (ESA s.50.3, since 27 Nov 2025). The leave does **not** apply where the employee
+  is given notice that is **25% or less** of the required notice period and receives the remainder as
+  termination pay in lieu.
 
 ### BC (Employment Standards Act BC)
 - **Notice:** Based on service:
@@ -189,7 +199,13 @@ Quebec 1 May, BC 1 Jun, Ontario 1 Oct). Always verify before advising.
 
 ## Recent changes to verify
 
-- Ontario job posting rules (ESA Part III.1, O. Reg. 476/24; 25+ employees: compensation range, AI disclosure, vacancy statement, no Canadian experience requirement, 45-day notice to interviewees) — in force 1 Jan 2026.
+- Ontario job posting rules (ESA Part III.1, O. Reg. 476/24; 25+ employees) — in force 1 Jan 2026:
+  publicly advertised postings must state the expected **compensation or a compensation range**
+  (subject to the regulation's exceptions), disclose **use of artificial intelligence where AI is
+  used to screen, assess or select applicants**, state whether the posting is for an **existing
+  vacancy**, and omit any **Canadian experience** requirement. Employers must inform each applicant
+  they **interviewed** whether a hiring decision has been made, within **45 days** of the last
+  interview.
 - BC Pay Transparency Act — postings must state pay range; reporting (50+ employees) due by 1 Nov 2026.
 - Ontario disconnecting-from-work policy (25+ employees) — due by 1 March.
 - Ontario electronic monitoring policy (25+ employees) — due by 1 March.
