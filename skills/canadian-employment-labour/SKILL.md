@@ -42,8 +42,11 @@ Federally regulated employers comprise roughly **6% of the Canadian workforce**.
   establish a **Joint Planning Committee** — at least **4 members**, at least **half** appointed as
   representatives of the redundant employees (the rest employer representatives, ss.214–215);
   members must be appointed and hold their **first sitting within 2 weeks** of the s.212 notice. The
-  committee develops an adjustment program, to be completed as expeditiously as possible; if it is
-  not completed within **6 weeks**, either side may request the Minister appoint an arbitrator.
+  committee develops an adjustment program, to be completed as expeditiously as possible. After
+  **6 weeks** from the s.212 notice, all of the redundant-employee representatives, or all of the
+  employer representatives, may agree and **apply jointly** to the Minister to appoint an arbitrator
+  — either because the committee has not finished the program, or because it has and those members
+  are not satisfied with it (s.223(1)).
   Employers must also give each affected employee a statement of benefits no later than 2 weeks
   before termination. Individual notice under s.230 still applies. Waivers may
   be requested from the Minister of Labour; a waiver does not affect severance rights.
