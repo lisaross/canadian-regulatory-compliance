@@ -151,7 +151,10 @@ The CRTC can also seek undertakings (binding commitments to change practices) an
 
 **Private right of action (ss. 47-51, 55): not in force.** Scheduled for 1 July 2017, suspended indefinitely by Order in Council P.C. 2017-0580 (2 June 2017; Canada Gazette Part II, SI/2017-31). No new date set; suspension remains in effect as of September 2026. Enforcement is exclusively public — CRTC, Competition Bureau, OPC.
 
-Notable enforcement actions (amounts as **imposed**, not as originally proposed): Compu-Finder $200,000 (Decision CRTC 2017-368, down from a proposed $1.1M); Blackstone Learning $50,000 (Decision 2016-428, down from a proposed $640K); Hudson's Bay $120,000 undertaking (June 2024). Most cases resolve by voluntary undertaking rather than a formal penalty. Total AMPs imposed since 2014 exceed $3.6 million.
+Notable enforcement actions (amounts as **imposed**, not as originally proposed): Compu-Finder $200,000 (Decision CRTC 2017-368, down from a proposed $1.1M); Blackstone Learning $50,000 (Decision 2016-428, down from a proposed $640K); Hudson's Bay $120,000 undertaking (June 2024). Most cases resolve by voluntary undertaking rather than a formal penalty. CRTC reporting put the
+**combined total of AMPs and undertakings** under CASL at roughly **$3.6 million as of 31 March
+2023**; there is no published AMP-only running total, so treat any figure quoted as current with
+caution.
 
 ---
 

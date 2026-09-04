@@ -31,7 +31,7 @@ Brief description of the message type and apparent purpose (confirm whether it q
 #### Requirement 2 — Identification
 Assess whether the message clearly identifies:
 - [ ] Sender name (person or organization)
-- [ ] Physical mailing address (not P.O. box only)
+- [ ] Valid current mailing address — street/civic address, postal box, rural route or general delivery are all acceptable (CRTC Bulletin 2012-548); must remain valid for at least 60 days after sending
 - [ ] Second contact method (phone, email, or URL)
 - [ ] If sending on behalf of another party — both parties identified
 
