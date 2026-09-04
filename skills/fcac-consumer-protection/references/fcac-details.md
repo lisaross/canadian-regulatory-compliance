@@ -11,11 +11,20 @@ Use this checklist to assess whether your bank's complaint handling process meet
 - [ ] Policy reviewed and updated at least annually
 
 ### Intake and Acknowledgement
+*In force now (Bank Act s.627.43; FCPF Regs s.14):*
 - [ ] Multiple channels: in person, phone, mail, online
 - [ ] Dedicated email address or online form
 - [ ] Any expression of dissatisfaction with a product/service or how it was sold treated as a complaint
-- [ ] Written acknowledgement (Notice of Acknowledgement) sent **without delay** — not on a business-day count
-- [ ] Acknowledgement includes: date received, overview of the process including internal escalation, actions and timelines (including the 56-day prescribed period), and how/when the consumer may contact OBSI
+- [ ] **Written acknowledgement** of the date the complaint was received (s.627.43(4)(a))
+- [ ] Complaint dealt with within the prescribed **56-day** period (FCPF Regs s.14)
+
+*Future-effective — FCAC Guideline, effective **June 23, 2027** (expectations, not statutory requirements):*
+- [ ] Acknowledgement issued as a titled **Notice of Acknowledgement** containing the date received, an
+      overview of the process including internal escalation and timelines (including the 56-day period), and
+      how and when the consumer may contact the external complaints body
+- [ ] A titled **Notice of Final Decision** at the close of the internal process, with the prescribed content
+      and the consumer's right to escalate
+- [ ] 56-day period **not paused** for any reason; document any delay beyond the bank's control
 
 ### Investigation and Response
 - [ ] Escalated to a **designated employee** if not dealt with within **14 calendar days**
@@ -112,7 +121,8 @@ When reviewing a credit card agreement or disclosure document, check for these r
 ### Statutory Cap (in force March 12, 2026)
 SOR/2025-96 added s.10.1 to the FCPF Regulations:
 - **$10 maximum** NSF fee where a natural person has insufficient funds in a personal deposit account
-- **No NSF fee more than once within 2 business days** in respect of any of that person's accounts
+- **No NSF fee more than once within 2 business days** in respect of the **same personal deposit account**
+  (s.10.1(2)(a))
 - **No NSF fee at all** where the account is in unauthorized overdraft by **less than $10**
 
 Registered March 12, 2025; in force on the first anniversary of registration, after industry raised IT-system concerns about the originally proposed staggered timeline.

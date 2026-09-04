@@ -25,7 +25,9 @@ FCAC enforces the consumer provisions of the **Bank Act**, **Insurance Companies
 **FCAC powers:** Investigate complaints → Issue compliance agreements → Publication of enforcement outcomes — under FCAC Act **s.31(1)** the Commissioner **shall**, subject
 to any regulations, make public the nature of a violation, the name of the person who committed it
 and the penalty imposed; regulations made under s.19(1)(c.1) may prescribe circumstances in which the
-name is **not** published, and the Commissioner has withheld names in practice → Impose administrative monetary penalties up to **$10 million per violation** for a financial institution ($1 million for a natural person), under FCAC Act s.19(2) (ceiling in force since April 30, 2020). Actual penalties are set using FCAC's published AMP Framework, which bands amounts by harm, negligence/intent and violation history — $10M is a statutory ceiling, not a typical outcome.
+name is **not** published, and the Commissioner has withheld names in practice → Impose administrative monetary penalties up to **$10 million per violation** for a **financial institution
+or a payment card network operator** ($1 million for a natural person), under FCAC Act s.19(2) (ceiling in
+force since April 30, 2020). Actual penalties are set using FCAC's published AMP Framework, which bands amounts by harm, negligence/intent and violation history — $10M is a statutory ceiling, not a typical outcome.
 
 ---
 
@@ -57,14 +59,32 @@ Any refusal requires a **written statement**, plus disclosure of the complaint p
 ### 2. Cheque Hold Periods
 The **Access to Funds Regulations (SOR/2012-24)** cap hold periods on cheques deposited to a retail deposit account or an eligible enterprise account:
 
+**Covered instruments (s.2):** the hold caps and the first-$100 rule apply only to **paper-based** cheques or
+other instruments deposited in Canada that are **MICR-encoded**, **not damaged or mutilated** so as to be
+unreadable by cheque clearing systems, **drawn on a branch located in Canada**, and **issued in Canadian
+dollars**. Instruments outside this definition — including any not in Canadian dollars — fall outside ss.3
+and 4 entirely; they are not "exceptions."
+
 | Cheque amount | In person with an employee | Any other way (ATM, mobile) |
 |---|---|---|
 | $1,500 or less | 4 business days after the day of deposit | 5 business days after the day of deposit |
 | More than $1,500 | 7 business days after the day of deposit | 8 business days after the day of deposit |
 
-**First $100:** available **immediately** if deposited in person with an employee at a branch or point of service; **on the business day following the deposit** if deposited any other way. If the cheque is for $100 or less, the entire amount must be made available.
+**First $100:** the first **$100 of the aggregate** of all funds deposited by cheque or other instrument to a
+retail deposit account **on any one day** must be available **immediately** if deposited in person with an
+employee at a branch or point of service, or **on the business day following the deposit** if deposited any
+other way (s.4). This is one $100 per account per day across all instruments deposited that day — not $100
+per cheque.
 
-**Exceptions** (disapply both the hold caps and the $100 rule): account open less than 90 days; cheque endorsed more than once; cheque more than 6 months old; cheque not in Canadian dollars; reasonable grounds to believe the cheque was made for illegal or fraudulent purposes. Reliance on an exception requires **written notice**.
+**Exceptions to ss.3 and 4 (s.6(1)):** reasonable grounds to believe the deposit is being made for illegal or
+fraudulent purposes in relation to the depositor's account; account open less than 90 days; cheque endorsed
+more than once; cheque deposited at least six months after its date. An institution relying on s.6 to refuse
+compliance must give the depositor **written notice** of the refusal and of their right to contact FCAC —
+immediately if deposited in person with an employee, or on request if deposited any other way (s.6(2)).
+
+**Separate exception (s.5):** for a deposit by an **eligible enterprise**, **s.3 alone** (not the s.4
+first-$100 rule) does not apply where the institution has reasonable grounds to believe there is a material
+increased credit risk.
 
 **Free cashing of Government of Canada cheques:** since June 30, 2022, any bank must cash one up to **$1,750** free, even for non-customers, on acceptable ID (raised from $1,500).
 
@@ -92,7 +112,12 @@ Banks must still disclose NSF fee amounts in fee disclosure documents at account
 | Deposit-type instrument (e.g. GIC) | notify within **10 business days** of issuance (FCPF Regs s.6) |
 | Optional product or service | notify at any time; effective at end of billing cycle or **30 days** after notice, whichever is earlier, pro-rated refund (FCPF Regs s.7) |
 
-On timely cancellation the bank must waive any cancellation charge, acknowledge in writing without delay, and refund amounts received — recovering only amounts related to actual use and reasonably incurred expenses.
+For **general ongoing agreements under s.627.1** — that is, products and services **other than** the
+prescribed products governed by s.627.11 — timely cancellation obliges the bank to waive any cancellation
+charge, acknowledge in writing without delay, and refund amounts received, recovering only amounts related to
+actual use and reasonably incurred expenses (s.627.1(2)–(3)). This does **not** displace the product-specific
+rules in the table above: retail deposit accounts, deposit-type instruments, optional products and the other
+prescribed products in FCPF Regs s.4 are governed by s.627.11(2) and FCPF Regs ss.5–8 instead.
 
 There is **no** 30-day right to cancel a credit card after use.
 
@@ -227,7 +252,14 @@ FCAC does not resolve individual disputes but investigates whether the bank foll
 
 **Electronic alerts.** Without delay when a chequing/savings balance falls below **$100** (or a consumer-set amount), and when available credit on a card or line of credit falls below **$100**. Automatic — no sign-up required. The duty does not apply where the consumer has opted out **in writing**, or where the consumer has **not provided the contact information** required to receive the alert (s.627.13(2)); FCAC expects banks to *proactively solicit* that contact information rather than wait to be contacted. Not for business accounts.
 
-**Renewal and promotional-offer reminders.** Terms of 30 days or more: **21 days** and **5 days** before end of term. Under 30 days: one reminder **5 days** before. Excludes mortgages secured on real property and business products.
+**Renewal reminders (s.627.6).** For a product or service provided for a term of more than 30 days: **21 days**
+and **5 days** before the last day of the term. Term of 30 days or less: one reminder **5 days** before.
+Excludes **business-purpose** agreements and **loans secured by a mortgage on real property**.
+
+**Promotional-offer reminders (s.627.61).** For a promotional, preferential, introductory or special offer
+lasting more than 30 days: **21 days** and **5 days** before the last day of the offer period. Period of
+30 days or less: one reminder **5 days** before. Excludes **business-purpose** acceptances and **optional
+products or services**.
 
 **Undue pressure and misleading information.** Prohibited from taking advantage, applying undue pressure or coercion for any purpose — broader than the former coercive tied selling prohibition. The false/misleading information prohibition extends to all bank communications, to consumers, the public and FCAC.
 
