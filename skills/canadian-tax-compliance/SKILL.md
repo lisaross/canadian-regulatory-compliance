@@ -102,13 +102,23 @@ AMWA is the average monthly withholding amount from **two calendar years ago**; 
 
 AMWA is generally based on remittances from **two calendar years ago**.
 
-**Penalty for late remittance:** 3% (1–3 days late), 5% (4–5 days), 7% (6–7 days), 10% (more than 7 days, or if no amount is remitted). Generally applied only to the portion of the failure exceeding $500. A second or later failure in the same calendar year attracts a **20%** penalty, but only where made knowingly or under circumstances of gross negligence. Remitting on the due date but not at a financial institution can attract a 3% penalty.
+**Penalty for late remittance:** 3% (1–3 days late), 5% (4–5 days), 7% (6–7 days), 10% (more than 7 days, or
+if no amount is remitted). The penalty is generally applied only to the portion of the failure exceeding $500
+— but that $500 relief is **not available where the failure was made knowingly or under circumstances
+amounting to gross negligence** (s.227(9.1)), in which case the penalty applies to the full amount. A second
+or later failure in the same calendar year attracts a **20%** penalty, again only where made knowingly or
+under circumstances of gross negligence. Remitting on the due date but not at a financial institution can
+attract a 3% penalty.
 
 ### T4 Slips and Summaries
 - **Deadline:** Last day of February following the calendar year. If that day falls on a Saturday, Sunday, or CRA-recognized holiday, the deadline moves to the next business day (for the 2025 tax year: March 2, 2026).
 - Issue T4 to every employee who received employment income in the calendar year
 - File T4 Summary with CRA
-- **T4A:** For self-employed/contractor payments of more than $500 in a calendar year (fees for services in Box 048)
+- **T4A:** For self-employed/contractor payments of more than $500 in a calendar year (fees for services in
+  Box 048) — **but not** where another slip governs: use **T4A-NR** for services rendered **in Canada by a
+  non-resident**; **T5018** where your business's primary activity is **construction** (Contract Payment
+  Reporting System, filed within six months of fiscal year-end); and **T1204** for federal government service
+  contract payments. Confirm which slip applies before filing.
 - Penalty for late-filed information returns: the greater of $100 and a per-day amount based on the number of slips (max 100 days), per type of return — 1–50: $10/day (max $1,000) · 51–500: $15/day (max $1,500) · 501–2,500: $25/day (max $2,500) · 2,501–10,000: $50/day (max $5,000) · 10,001+: $75/day (max $7,500). Late T4s and late T5s are penalized separately. Filing more than 5 slips of one type on paper attracts its own penalty ($125–$2,500).
 
 ---
@@ -141,12 +151,14 @@ Two independent grinds apply, and the larger governs:
 
 ### SR&ED Tax Credits (Scientific Research & Experimental Development)
 One of Canada's most valuable tax incentives:
-- **Federal:** 15% ITC on qualifying expenditures (non-refundable for most corporations);
-  **35% fully refundable** for CCPCs up to the annual expenditure limit. The limit is **$6 million**
-  for tax years beginning after December 15, 2024 (up from $3 million) — worth up to **$2.1 million**
-  per year in refundable credit. Phases out on taxable capital between **$15M and $75M**. Eligible
-  Canadian public corporations are now also eligible for the 35% rate, and **capital expenditures**
-  made after December 15, 2024 again qualify.
+- **Federal:** 15% ITC on qualifying expenditures (non-refundable for most corporations); an enhanced **35%**
+  ITC for CCPCs up to the annual expenditure limit. **Rate and refundability are separate:** up to the limit,
+  the 35% ITC on **current** expenditures is **100% refundable**, while the ITC on **capital** expenditures is
+  **40% refundable**. The limit is **$6 million** for tax years beginning after December 15, 2024 (up from
+  $3 million) — a **maximum credit of $2.1 million** per year at the 35% rate, of which the refundable portion
+  depends on the current/capital split. Phases out on taxable capital between **$15M and $75M**. Eligible
+  Canadian public corporations are now also eligible for the 35% rate, and **capital expenditures** made after
+  December 15, 2024 again qualify.
 - **Provincial:** Additional credits (e.g., Ontario 3.5–8%, BC 10%)
 - **Claim deadline:** 18 months after the end of the fiscal year in which the expenditures were incurred
 - Qualifying work: basic research, applied research, or experimental development aimed at technological advancement
@@ -176,8 +188,10 @@ CRA uses a multi-factor test (similar to the employment law test but with tax co
 **Ruling request:** File Form **CPT1, *Request for a Ruling as to the Status of a Worker under the
 Canada Pension Plan and/or the Employment Insurance Act*** (or request online via My Business Account
 / Represent a Client). The request must be made **before June 30 of the year following** the year in
-question. Note the CRA does **not** issue rulings on hypothetical or proposed employment — the working
-relationship must already exist.
+question (CPP s.26.1(2); EI Act
+s.90(2)) — CRA states this operationally as **on or before June 29**. Where June 29 falls on a Saturday or
+Sunday, a request received or postmarked on the next business day is on time. Note the CRA does **not** issue
+rulings on hypothetical or proposed employment — the working relationship must already exist.
 
 ---
 

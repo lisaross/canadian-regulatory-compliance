@@ -57,7 +57,9 @@ Use CRA's Payroll Deductions Online Calculator (PDOC) at canada.ca/pdoc for exac
 - [ ] CPP, EI, and income tax deducted each pay period using current year rates
 - [ ] Remittances made on time according to remittance schedule
 - [ ] T4 slips issued and filed by the last day of February (next business day if a weekend)
-- [ ] T4A issued for contractor/freelancer payments of more than $500 in calendar year (Box 048)
+- [ ] T4A issued for contractor/freelancer payments of more than $500 in calendar year (Box 048) — **confirm
+      no other slip governs first**: T4A-NR (non-resident services in Canada), T5018 (construction), T1204
+      (federal government service contracts)
 - [ ] Record of Employment (ROE) issued on time: **electronic** ROEs are due 5 calendar days after
       the end of the pay period in which the interruption of earnings occurs (for monthly or
       13-period payrolls, the earlier of that date or 15 calendar days after the first day of the
