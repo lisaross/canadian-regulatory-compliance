@@ -100,7 +100,7 @@ Use this checklist to assess the completeness of a corporation's minute book:
 | February | Prepare annual financial statements; brief audit committee |
 | March | Annual audit completion; issue financial statements to shareholders |
 | April | Annual Meeting of Shareholders (AGM) — within 6 months of FYE |
-| Within 60 days of the incorporation anniversary date | File Annual Return with Corporations Canada — **the ISC filing (or confirmation of exemption) is submitted at the same time and the annual return cannot be filed without it** |
+| Within 60 days of the anniversary date (incorporation, amalgamation or continuance) | File Annual Return with Corporations Canada — **the ISC filing (or confirmation of exemption) is submitted at the same time and the annual return cannot be filed without it** |
 | July | Mid-year review of conflicts of interest |
 | October | Board approves preliminary budget for next year |
 | November–December | Board approves final budget; year-end tax planning; review and renew key contracts |

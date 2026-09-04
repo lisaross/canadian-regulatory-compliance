@@ -118,9 +118,15 @@ ISC information must be filed with Corporations Canada:
 The register itself must be updated within **15 days** of becoming aware of a change and reviewed at least once each financial year (s.21.1(2)–(3)).
 
 **Penalties:**
-- Corporation — failure to prepare/maintain the register (s.21.1(6)): up to **$5,000**
+- Corporation — failure to prepare/maintain the register (s.21.1(6)): up to **$100,000**
 - Corporation — failure to file (s.21.21): up to **$100,000**, refusal of a certificate of existence, and **administrative dissolution**
-- Directors, officers and shareholders (s.21.4): up to **$1,000,000**, up to **5 years' imprisonment**, or both
+- Directors and officers (s.21.4(1)–(3)): an offence where they **knowingly authorize, permit or
+  acquiesce in** the corporation's contravention of s.21.1(1), s.21.21(1)–(2), s.21.3(1) or
+  s.21.31(1), or knowingly record or provide false or misleading register information
+- Shareholders (s.21.4(4)): an offence only where they **knowingly contravene s.21.1(4)** (the duty
+  to reply accurately and completely to a corporation's request for ISC information)
+- Penalty for either (s.21.4(5)): on summary conviction up to **$200,000**, up to **2 years'
+  imprisonment**, or both; on indictment up to **$1,000,000**, up to **5 years' imprisonment**, or both
 
 **Note:** The CBCA ISC register is a federal regime. Ontario (internal register, in force 1 January 2023) and BC (internal register under BCBCA Part 4.1, in force 1 October 2020, updated within 30 days of a change) maintain their own transparency registers, and Quebec requires public disclosure of ultimate beneficiaries to the Registraire des entreprises (REQ), in force 31 March 2023.
 
@@ -130,7 +136,8 @@ The register itself must be updated within **15 days** of becoming aware of a ch
 
 ### Federal (CBCA) — Annual Return
 - **File with:** Corporations Canada
-- **Deadline:** Within **60 days** of the anniversary of the corporation's incorporation date
+- **Deadline:** Within **60 days** of the corporation's anniversary date — the date it was
+  incorporated, amalgamated or continued under the CBCA
 - **Contents:** Confirmation/update of registered office address, directors, and officers
 - **Fee:** $12 online; $40 by email or mail
 - **Also required:** the ISC filing (or confirmation of exemption) must be submitted with the annual return — the annual return cannot be filed without it
@@ -183,7 +190,12 @@ Shareholders or directors may apply to court to bring an action on behalf of the
 
 **CBCA (statutory):** A distributing corporation whose securities are held by more than one person (s.102(2)) **must** have an audit committee of **not fewer than three directors, a majority of whom are not officers or employees** of the corporation or its affiliates (s.171(1)). The committee must review the financial statements before board approval. The Director may grant an exemption (s.171(2)).
 
-**Securities law (NI 52-110):** A non-venture reporting issuer's audit committee must have **minimum three members**, **every** member a director, **every** member **independent**, and **every** member **financially literate**. A member not financially literate on appointment must become so within a reasonable time (s.3.8). Limited exemptions apply (ss.3.2–3.6) but only where a majority remains independent (s.3.7).
+**Securities law (NI 52-110):** A non-venture reporting issuer's audit committee must have **minimum three members**, **every** member a director, **every** member **independent**, and **every** member **financially literate**. A member not financially literate on appointment must become so within a reasonable time (s.3.8). Limited exemptions apply (ss.3.2–3.6, 3.8). The exemptions in **s.3.3(2)** (controlled companies)
+and **s.3.6** (temporary, limited and exceptional circumstances) are available only where a
+**majority** of committee members would be independent (s.3.7). Separately, the exemptions in
+**ss.3.2, 3.4, 3.5 and 3.8** are available only where the board has determined that reliance will
+not materially adversely affect the committee's ability to act independently and satisfy the
+Instrument (s.3.9).
 
 **Venture issuers** are exempt from Part 3 (s.6.1). Their committees need three members, all directors, with a **majority** who are not executive officers, employees or control persons (s.6.1.1).
 
