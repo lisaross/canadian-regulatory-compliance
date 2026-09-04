@@ -184,7 +184,7 @@ relationship must already exist.
 | Month | Deadline |
 |-------|---------|
 | Last day of February | T4/T4A/T4A-NR slips and summaries due (next business day if it falls on a weekend) |
-| March 31 | T3 trust returns due (60 days after Dec 31) |
+| March 31 | T3 trust returns due (90 days after a December 31 year-end; the deadline is 90 days after the trust's tax year-end whenever that falls) |
 | April 30 | Personal tax returns due (T1); balance owing due. 2026 federal brackets: 14% to $58,523 · 20.5% to $117,045 · 26% to $181,440 · 29% to $258,482 · 33% above (BPA $16,452). Lowest bracket dropped from 15% (pre-2025) to 14.5% (2025) to 14% (2026+, Bill C-4). |
 | June 15 | Self-employed individuals' T1 return due (balance still due April 30) |
 | 2 months after FYE | Corporate tax balance owing |
