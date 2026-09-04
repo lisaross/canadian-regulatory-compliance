@@ -176,7 +176,10 @@ below 100%.
 
 **Operational/Technology (B-13 and E-21):**
 - No formal technology risk appetite statement
-- Cyber incidents not escalated to board within required timeframe
+- Incident escalation protocols not defined, or board and senior management not receiving reporting
+  on material technology and cyber incidents as required by the institution's own approved framework
+  (B-13/E-21 require the protocol and the oversight; OSFI prescribes no board-escalation deadline —
+  the 24-hour clock runs to **OSFI**, not the board)
 - Third-party technology providers not subject to OSFI-compliant contractual controls
 - Insufficient patch management and vulnerability scanning
 - Critical operations not identified or mapped end-to-end (E-21, full adherence

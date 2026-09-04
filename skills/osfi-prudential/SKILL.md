@@ -75,9 +75,15 @@ It remains at **67.5%**, with at least two years' notice before any resumption.
 
 **Tier 2:** Subordinated debt with maturity >5 years; general allowances for credit losses; NVCC instruments
 
-**NVCC requirement (Canadian-specific):** All non-common capital instruments issued by FRFIs must include a non-viability contingent capital clause — automatic conversion to common equity
-if the Superintendent of Financial Institutions determines the institution is
-non-viable or about to become non-viable. (CDIC's separate bail-in power over
+**NVCC requirement (Canadian-specific):** Under the CAR Guideline (Chapter 2, §2.2), **all
+non-common Tier 1 and Tier 2 capital instruments** issued by institutions subject to CAR — banks,
+bank holding companies and federally regulated trust and loan companies — must include a
+non-viability contingent capital clause providing for **full and permanent conversion into common
+shares** if the Superintendent determines the institution is non-viable or about to become
+non-viable. **Federal credit unions** may instead structure NVCC instruments to provide for a **full
+and permanent write-off** of the instrument on a trigger event (or conversion into CET1-eligible
+instruments). Insurers are not subject to CAR — their capital regimes are LICAT and MCT.
+(CDIC's separate bail-in power over
 certain preferred shares and unsecured debt is exercised only after a Governor in
 Council order, and is distinct from NVCC conversion.) This is a Canadian requirement beyond Basel minimums.
 
