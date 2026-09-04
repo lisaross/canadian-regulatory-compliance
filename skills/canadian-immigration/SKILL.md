@@ -38,7 +38,7 @@ Required unless the position falls under an **LMIA-exempt** category (see IMP se
 | Stream | Wage Threshold | Key Features |
 |--------|---------------|-------------|
 | High-wage positions | At or above the provincial/territorial hourly wage threshold (provincial median + 20%) | Transition plan required; employment duration up to 3 years |
-| Low-wage positions | Below the provincial/territorial hourly wage threshold | 10% cap on proportion of workforce (20% for construction, food manufacturing, hospitals, nursing/residential care and certain in-home caregiver NOCs); max employment duration 1 year; LMIAs refused in CMAs with ≥6% unemployment |
+| Low-wage positions | Below the provincial/territorial hourly wage threshold | 10% cap on proportion of workforce (20% for construction, food manufacturing, hospitals, nursing/residential care and certain in-home caregiver NOCs; **15% for eligible employers outside CMAs under a temporary public policy running to March 2027**); max employment duration 1 year; low-wage LMIAs **will not be processed** in CMAs with a published unemployment rate of **≥6%** (list refreshed quarterly). **Exempt from the refusal-to-process measure regardless of the CMA rate:** primary agriculture, construction, food manufacturing, hospitals, nursing and residential care facilities, certain in-home caregiver positions, positions supporting permanent residence only, and short-duration positions of ≤120 calendar days meeting the criteria |
 | Agricultural Stream | Various | For primary agriculture; seasonal and year-round options |
 | Seasonal Agricultural Worker Program (SAWP) | Various | Bilateral agreements with specific countries |
 | Global Talent Stream (GTS) | High-wage (at or above the wage threshold) | 10-business-day LMIA service standard (80% of the time) plus 10-business-day IRCC work permit standard; Labour Market Benefits Plan required; Category A (referral partner) or Category B (global talent occupations list) |
@@ -109,7 +109,10 @@ Express Entry is Canada's primary system for managing permanent residence applic
 1. Candidates create an online profile and receive a Comprehensive Ranking System (CRS) score
 2. Highest-scoring candidates are invited in regular draws (Invitations to Apply — ITAs)
 3. Invited candidates have 60 days to submit a complete PR application
-4. Processing: **varies by program**; IRCC no longer publishes a flat 6-month standard.
+4. Processing: IRCC's **service standard** for Express Entry applications (FSW, FST, CEC and Express
+   Entry–linked PNP) is **6 months / 180 days** from receipt of a complete application. This is a
+   service standard, not a guarantee — IRCC's published **processing-time estimates** vary by program
+   and are updated regularly; check the current estimate rather than relying on the standard.
 
 **Employer role:** As of **25 March 2025**, a job offer no longer adds any CRS points (the former 200-point Major Group 00 and 50-point skilled-occupation awards were removed). A valid job offer still matters for **Federal Skilled Worker** and **Federal Skilled Trades** eligibility and for many employer-driven **PNP** streams — and a provincial nomination is still worth **600 CRS points**.
 
@@ -133,7 +136,11 @@ Each province/territory operates a PNP to nominate candidates for permanent resi
 ## Employer Compliance Obligations
 
 ### TFWP Employer Compliance (ESDC Inspections)
-Employers who hire through the TFWP are subject to **inspections** by ESDC for up to **6 years after the temporary foreign worker's first day of the employment period**. Employers using the **IMP** are subject to an equivalent IRCC inspection regime over the same period. Inspections can be random, complaint-driven, or triggered by violations.
+Employers who hire through the TFWP are subject to **inspections** by ESDC, and employers using the
+**IMP** to an equivalent IRCC inspection regime. In both cases the window runs from the **first day
+of the period of employment for which the work permit was issued** until **six years after the last
+day of that period** (IRPR ss.209.2(1)(b), 209.3(1)(c)) — which is also the document-retention
+period. Inspections can be random, complaint-driven, or triggered by violations.
 
 **Employers must:**
 - Pay wages and provide working conditions that are **substantially the same as, but not less favourable than**, those in the LMIA/offer of employment

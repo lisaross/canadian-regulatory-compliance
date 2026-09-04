@@ -63,11 +63,14 @@ US and Mexican citizens in the following occupations may work in Canada without 
    - Position details (NOC code, job title, duties, wage, hours)
    - Employment terms (start date, duration, location)
    - LMIA exemption code (codes were restructured 15 Dec 2022 — verify against IRCC's current
-     exemption-code table). Common codes: C10 significant benefit (general), C11 entrepreneurs/
-     self-employed, C61 ICT starting a branch/affiliate, C62 ICT executives/senior or functional
-     managers, C63 ICT specialized knowledge, T34/T35/T36 CUSMA traders/investors/professionals,
-     T37/T38 CUSMA ICT, C16 francophone mobility, C41 spouses of TEER 0–3 workers, C43 PGWP,
-     A75 bridging open work permit.
+     exemption-code table). Common **employer-specific** codes requiring a portal offer and the
+     compliance fee: C10 significant benefit (general), C11 entrepreneurs/self-employed, C61 ICT
+     starting a branch/affiliate, C62 ICT executives/senior or functional managers, C63 ICT
+     specialized knowledge, T34/T35/T36 CUSMA traders/investors/professionals, T37/T38 CUSMA ICT,
+     C16 francophone mobility, C41 spouses of certain TEER 0–3 workers (eligibility narrowed in
+     January 2025 — verify the occupation and duration conditions).
+     **Not employer-specific:** C43 (PGWP) and A75 (bridging open work permit) are **open** work
+     permits — no Employer Portal offer of employment and no employer compliance fee.
 3. **Pay** the $230 Employer Compliance Fee
 4. **Receive** the Offer of Employment number
 5. **Provide** the number to the foreign national — they include it in their work permit application
@@ -77,7 +80,9 @@ US and Mexican citizens in the following occupations may work in Canada without 
 
 ## Employer Inspection Preparation Guide
 
-ESDC inspections (TFWP) or IRCC inspections (IMP) can occur at any time within 6 years of the worker's first day of employment. Prepare a compliance binder:
+ESDC inspections (TFWP) or IRCC inspections (IMP) can occur from the first day of the period of
+employment for which the work permit was issued until six years after the last day of that period.
+Prepare a compliance binder:
 
 ### Records to Maintain
 | Document | Retention Period |
