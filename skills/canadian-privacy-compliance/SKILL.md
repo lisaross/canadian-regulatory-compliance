@@ -20,7 +20,7 @@ last_verified: 2026-09-04
 - **Bill C-27 / CPPA (historical)** — died on the Order Paper at prorogation 6 January 2025, with AIDA and the proposed Personal Information and Data Protection Tribunal. Never revived. Treat C-27-era analysis as superseded by C-36.
 
 ### Provincial (substantially similar)
-- **PIPA BC** (BC Personal Information Protection Act) — applies to BC private-sector organizations in lieu of PIPEDA. **BC PIPA has no mandatory breach-notification obligation for private-sector organizations** — BC is the outlier. (BC's public sector does, under FIPPA s.36.3 since 1 February 2023.) OIPC BC recommends reporting as best practice.
+- **PIPA BC** (BC Personal Information Protection Act) — deemed substantially similar to PIPEDA, so it applies instead of PIPEDA to provincially regulated organizations within the province; PIPEDA still governs federal works, undertakings and businesses, and personal information that crosses provincial or national borders in the course of commercial activity. **BC PIPA has no mandatory breach-notification obligation for private-sector organizations** — BC is the outlier. (BC's public sector does, under FIPPA s.36.3 since 1 February 2023.) OIPC BC recommends reporting as best practice.
 - **PIPA AB** (Alberta Personal Information Protection Act) — applies to Alberta private-sector organizations.
 - **Law 25 / Quebec Act** (An Act to Modernize Legislative Provisions as regards the Protection of Personal Information) — applies to Quebec organizations; now fully in force with additional obligations (privacy impact assessments, automated decision-making disclosure, express consent for sensitive information). Final phase — the right to data portability (s.27) — took effect 22 September 2024.
 - **Ontario** — no substantially similar private-sector privacy law; PIPEDA applies. Public-sector is governed by MFIPPA and FIPPA.
@@ -79,7 +79,7 @@ Quebec Law 25 **adds**: a privacy impact assessment (PIA) is required before tra
 Conduct a PIA when:
 - Launching a new product, service, or system involving personal information
 - Transferring personal information outside Quebec (mandatory under Law 25)
-- Implementing automated decision-making affecting individuals (PIA mandatory under Quebec Law 25 s.3.3 for system projects; s.12.1 requires ADM disclosure. Bill C-36 would add an explanation right and a right to human review, not a mandatory PIA.)
+- Implementing automated decision-making affecting individuals — Quebec Law 25 s.3.3 requires a PIA for any project to acquire, develop or overhaul an information system or electronic service-delivery system involving personal information (which captures most ADM deployments), and s.12.1 requires notice, explanation and a review channel where a decision is based exclusively on automated processing. Bill C-36 would add an explanation right and a right to human review, not a mandatory PIA.
 - Significantly modifying an existing system
 
 PIA steps: identify personal information flows → assess risks → implement mitigations → document findings → review periodically.
