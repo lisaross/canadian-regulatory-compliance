@@ -127,13 +127,15 @@ Statutory minimum notice is **not required** if the dismissal is for just cause.
 ## Human Rights — Canadian Human Rights Act (Federal) & Provincial Codes
 
 ### Protected Grounds
-Under the CHRA (federal) and provincial equivalents, employers cannot discriminate based on:
+Under the **CHRA (federal)**, employers cannot discriminate based on:
 Race, national/ethnic origin, colour, religion, age, sex, sexual orientation, gender
 identity/expression, marital status, family status, **genetic characteristics**, disability, and
 conviction for an offence for which a pardon has been granted **or in respect of which a record
-suspension has been ordered**.
+suspension has been ordered** (s.3(1)).
 
-Provincial codes add grounds (e.g., Ontario adds: ancestry, place of origin, creed, receipt of public assistance, record of offences).
+Provincial codes have their own, non-identical lists. Ontario's Human Rights Code, for example, adds
+ancestry, place of origin, creed, receipt of public assistance and **record of offences**, and does not
+list genetic characteristics. Check the applicable code — do not assume the federal grounds carry over.
 
 ### Duty to Accommodate
 Employers have a **duty to accommodate** employees with a disability (or other protected ground) to the point of **undue hardship**. Undue hardship is assessed considering: cost, health and safety risks, and (for larger employers) the financial ability to bear costs.
