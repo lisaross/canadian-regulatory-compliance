@@ -117,14 +117,15 @@ limits below are the **insured** mortgage limits, prescribed in law.
 **Example (uninsured mortgage — 20% down):**
 - Gross annual income: $180,000
 - Property: $900,000 purchase, 20% down ($180,000), $720,000 mortgage — **uninsured**
-- Monthly payment at 7.79% over 25 years: ~$5,320/month
-- Annual mortgage: $63,840; property tax: $7,200; heat: $2,400
-- GDS: ($63,840 + $7,200 + $2,400) ÷ $180,000 = **40.8%**
+- Monthly payment at 7.79% over 25 years: **~$5,399/month** (nominal annual rate, semi-annual
+  compounding — the Interest Act s.6 convention for Canadian fixed-rate mortgages)
+- Annual mortgage: ~$64,788; property tax: $7,200; heat: $2,400
+- GDS: ($64,788 + $7,200 + $2,400) ÷ $180,000 = **~41.3%**
 - LTI: $720,000 ÷ $180,000 = **4.0x** (below the 4.5x high-LTI threshold)
 
-**Assessment:** At 40.8%, GDS exceeds the 39% *insured* threshold — but this is an
+**Assessment:** At 41.3%, GDS exceeds the 39% *insured* threshold — but this is an
 uninsured mortgage, so no regulatory GDS cap applies. Whether the loan qualifies
-turns on the **lender's own RMUP maximum**. A GDS of 40.8% would exceed most prime
+turns on the **lender's own RMUP maximum**. A GDS of 41.3% would exceed most prime
 lenders' stated maximums and would typically require an exception, which B-20
 requires to be identified, escalated, approved and reported under the FRFI's
 exception process.
