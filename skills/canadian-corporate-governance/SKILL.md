@@ -119,7 +119,10 @@ The register itself must be updated within **15 days** of becoming aware of a ch
 
 **Penalties:**
 - Corporation — failure to prepare/maintain the register (s.21.1(6)): up to **$100,000**
-- Corporation — failure to file (s.21.21): up to **$100,000**, refusal of a certificate of existence, and **administrative dissolution**
+- Corporation — failure to send ISC information to the Director (s.21.21(1)–(2)): an offence; on summary
+  conviction a fine of up to **$100,000** (s.21.21(4)). Separately, and not as part of that penalty,
+  Corporations Canada may refuse a **certificate of compliance** while filings are overdue, and the Director
+  has a discretionary administrative-dissolution power for continued non-compliance.
 - Directors and officers (s.21.4(1)–(3)): an offence where they **knowingly authorize, permit or
   acquiesce in** the corporation's contravention of s.21.1(1), s.21.21(1)–(2), s.21.3(1) or
   s.21.31(1), or knowingly record or provide false or misleading register information
@@ -191,7 +194,11 @@ Shareholders or directors may apply to court to bring an action on behalf of the
 
 **CBCA (statutory):** A distributing corporation whose securities are held by more than one person (s.102(2)) **must** have an audit committee of **not fewer than three directors, a majority of whom are not officers or employees** of the corporation or its affiliates (s.171(1)). The committee must review the financial statements before board approval. The Director may grant an exemption (s.171(2)).
 
-**Securities law (NI 52-110):** A non-venture reporting issuer's audit committee must have **minimum three members**, **every** member a director, **every** member **independent**, and **every** member **financially literate**. A member not financially literate on appointment must become so within a reasonable time (s.3.8). Limited exemptions apply (ss.3.2–3.6, 3.8). The exemptions in **s.3.3(2)** (controlled companies)
+**Securities law (NI 52-110):** For a non-venture reporting issuer **to which the Instrument applies** — s.1.2
+excludes investment funds, issuers of asset-backed securities, designated foreign issuers, SEC foreign
+issuers, and qualifying subsidiary, exchangeable-security and credit-support issuers — the audit committee
+must have **minimum three members**, **every** member a director, **every** member **independent**, and
+**every** member **financially literate**. A member not financially literate on appointment must become so within a reasonable time (s.3.8). Limited exemptions apply (ss.3.2–3.6, 3.8). The exemptions in **s.3.3(2)** (controlled companies)
 and **s.3.6** (temporary, limited and exceptional circumstances) are available only where a
 **majority** of committee members would be independent (s.3.7). Separately, the exemptions in
 **ss.3.2, 3.4, 3.5 and 3.8** are available only where the board has determined that reliance will

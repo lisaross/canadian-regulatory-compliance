@@ -88,6 +88,12 @@ Use this checklist to assess the completeness of a corporation's minute book:
 | Last updated | |
 | Updated by | |
 
+**Public-disclosure warning:** Corporations Canada **must** make an ISC's address for service public;
+where no address for service has been provided to the corporation, it publishes the ISC's **residential
+address** instead (CBCA s.21.303(1)(b)–(c)). Collect an address for service wherever possible. Individuals
+under 18 are excluded, and the Director may withhold information on application where publication would
+present a serious threat to the individual's safety (s.21.303(2)–(3)).
+
 **Filing reminder:** File with Corporations Canada (a) **with the annual return**, within 60 days of the anniversary date; (b) **within 15 days** of recording any change; (c) **on incorporation**; and (d) **within 30 days** of a Certificate of Amalgamation or Continuance.
 
 ---
