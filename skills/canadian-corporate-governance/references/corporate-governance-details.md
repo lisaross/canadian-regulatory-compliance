@@ -121,4 +121,12 @@ Use this checklist to assess the completeness of a corporation's minute book:
 
 **Due diligence defence (tax):** A director is not liable if they exercised the degree of care, diligence, and skill a reasonably prudent person would exercise in comparable circumstances to prevent the failure to remit. Courts look at: was the director actively engaged, did they enquire about remittances, were they relying on a specific competent person?
 
-**Resignation timing:** ITA s.227.1(4) and ETA s.323(5) bar the CRA from assessing or proceeding against a former director **more than two years after the person last ceased to hold office**. This is a limitation period running in the director's favour — it is **not** a deadline to resign, and resignation has **no effect on the availability of the due diligence defence**, which turns solely on the care, diligence and skill exercised to prevent the failure to remit. A resigned director remains liable for failures occurring while they held office, subject to that two-year bar. Resignation must be capable of **objective verification** (a signed, delivered written resignation) — courts have repeatedly rejected uncorroborated resignation claims.
+**Resignation timing:** Both statutes run a **two-year** clock from the date the person last ceased to
+hold office, but they bar different things. **ETA s.323(5)** bars the CRA from making an **assessment**
+against a former director after that period. **ITA s.227.1(4)** bars the commencement of any **action or
+proceeding to recover** an amount payable by a former director. This is a limitation period running in
+the director's favour — it is **not** a deadline to resign, and resignation has **no effect on the
+availability of the due diligence defence**, which turns solely on the care, diligence and skill
+exercised to prevent the failure to remit. A resigned director remains liable for failures occurring
+while they held office, subject to those bars. Resignation must be capable of **objective verification**
+(a signed, delivered written resignation) — courts have repeatedly rejected uncorroborated resignation claims.

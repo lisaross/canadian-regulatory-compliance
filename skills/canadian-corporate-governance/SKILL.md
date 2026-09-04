@@ -72,7 +72,7 @@ Every Canadian corporation must maintain a **minute book** (paper or electronic)
 | Register of Directors (current + historical) | Permanent |
 | Register of Officers | Permanent |
 | Register of Shareholders | Current + historical |
-| Securities register (s.50) | Continuous — no statutory destruction date; cancelled certificates may be destroyed 6 years after cancellation (s.50(5)) |
+| Securities register (s.50) | Continuous — no statutory destruction date; the corporation is **not required to produce** a cancelled registered certificate 6 years after its cancellation (s.50(7)(a)) |
 | Unanimous Shareholder Agreements | Current version |
 | Minutes of shareholder meetings | Permanent |
 | Minutes of board meetings | Permanent |
@@ -150,7 +150,8 @@ The register itself must be updated within **15 days** of becoming aware of a ch
 
 ### BC (BCBCA) — Annual Report
 - **File with:** BC Registry Services
-- **Deadline:** Within 2 months of the corporation's **recognition date anniversary** (i.e., anniversary of incorporation)
+- **Deadline:** Within 2 months of the anniversary of the corporation's **recognition date** — the
+  date it was incorporated, amalgamated, or continued **into** British Columbia
 
 ### Alberta (ABCA) — Annual Return
 - **File with:** an authorized Alberta Corporate Registry service provider
