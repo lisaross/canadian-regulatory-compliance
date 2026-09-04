@@ -225,7 +225,7 @@ FCAC does not resolve individual disputes but investigates whether the bank foll
 
 **Separate agreements for optional products,** stating description, term, all fees, cancellation conditions, availability date, and steps to use.
 
-**Electronic alerts.** Without delay when a chequing/savings balance falls below **$100** (or a consumer-set amount), and when available credit on a card or line of credit falls below **$100**. Automatic; opt-out in writing. Not for business accounts.
+**Electronic alerts.** Without delay when a chequing/savings balance falls below **$100** (or a consumer-set amount), and when available credit on a card or line of credit falls below **$100**. Automatic — no sign-up required. The duty does not apply where the consumer has opted out **in writing**, or where the consumer has **not provided the contact information** required to receive the alert (s.627.13(2)); FCAC expects banks to *proactively solicit* that contact information rather than wait to be contacted. Not for business accounts.
 
 **Renewal and promotional-offer reminders.** Terms of 30 days or more: **21 days** and **5 days** before end of term. Under 30 days: one reminder **5 days** before. Excludes mortgages secured on real property and business products.
 
