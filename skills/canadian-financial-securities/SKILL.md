@@ -7,7 +7,8 @@ description: >
   "IIROC", "CIRO", "beneficial ownership", "politically exposed person", "PEP",
   "terrorist financing", "ATF", "financial compliance", or any question about
   Canadian financial regulation and reporting obligations.
-version: 0.1.0
+version: 0.2.0
+last_verified: 2026-09-04
 ---
 
 # Canadian Financial & Securities Compliance
@@ -16,7 +17,7 @@ version: 0.1.0
 
 | Regulator | Mandate | Website |
 |-----------|---------|---------|
-| FINTRAC (Financial Transactions and Reports Analysis Centre of Canada) | AML/ATF reporting and intelligence | fintrac-canafe.gc.ca |
+| FINTRAC (Financial Transactions and Reports Analysis Centre of Canada) | AML/ATF reporting and intelligence | fintrac-canafe.canada.ca |
 | OSC (Ontario Securities Commission) | Securities regulation in Ontario | osc.ca |
 | AMF (Autorité des marchés financiers) | Securities & financial services in Quebec | lautorite.qc.ca |
 | BCSC (BC Securities Commission) | Securities regulation in BC | bcsc.bc.ca |
@@ -31,12 +32,19 @@ Under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (PCML
 - Financial entities (banks, credit unions, caisses populaires)
 - Life insurance companies and brokers/agents
 - Securities dealers
-- Money services businesses (MSBs) — including virtual currency exchange
+- Money services businesses (MSBs) — including virtual currency exchange, crowdfunding
+  platform services, armoured car services (since July 2024) and cheque cashing
+  (since April 1, 2025); foreign MSBs are separately registrable
 - Real estate brokers/agents and developers
+- Mortgage administrators, brokers and lenders (since October 2024)
+- Factoring companies (since April 1, 2025)
+- Financing or leasing entities (since April 1, 2025)
+- Title insurers (since October 1, 2025)
 - Accountants and accounting firms
 - Casinos
 - Dealers in precious metals and stones
 - British Columbia notaries
+- Agents of the Crown
 
 ### Core Obligations
 
@@ -51,21 +59,32 @@ Identify and verify every client before providing services:
 - **Ongoing monitoring:** Regularly update KYC and flag changes
 
 **3. Politically Exposed Persons (PEPs) and Heads of International Organizations (HIOs)**
-- Domestic PEPs and HIOs: enhanced due diligence for higher-risk clients
-- Foreign PEPs: **enhanced measures mandatory** — senior management approval required; source of funds/wealth must be established; ongoing monitoring required
-- Family members and close associates of PEPs also subject to enhanced measures
+- **Foreign PEPs** (and family members/close associates): always high risk. Mandatory —
+  establish source of funds/virtual currency AND source of wealth; senior management
+  **approval** to keep an account open, or senior management **review** of a reportable
+  transaction; enhanced ongoing monitoring.
+- **Domestic PEPs and HIOs** (and family members/close associates): a determination is
+  always required. Where your risk assessment rates the person **high risk**, the same
+  prescribed measures apply as for foreign PEPs.
+- Timing: measures must be completed within **30 days** of opening the account, detecting
+  the fact, or conducting the transaction.
 
 **4. Reporting Requirements**
 
 | Report Type | Trigger | Deadline |
 |-------------|---------|---------|
-| Large Cash Transaction Report (LCTR) | Receipt of $10,000+ in cash in a single transaction | Within 15 days |
-| Large Virtual Currency Transaction Report (LVCTR) | Receipt of $10,000+ in virtual currency | Within 15 days |
-| Suspicious Transaction Report (STR) | Reasonable grounds to suspect ML/TF | As soon as practicable (not later than 30 days after detection) |
-| Terrorist Property Report (TPR) | Knowledge or reasonable grounds to believe property is owned/controlled by terrorist | Without delay |
-| Casino Disbursement Report | Casino disburses $10,000+ to a person | Within 15 days |
+| Large Cash Transaction Report (LCTR) | Receipt of $10,000+ in cash in a single transaction (or aggregated under the 24-hour rule) | Within 15 calendar days |
+| Large Virtual Currency Transaction Report (LVCTR) | Receipt of $10,000+ in virtual currency | Within 5 working days |
+| Electronic Funds Transfer Report (EFTR) | International EFT of $10,000+ initiated or finally received | Within 5 working days |
+| Suspicious Transaction Report (STR) | Reasonable grounds to suspect money laundering, terrorist activity financing, **or sanctions evasion** | As soon as practicable after completing the measures that establish RGS — no fixed outer limit; delay requires a suitable explanation |
+| Listed Person or Entity Property Report | Knowledge or reasonable grounds to believe property is owned/controlled by or on behalf of a terrorist, terrorist group, listed person or entity, or foreign state | Immediately upon discovery |
+| Casino Disbursement Report | Casino disburses $10,000+ | Within 15 calendar days |
 
-**Structuring (tipping off prohibition):** Do not inform a client that an STR has been or will be filed. This "tipping off" is a criminal offence.
+**Tipping off (prohibition):** Do not disclose to a client, or anyone else, the contents of
+an STR or the fact that one has been or will be filed, where the intent is to prejudice a
+criminal investigation — whether or not an investigation has begun. Avoid requesting
+information you would not normally request if doing so would tip off the client.
+(Distinct from *structuring*, which is a client-side red flag — see below.)
 
 **5. Record-Keeping**
 - Client identification records: 5 years after last transaction
@@ -104,24 +123,49 @@ All reporting entities must implement a written compliance program with:
 - **NI 81-102** — Investment funds
 
 ### Registration Categories (NI 31-103)
-- **Dealer:** Advises or transacts in securities as principal or agent
-- **Adviser:** Manages portfolios or advises on securities for compensation
-- **Investment Fund Manager (IFM):** Directs the business, operations, or affairs of an investment fund
-- **Exempt Market Dealer (EMD):** Transacts in exempt market securities
+- **Dealer:** Trades in securities as principal or agent. Five firm categories under
+  NI 31-103 s. 7.1: investment dealer, mutual fund dealer, scholarship plan dealer,
+  exempt market dealer (EMD), restricted dealer.
+- **Adviser:** Provides specific advice on securities for compensation. Two categories
+  under s. 7.2: portfolio manager, restricted portfolio manager.
+- **Investment Fund Manager (IFM):** Directs the business, operations, or affairs of an
+  investment fund. Subject to a registration trigger rather than the business trigger.
+
+**Ontario:** ss.7.1(4) and 7.2(3) do not apply; the accredited investor exemption there
+runs through s.73.3 of the Securities Act (Ontario).
 
 ### Continuous Disclosure (public companies)
-- Annual information form (AIF) within 90 days of year-end
-- Audited annual financial statements within 90 days
-- Quarterly (unaudited) financial statements within 45 days
-- MD&A accompanying all financial statements
-- Material change reports: within 10 days of material change (press release immediately)
-- Insider reports: within 5 days of transaction
+Deadlines differ for venture and non-venture issuers (NI 51-102):
+
+| Filing | Non-venture | Venture |
+|---|---|---|
+| Audited annual financial statements | 90 days | 120 days |
+| Interim financial report | 45 days | 60 days |
+| Annual information form (AIF) | 90 days | Not required |
+
+- MD&A accompanies all financial statements
+- Material change: press release immediately; Form 51-102F3 material change report as soon
+  as practicable and in any event within 10 days of the change
+- Insider reports (NI 55-104): initial report within **10 days** of becoming a reporting
+  insider; subsequent reports within **5 days** of each change
 
 ### Prospectus Exemptions (common)
-- **Accredited investor:** Net assets >$1M (excluding principal residence), or net income >$200K (or $300K with spouse) in each of the 2 preceding years
+- **Accredited investor** (individual branches, NI 45-106 s. 1.1):
+  - **financial assets** (alone or with a spouse) exceeding **$1,000,000**, before taxes
+    net of related liabilities — para (j)
+  - **financial assets** exceeding **$5,000,000**, individual only, no spousal
+    aggregation — para (j.1); the only individual branch exempt from the Form 45-106F9
+    risk acknowledgement
+  - **net income** before taxes exceeding **$200,000** (or **$300,000** combined with a
+    spouse) in each of the 2 most recent calendar years, with a reasonable expectation of
+    the same in the current year — para (k)
+  - **net assets** (alone or with a spouse) of at least **$5,000,000** — para (l); net
+    assets **include** the principal residence and the mortgage on it
 - **Offering memorandum (OM):** Available in most provinces; investor eligibility criteria and risk acknowledgement required
 - **Friends, family and business associates:** Restricted to close relationships with a director, officer, founder, or control person
-- **Minimum purchase:** $150,000+ per investor
+- **Minimum amount investment** (s. 2.10): acquisition cost of at least **$150,000** in
+  cash, securities of a single issuer, purchaser as principal. **Not available to
+  individuals** — non-individuals only, since the 2015 amendments.
 
 ## Reference Files
 
