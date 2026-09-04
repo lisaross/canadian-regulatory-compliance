@@ -6,7 +6,8 @@ description: >
   "express consent", "implied consent", "unsubscribe mechanism", "opt-in", "opt-out",
   "CRTC complaint", "spam", "electronic marketing Canada", or any question about
   whether a digital communication or marketing practice complies with Canadian anti-spam rules.
-version: 0.1.0
+version: 0.2.0
+last_verified: 2026-09-04
 ---
 
 # CASL — Canada's Anti-Spam Legislation
@@ -35,13 +36,16 @@ The test is **purpose**, not content. A single commercial purpose is enough — 
 - Instant messages promoting services
 - "We miss you" re-engagement emails
 
-**NOT CEMs (exemptions from consent requirement):**
+**Messages excluded from s.6 (still CEMs, but consent/ID/unsubscribe rules do not apply):**
 - Pure transactional/relationship messages (order confirmations, password resets, account statements) with no promotional content
 - Messages between individuals with a personal relationship
 - Messages sent in response to a request, inquiry, or complaint
 - Internal business communications (employee to employee, same organization)
+- Messages between employees of two organizations that have a relationship, concerning the recipient organization's activities (B2B exemption — GIC Regulations SOR/2013-221 s.3(a)(ii))
 - Messages to registered charities or political parties soliciting donations
 - Due diligence messages in merger/acquisition transactions
+
+Note: most of these are CEMs excluded from s.6 by the Governor in Council Regulations (SOR/2013-221) s.3, not messages that fail the CEM "purpose" test above. The exclusion can be lost if the conditions supporting it stop being met.
 
 ---
 
@@ -73,7 +77,7 @@ The sender must have either **express** or **implied** consent from the recipien
 Every CEM must clearly identify:
 - The **sender's name** (person or organization sending the message)
 - If sending on behalf of another party, identify **both** the sender and the party on whose behalf the message is sent
-- **Mailing address** (physical street address, not just a P.O. box)
+- **Mailing address** — a valid current street/civic address, postal box, rural route, or general delivery address (CRTC Bulletin 2012-548 confirms a P.O. box is acceptable). Must remain valid at least 60 days after sending.
 - **One other contact** — phone number, email address, or web address
 
 This information must be accurate and accessible **for at least 60 days** after the message is sent.
@@ -83,7 +87,7 @@ Every CEM must include:
 - A **functional unsubscribe mechanism** — link, reply address, or other electronic means
 - The mechanism must be **easy to perform** — no fees, no login requirement, no excessive steps
 - Unsubscribe requests must be **processed within 10 business days**
-- Once someone unsubscribes, you **must not send further CEMs** to that address (even if they have a separate relationship with you)
+- A recipient may withdraw consent from *all* CEMs or from a *specified class* of CEMs (s.11(1)(a)) — once processed, stop sending the CEMs (or class of CEMs) covered by that withdrawal; a class-specific withdrawal does not bar all CEMs to that address
 - The unsubscribe mechanism must remain functional for **at least 60 days** after the message is sent
 
 ---
@@ -135,9 +139,9 @@ A compliant consent request must include:
 
 The CRTC can also seek undertakings (binding commitments to change practices) and issue compliance orders.
 
-**Private right of action:** CASL allows individuals to sue for damages (not yet in force — government has not proclaimed this section into force as of 2025, but monitor for activation).
+**Private right of action (ss. 47-51, 55): not in force.** Scheduled for 1 July 2017, suspended indefinitely by Order in Council P.C. 2017-0580 (2 June 2017; Canada Gazette Part II, SI/2017-31). No new date set; suspension remains in effect as of September 2026. Enforcement is exclusively public — CRTC, Competition Bureau, OPC.
 
-Notable enforcement actions have included fines of $100K–$1.1M against organizations for sending CEMs without consent and failing to honour unsubscribes.
+Notable enforcement actions (amounts as **imposed**, not as originally proposed): Compu-Finder $200,000 (Decision CRTC 2017-368, down from a proposed $1.1M); Blackstone Learning $50,000 (Decision 2016-428, down from a proposed $640K); Hudson's Bay $120,000 undertaking (June 2024). Most cases resolve by voluntary undertaking rather than a formal penalty. Total AMPs imposed since 2014 exceed $3.6 million.
 
 ---
 

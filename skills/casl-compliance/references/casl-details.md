@@ -28,7 +28,7 @@ Did the recipient conspicuously publish their email address (e.g., on a website)
 
 ## Campaign Review Rubric
 
-Use this rubric to score a draft email or SMS before sending:
+Use this rubric to score a draft email or SMS before sending. **This rubric is an internal scoring aid, not a CRTC standard.** A numeric score can be misleading on its own — a campaign missing unsubscribe entirely, missing identification entirely, or lacking any consent basis is non-compliant regardless of overall score. Treat a 0 on any individual consent, identification, or unsubscribe check as a hard stop: do not send, no matter what the total adds up to.
 
 ### Consent (30 points)
 | Check | Points |
@@ -42,7 +42,7 @@ Use this rubric to score a draft email or SMS before sending:
 | Check | Points |
 |-------|--------|
 | Sender legal name present | 10 |
-| Physical street address present (not P.O. box only) | 15 |
+| Valid mailing address present (street/civic address, postal box, rural route, or general delivery all qualify — CRTC Bulletin 2012-548) | 15 |
 | Second contact present (phone, email, or URL) | 15 |
 
 ### Unsubscribe (30 points)
@@ -70,9 +70,12 @@ Use this rubric to score a draft email or SMS before sending:
 - Keep transactional emails strictly transactional, or ensure recipients have CASL consent if promotional content is included
 
 ### Referral and "Forward to a Friend" Programs
-- If your system sends a CEM on behalf of the referrer to a friend, the organization sending the message (not the individual referrer) is responsible for CASL compliance
-- You cannot rely on the referrer's implied relationship with their friend
-- Best practice: avoid automated "forward to friend" CEMs unless you have a defensible consent basis
+- The Governor in Council Regulations (SOR/2013-221, s.4(1)) provide a referral exemption: s.6(1)'s consent requirement does **not** apply to the **first** CEM sent to a recipient as a result of a referral, where the referrer has an existing business relationship, existing non-business relationship, family relationship, or personal relationship with **both** the sender and the recipient
+- To qualify, the CEM must disclose the referrer's full name **and** state that the message is sent as a result of a referral
+- Identification and unsubscribe requirements still apply even when the referral exemption removes the need for consent
+- The exemption covers only the first message resulting from the referral — any follow-up message needs its own valid consent basis
+- If your system sends a CEM on behalf of the referrer to a friend, the organization sending the message (not the individual referrer) remains responsible for CASL compliance
+- Best practice: confirm and document the referrer's qualifying relationship with both parties before relying on this exemption for an automated "forward to a friend" feature
 
 ### Lead Generation Forms (Third-Party Lists)
 - Purchasing or renting a list does not transfer consent
