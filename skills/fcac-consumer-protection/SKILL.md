@@ -84,7 +84,7 @@ Banks must still disclose NSF fee amounts in fee disclosure documents at account
 |---|---|
 | Ongoing product/service by mail or telephone | until end of the **14th business day** (s.627.1(1)(a)) |
 | Ongoing product/service any other way | until end of the **3rd business day** (s.627.1(1)(b)) |
-| Retail deposit account | notify within **14 business days** of opening; closed without charge, all non-interest charges refunded (FCPF Regs s.5) |
+| Retail deposit account | notify within **14 business days** of opening; closed without charge, non-interest charges related to operating the account refunded (FCPF Regs s.5(2)(b)) |
 | Deposit account other than retail | **14 business days** (FCPF Regs s.3) |
 | Deposit-type instrument (e.g. GIC) | notify within **10 business days** of issuance (FCPF Regs s.6) |
 | Optional product or service | notify at any time; effective at end of billing cycle or **30 days** after notice, whichever is earlier, pro-rated refund (FCPF Regs s.7) |
