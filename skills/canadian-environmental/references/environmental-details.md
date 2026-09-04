@@ -7,47 +7,63 @@
 2. **Monitor and measure** GHG emissions throughout the year using approved quantification methods
 3. **Submit Emissions Report** by June 1 for the previous calendar year (verified by a third-party accredited verifier for most facilities)
 4. **Calculate obligation:** Actual emissions minus (output × performance standard) = surplus or deficit
-5. **Surrender compliance units** by December 15 if in deficit:
-   - Surplus credits from prior years
-   - Recognized offset credits (eligible Canadian offset protocols)
-   - Payments to the OBPS Compliance Fund ($65/tonne for 2024 — note: fund payments don't reduce emissions, use as last resort)
+5. **Provide compensation** for excess emissions by the **regular-rate deadline of December 15** of the year following the compliance period, using any combination of:
+   - Excess emissions charge payment to the Government of Canada (GGPPA Schedule 4: 2023 $65, **2024 $80, 2025 $95, 2026 $110**, 2027 $125, 2028 $140, 2029 $155, 2030 $170 — but see the May 2026 trajectory update, which will require a Schedule 4 amendment to implement)
+   - Surplus credits from prior years or purchased from other facilities
+   - Federal offset credits, or recognized provincial/territorial offset credits
+   - **Missing December 15 multiplies the remaining obligation by 4.** The increased-rate deadline is **February 15** of the following year, and penalties may also apply.
 6. **Retain records** for 7 years
 
 ### Alberta TIER Annual Compliance Cycle
-1. **Register** if facility emits 100,000+ tonnes (opt-in at 10,000+)
-2. **Submit annual emissions report** verified by accredited third party
-3. **Calculate performance obligation** against sector benchmark
-4. **Surrender compliance units** by March 31 of the following year:
-   - TIER credits earned in prior years
+1. **Register** if the facility emitted 100,000+ tonnes CO₂e in 2016 or any later year, or imports >10,000 t hydrogen annually. **Opt-in at 2,000+ tonnes CO₂e** (EITE sectors competing directly with a regulated facility) — not 10,000.
+2. **Submit annual emissions report** verified by an accredited third party
+3. **Calculate performance obligation** against the facility-specific or high-performance benchmark (tightening 2%/yr; 4%/yr for oil sands in 2029–2030)
+4. **Meet the obligation** by:
+   - On-site emissions reductions
    - Emission Performance Credits (EPCs)
-   - Offset credits from Alberta-approved protocols
-   - Payments to TIER Fund (same rate as federal carbon price)
-5. Facility-specific benchmarks updated annually by AEP
+   - Alberta-approved offset credits
+   - **On-site direct investment** (new, per December 2025 amendments — OC 369/2025; credits limited to 50% of eligible capital and up to 50% of attributable operating costs, net of other government support)
+   - Payment into the TIER Fund at **$95/tonne — frozen indefinitely since May 12, 2025**
+   - Credit use limit: **90%** of total compliance obligation from 2026 onward
+5. Facility-specific benchmarks updated annually by Alberta Environment and Protected Areas
+6. Cost Containment Program relief where compliance costs exceed 3% of sales or 10% of profit; application deadline March 31 of the following year
 
 ---
 
-## NPRI Reporting Thresholds (Selected Substances)
+## NPRI Reporting Thresholds (2025–2027 reporting periods)
 
-The National Pollutant Release Inventory (NPRI) requires facilities to report if they meet employee and substance thresholds:
+**Who must report.** An NPRI report is required where any of the following applies, *and* a substance/activity threshold is met:
+- Employees and contractors work a total of **20,000 hours or more** in the calendar year (ECCC describes this as "about 10 full-time workers" — but the test is **hours**, not headcount). Counts all employees including students, part-time and term staff; all owner hours worked on-site; all contractor hours related to facility operations; and all paid overtime, vacation and sick leave.
+- Certain activities take place, **regardless of employee hours**: waste or sewage sludge incineration, wood preservation, fuel terminal operations, municipal wastewater collection/treatment, pit or quarry operations, operation of stationary combustion equipment.
+- The facility is a pipeline installation, or is subject to the Chromium Electroplating, Chromium Anodizing and Reverse Etching Regulations.
+- **Criteria air contaminant thresholds are met — whether or not the employee threshold is met.**
 
-**General threshold:** 10 full-time equivalent employees AND one of:
-- Manufacture, process, or otherwise use a listed substance above the reporting threshold
+| Part | Substances | Threshold |
+|------|-----------|-----------|
+| 1A | 177 substances/groups (benzene, toluene, xylene, ammonia, hydrogen sulphide, methanol, zinc, phosphorus …) | **10 tonnes** manufactured, processed or otherwise used (MPO) at ≥1% concentration |
+| 1B | 33 substances/groups | 1 kg to 1,000 kg depending on substance |
+| **1C** | **163 PFAS and PFAS salts/precursors** | **1 kg** MPO at ≥0.1% concentration |
+| 2 | 31 polycyclic aromatic hydrocarbons (PAHs) | 50 kg (any quantity where creosote wood preservation takes place) |
+| 3 | 7 dioxins, 10 furans, hexachlorobenzene | Any quantity, where specified activities take place |
+| 4 (CACs) | Carbon monoxide, nitrogen oxides, sulphur dioxide, total particulate matter | **20 tonnes** released to air |
+| 4 (CACs) | Volatile organic compounds (total) | **10 tonnes** released to air |
+| 4 (CACs) | **PM10** | **0.5 tonnes** released to air |
+| 4 (CACs) | **PM2.5** | **0.3 tonnes** released to air |
+| 5 | 62 speciated VOCs (incl. benzene, toluene, xylene individually) | **1 tonne** released to air |
 
-| Substance | Threshold (tonnes/year) |
-|-----------|------------------------|
-| Benzene | 1 (manufacture/process) |
-| Toluene | 10 |
-| Xylene | 10 |
-| Ammonia (total) | 10 |
-| Hydrogen sulphide | 0.5 |
-| Particulate matter (PM10) | 20 |
-| Sulphur dioxide | 20 |
-| Nitrogen oxides | 20 |
-| Carbon monoxide | 20 |
-| Volatile organic compounds (VOCs) | 10 |
+**Recent changes for 2025–2027:** PFAS, Basic Violet 3, Basic Violet 4, Basic Blue 7, MAPBAP Acetate, benzothiazoles that can form 2-mercaptobenzothiazole, and long-chain aliphatic amines were **added**. Thresholds were **lowered** for ethylene oxide (1 kg, 0.1%), hydrogen cyanide (1,000 kg, 0.1%), and C.I. Basic Green 4 / Malachite Green (100 kg, 1%).
 
-**Reporting deadline:** June 1 for the previous calendar year.
-**Submission:** Online via ECCC's Single Window Information Manager (SWIM).
+**Reporting deadline:** June 1 for the previous calendar year (2025 CY → June 1, 2026; 2026 → June 1, 2027; 2027 → June 1, 2028).
+**Submission:** Online via ECCC's Single Window Information Manager (SWIM). A facility that reported previously but no longer meets criteria must file a "Does Not Meet Criteria" report.
+
+---
+
+## Greenhouse Gas Reporting Program (GHGRP)
+
+Separate from NPRI, and the feeder for OBPS coverage determinations.
+- Triggered by the annual s. 46 notice in the Canada Gazette; general threshold 10,000 tonnes CO₂e.
+- **2025 calendar year reports are due June 1, 2026**, via the Single Window system.
+- A facility reporting 50,000+ tonnes CO₂e in 2014 or any later year, whose primary activity is a listed industrial activity in a backstop jurisdiction, becomes a **covered facility** under the federal OBPS.
 
 ---
 
@@ -55,13 +71,14 @@ The National Pollutant Release Inventory (NPRI) requires facilities to report if
 
 Before starting a new project, answer these questions to determine if an environmental assessment is required:
 
-### Federal (IAA) — Trigger Questions
-- [ ] Is the project on the Physical Activities Regulations designated project list?
-- [ ] Does the project involve federal land, federal funding, or federal decision-making authority?
-- [ ] Does the project affect fish habitat, migratory birds, or species at risk (federal jurisdiction)?
-- [ ] Is the project located in a province with a coordination agreement with IAAC?
+### Federal (IAA, as amended June 2024) — Trigger Questions
+- [ ] Is the project described in the schedule to the **Physical Activities Regulations** (the Project List), at or above the stated threshold? *(Necessary but not sufficient.)*
+- [ ] May the project cause **non-negligible adverse effects within federal jurisdiction** — fish and fish habitat, aquatic species, migratory birds, effects on federal lands, interprovincial or international effects, or effects on Indigenous peoples? *(Since the 2024 amendments this is a **precondition**.)*
+- [ ] Has the project been listed under **Schedule 1 of the Building Canada Act** as a national interest project? If so, IAA ss. 9–17 and 18(3)–(6) do not apply and federal approvals are consolidated into a single conditions document — engage the Major Projects Office.
+- [ ] Is the project on federal lands, financed by a federal authority, or to be carried out outside Canada? *(Engages the separate ss. 81–91 environmental effects determination scheme, upheld in 2023 SCC 23 — a lighter process than a designated-project assessment.)*
+- [ ] Is there a **cooperation or substitution agreement** with the province?
 
-If any "yes" → contact the Impact Assessment Agency of Canada early.
+If any "yes" → contact the Impact Assessment Agency of Canada early and submit an Initial Project Description.
 
 ### Ontario — EA Trigger Questions
 - [ ] Is the project a provincial undertaking (transit, energy, waste management, road)?
@@ -69,12 +86,14 @@ If any "yes" → contact the Impact Assessment Agency of Canada early.
 - [ ] Has the project been designated by the Minister under the Environmental Assessment Act?
 
 ### BC — EA Trigger Questions
-- [ ] Does the project meet any threshold in BC's Reviewable Projects Regulation?
-  - Mines: 75,000 tonnes/year ore production
-  - Energy projects: 50+ MW generation; pipelines 40+ km
-  - Water management: dams with 10+ million m³ reservoir
-  - Waste: landfills 100,000+ tonnes/year; incinerators 25,000+ tonnes/year
-- [ ] Has the Minister of Environment designated the project?
+- [ ] Does the project meet any threshold in BC's **Reviewable Projects Regulation (B.C. Reg. 243/2019, last amended December 15, 2025 by B.C. Reg. 237/2025)**?
+  > **Verify the current tables before relying on category thresholds — the regulation was amended in December 2025.** Category-specific thresholds sit in Tables 1–14.
+- [ ] Does the project meet an **effects threshold** under s. 4, which makes a project reviewable regardless of category:
+  - Emits **380,000 tonnes/year or more** of GHGs (CO₂e) directly from project facilities
+  - Includes facilities in an area listed in the Protected Areas (Environmental Assessment Act) Regulation, with a significant adverse effect in that area
+  - Clears **60 km or more** of land for a transmission line, pipeline, railway, highway or resource road not contiguous to existing such development, **or 600 ha or more** of land
+- [ ] Is the project a **designated project under the federal Impact Assessment Act** not located wholly on federal land? (Triggers a s. 10(1) project notification.)
+- [ ] Has the Minister designated the project?
 
 ### Alberta — EA Trigger Questions
 - [ ] Is the project an energy project regulated by the AER? (Covered by Alberta Energy Regulator process)
@@ -138,6 +157,6 @@ Contaminated site liability is one of the most significant environmental risks f
 **Pre-acquisition checklist:**
 - [ ] Commission Phase I ESA from a qualified professional
 - [ ] Review prior regulatory orders or certificates of compliance for the site
-- [ ] Check provincial contaminated sites registries (BCSR, Alberta SWIM, Ontario RAP)
+- [ ] Check the applicable provincial contaminated sites registry or records system — **verify the current name and portal for each province before use**; registry names and operators change. (Note: "SWIM" is ECCC's federal Single Window Information Manager for NPRI/GHGRP reporting, *not* an Alberta contaminated sites registry.)
 - [ ] Obtain representations and warranties regarding environmental conditions in purchase agreement
 - [ ] Consider environmental indemnity or escrow for remediation costs if contamination identified
