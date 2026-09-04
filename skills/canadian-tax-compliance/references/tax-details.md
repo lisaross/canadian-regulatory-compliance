@@ -31,18 +31,21 @@ Approximate monthly payroll calculation (2026):
 |------|---------------|
 | Gross salary | $6,250.00 |
 | CPP deduction | ~$352.54 |
-| EI deduction | ~$101.88 |
+| CPP2 (second additional) | ~$1.33 (4% on the $400 of earnings above the $74,600 YMPE; $16.00/yr) |
+| EI deduction | ~$101.88 (stops once the $1,123.07 annual maximum is reached — in November for this salary) |
 | Federal income tax (illustrative — regenerate from CRA PDOC) | ~$920.00 |
 | Ontario provincial tax (illustrative — regenerate from CRA PDOC) | ~$387.00 |
 | **Net pay** | ~$4,488.58 |
+
+Monthly figures are for months before annual maximums are reached.
 
 **Employer remittance (monthly):**
 | Item | Amount |
 |------|--------|
 | Employee CPP | $352.54 |
 | Employer CPP (match) | $352.54 |
-| Employee EI | $101.88 |
-| Employer EI (1.4×) | $142.63 |
+| Employee EI | ~$101.88 (stops once the $1,123.07 annual maximum is reached — in November for this salary) |
+| Employer EI | ~$142.63 (annual maximum $1,572.30) |
 | Employee income tax (illustrative — regenerate from CRA PDOC) | $1,307.00 |
 | **Total remittance to CRA** | ~$2,256.59 |
 
