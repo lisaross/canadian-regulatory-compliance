@@ -73,7 +73,7 @@ Employers must retain:
   to be in effect
 
 ### BC (BCESA)
-- Payroll records (s.28) must be retained for **7 years** after the employment terminates (s.28(2)(c))
+- Payroll records (s.28) must be retained for **4 years after the date each record was created** (s.28(2)(c))
 - Time records showing start/end, breaks and **the hours worked on each day for every employee** —
   required **regardless of whether the employee is paid hourly, by salary, flat rate, piece rate,
   commission or other incentive basis** (s.28(1)(d))
