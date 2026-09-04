@@ -5,19 +5,41 @@
     "url": "https://github.com/lisaross"
   },
   "metadata": {
-    "description": "Canadian regulatory compliance assistant covering Privacy (PIPEDA/Bill C-36 (PPCDA)), Employment, FINTRAC, WHMIS, CASL, Tax, Immigration, Environmental (CEPA), Corporate Governance (CBCA), OSFI Prudential, and FCAC Consumer Protection.",
-    "version": "0.5.0"
+    "description": "Canadian regulatory compliance assistant covering Privacy (PIPEDA/Bill C-36 (PPCDA)), Employment, FINTRAC, WHMIS, CASL, Tax, Immigration, Environmental (CEPA), Corporate Governance (CBCA), OSFI Prudential, FCAC Consumer Protection, and AI & Technology.",
+    "version": "0.6.0"
   },
   "plugins": [
     {
       "name": "canadian-regulatory-compliance",
       "source": "./",
-      "description": "Canadian regulatory compliance assistant covering 11 domains: Privacy (PIPEDA/Bill C-36 (PPCDA)), Employment & Labour, Financial & Securities (FINTRAC/OSC), Health & Safety (WHMIS), CASL, Tax, Immigration (LMIA/IMP), Environmental (CEPA/carbon pricing), Corporate Governance (CBCA), OSFI Prudential, and FCAC Consumer Protection.",
-      "version": "0.5.0",
+      "description": "Canadian regulatory compliance assistant covering 12 domains: Privacy (PIPEDA/Bill C-36 (PPCDA)), Employment & Labour, Financial & Securities (FINTRAC/OSC), Health & Safety (WHMIS), CASL, Tax, Immigration (LMIA/IMP), Environmental (CEPA/carbon pricing), Corporate Governance (CBCA), OSFI Prudential, FCAC Consumer Protection, and AI & Technology (automated decisions/Bill C-36/Bill C-34/Bill C-8 cybersecurity).",
+      "version": "0.6.0",
       "author": {
         "name": "Srivatsa Kasagar"
       },
-      "keywords": ["compliance", "canada", "banking", "osfi", "fcac", "pipeda", "fintrac", "esa", "whmis", "casl", "tax", "lmia", "immigration", "cepa", "cbca", "regulatory"],
+      "keywords": [
+        "compliance",
+        "canada",
+        "banking",
+        "osfi",
+        "fcac",
+        "pipeda",
+        "fintrac",
+        "esa",
+        "whmis",
+        "casl",
+        "tax",
+        "lmia",
+        "immigration",
+        "cepa",
+        "cbca",
+        "ai",
+        "aida",
+        "cybersecurity",
+        "c-36",
+        "c-34",
+        "regulatory"
+      ],
       "category": "compliance"
     }
   ]
