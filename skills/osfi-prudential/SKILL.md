@@ -49,7 +49,10 @@ OSFI implements the Basel Committee on Banking Supervision (BCBS) framework thro
 | Leverage Ratio | 3.0% of total exposures | 3.0% | 3.5% (3.0% + 0.5% D-SIB buffer) |
 
 SMSB targets = minimum + 2.5% capital conservation buffer. D-SIB targets add the
-1% D-SIB surcharge and the Domestic Stability Buffer.
+1% D-SIB surcharge and the Domestic Stability Buffer. The DSB raises all three
+risk-based target ratios (CAR 2026 ch.1 Table 8), but must itself be met with
+CET1 capital (ch.1 para. 71) — at a 3.0% DSB, D-SIB targets are 11.0% CET1,
+12.5% Tier 1 and 14.5% Total.
 
 **Domestic Stability Buffer (DSB):** OSFI lowered the DSB to **3.0% of RWA**
 effective **June 19, 2026** (from 3.5%, its level since June 2023), and narrowed
