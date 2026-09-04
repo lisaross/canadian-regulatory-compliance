@@ -90,13 +90,15 @@ Income tax: Use CRA Payroll Deductions tables (TD1 federal + provincial TD1 form
 
 ### Remittance Schedules
 
-| Remitter Type | Average Monthly Withholding Amount (AMWA) | Frequency | Due Date |
-|--------------|-------------------------------------------|-----------|---------|
-| Quarterly — new small employer | MWA under $1,000, perfect compliance record | Quarterly | Apr 15, Jul 15, Oct 15, Jan 15 |
-| Quarterly — small employer | Under $3,000, account open 12+ months, perfect compliance record | Quarterly | Apr 15, Jul 15, Oct 15, Jan 15 |
-| Regular | Under $25,000 | Monthly | 15th of the month after the month you paid employees |
-| Accelerated — Threshold 1 | $25,000 – $99,999.99 | Up to twice monthly | 25th of same month (1st–15th payroll) / 10th of next month (16th–end) |
-| Accelerated — Threshold 2 | $100,000 or more | Up to 4 times monthly | 3rd working day after the 7th, 14th, 21st, and last day of the month |
+| Remitter Type | Withholding basis | Frequency | Due Date |
+|--------------|-------------------|-----------|---------|
+| Quarterly — new small employer | **MWA** (current monthly withholding) under $1,000, perfect compliance record | Quarterly | Apr 15, Jul 15, Oct 15, Jan 15 |
+| Quarterly — small employer | **AMWA** under $3,000, account open 12+ months, perfect compliance record | Quarterly | Apr 15, Jul 15, Oct 15, Jan 15 |
+| Regular | **AMWA** under $25,000 | Monthly | 15th of the month after the month you paid employees |
+| Accelerated — Threshold 1 | **AMWA** $25,000 – $99,999.99 | Up to twice monthly | 25th of same month (1st–15th payroll) / 10th of next month (16th–end) |
+| Accelerated — Threshold 2 | **AMWA** $100,000 or more | Up to 4 times monthly | 3rd working day after the 7th, 14th, 21st, and last day of the month |
+
+AMWA is the average monthly withholding amount from **two calendar years ago**; a new small employer has no such history, so that row uses the current **monthly** withholding amount instead.
 
 AMWA is generally based on remittances from **two calendar years ago**.
 
