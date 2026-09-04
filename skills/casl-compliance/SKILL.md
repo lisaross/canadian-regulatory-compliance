@@ -57,6 +57,20 @@ The test is **purpose**, not content. A single commercial purpose is enough — 
 
 Note: these are all CEMs under s.1(2) — they pass the "purpose" test but are relieved of consent (s.6(6)) or of all of s.6 (s.6(5), SOR/2013-221 s.3). A message with no commercial purpose at all is simply not a CEM and CASL s.6 never engages. Relief is lost if the supporting conditions stop being met.
 
+**Step 0 — classify before checking.** Determine the message's status first; the checks that follow depend on it.
+1. **Not a CEM at all** (no commercial purpose, s.1(2)): CASL s.6 never engages. No checks.
+2. **s.6(5) or SOR/2013-221 s.3 class** (personal/family, inquiry into commercial activity, internal business
+   communications, solicited messages, legal-obligation messages, qualifying charity and political messages):
+   **s.6 does not apply at all** — skip the consent, identification **and** unsubscribe checks. Record the
+   class relied on and the facts supporting it.
+3. **SOR/2013-221 s.4 first-referral or s.6(6) class** (solely transactional, warranty/recall/safety,
+   subscription notice, employment relationship, delivery under a prior transaction): **consent only** is
+   relieved. Identification and unsubscribe under s.6(2) still apply and still hard-stop.
+4. **Any other CEM:** all three checks apply.
+
+Relief is lost if the supporting conditions stop being met, and any follow-up message beyond the exempted one
+needs its own consent basis or its own exception.
+
 ---
 
 ## The Three Requirements for a Compliant CEM

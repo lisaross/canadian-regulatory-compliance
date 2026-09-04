@@ -28,6 +28,18 @@ Did the recipient conspicuously publish their email address (e.g., on a website)
 
 ## Campaign Review Rubric
 
+**Step 0 — classify before scoring.** Determine the message's status first; it decides which checks below
+apply.
+1. **Not a CEM at all** (no commercial purpose, s.1(2)): CASL s.6 never engages. No checks, no score.
+2. **s.6(5) or SOR/2013-221 s.3 class** (personal/family, inquiry into commercial activity, internal business
+   communications, solicited messages, legal-obligation messages, qualifying charity and political messages):
+   **s.6 does not apply at all** — skip the consent, identification **and** unsubscribe checks entirely.
+   Record the class relied on and the facts supporting it.
+3. **SOR/2013-221 s.4 first-referral or s.6(6) class** (solely transactional, warranty/recall/safety,
+   subscription notice, employment relationship, delivery under a prior transaction): **consent only** is
+   relieved — score Identification and Unsubscribe only (see the Consent N/A row below).
+4. **Any other CEM:** score all three sections.
+
 Use this rubric to score a draft email or SMS before sending. **This rubric is an internal scoring aid, not a CRTC standard.** A numeric score can be misleading on its own — a campaign missing unsubscribe entirely, missing identification entirely, or lacking any consent basis is non-compliant regardless of overall score. Treat a 0 on any individual consent, identification, or unsubscribe check as a hard stop: do not
 send, no matter what the total adds up to. **Exception:** a 0 on consent is not a hard stop where a
 valid statutory exception removes the consent requirement for that message — notably the Regulation
@@ -44,6 +56,10 @@ follow-up message beyond the exempted one needs its own consent basis or its own
 | Implied consent confirmed and within valid window | 20 |
 | Implied consent window expired for some recipients | 0 — remove those recipients |
 | No consent on file | 0 — do not send |
+| Valid s.4 first-referral or s.6(6) exemption applies — consent not required | N/A — exclude from score |
+
+Where the consent check is **N/A**, score the campaign out of **70** (Identification 40 + Unsubscribe 30) and
+apply the same percentage bands. Do not record a 0; a 0 signals a missing consent basis, which is a hard stop.
 
 ### Identification (40 points)
 | Check | Points |
