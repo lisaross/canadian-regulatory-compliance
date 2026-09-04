@@ -232,7 +232,10 @@ Maximum fines vary by offence class, by mode of prosecution (indictment vs. summ
 - Failure to report, late reporting, or false/misleading information can attract CEPA ss. 272–273 penalties.
 
 ### Clean Fuel Regulations (SOR/2022-140)
-- In force; last amended September 30, 2024. Impose declining carbon-intensity requirements on primary suppliers of gasoline and diesel, with minimum volumetric requirements (5% low-CI content in gasoline, 2% in diesel).
+- In force; last amended September 30, 2024. Imposes **two distinct obligations** on primary suppliers of
+  gasoline and diesel: (a) declining **carbon-intensity limits** on each fuel pool (s.5), and (b) separate
+  **volumetric requirements** — at least **5%** of the gasoline pool and **2%** of the diesel pool must be
+  displaced by an equivalent volume of a gasoline or diesel **replacement** (ss.6(1), 7(1)).
 - **Targeted amendments** announced September 5, 2025 to support domestic low-carbon fuel production; consultation closed **January 15, 2026**. Draft amendments expected in Canada Gazette, Part I.
 
 ---
