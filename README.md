@@ -1,6 +1,6 @@
 # 🍁 Canadian Regulatory Compliance Plugin
 
-> A Claude Code skill that answers Canadian compliance questions across 13 regulatory domains — privacy, employment, CASL, tax, and more.
+> A Claude Code skill that answers Canadian compliance questions across 11 regulatory domains — privacy, employment, CASL, tax, and more.
 
 Canadian regulatory law is complex, spans multiple jurisdictions, and changes often. This plugin gives your team instant access to practical guidance across **eleven regulatory areas**, helping you understand your obligations, review documents, generate checklists, draft notices, and get quick answers — all without having to wade through dense legislation.
 
@@ -160,7 +160,7 @@ These skills load automatically when you discuss a relevant topic — you don't 
 
 ```bash
 # Register the marketplace
-claude plugin marketplace add Srivatsa-Kasagar/canadian-regulatory-compliance
+claude plugin marketplace add lisaross/canadian-regulatory-compliance
 
 # Install the plugin permanently
 claude plugin install canadian-regulatory-compliance
@@ -197,6 +197,8 @@ Planned additions for future versions:
 
 ## Changelog
 
+**v0.5.0** — Accuracy audit — every skill fact-checked against primary sources (verified 2026-09-04); ~190 corrections across all 11 skills including carbon pricing removal, FINTRAC penalty increases (Bill C-12), Bill C-27 → C-36, 2026 payroll/minimum wage rates, OSFI 24-hour incident reporting, FCAC NSF $10 cap; each SKILL.md now carries a `last_verified` date. Landing page and README corrected to 11 domains; install path updated to lisaross fork.
+
 **v0.4.0** — Added OSFI Prudential skill (Basel III/IV, CET1/Tier 1/Total Capital, LCR/NSFR, ICAAP, B-20 stress test, B-13 technology risk, recovery planning) and FCAC Consumer Protection skill (complaint handling, cost of borrowing disclosure, credit card rules, mortgage prepayment rights, NSF fees, basic banking)
 
 **v0.3.0** — Added Immigration, Environmental, and Corporate Governance skills; added LMIA and ESDC notice templates
@@ -207,4 +209,4 @@ Planned additions for future versions:
 
 ---
 
-*Built by Srivatsa Kasagar · v0.4.0*
+*Built by Srivatsa Kasagar · v0.5.0*

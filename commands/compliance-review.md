@@ -15,6 +15,13 @@ Conduct a structured compliance review covering all applicable Canadian regulato
 - Employment & Labour (ESA, Canada Labour Code, CHRA, provincial codes)
 - Financial & Securities (FINTRAC/PCMLTFA, OSC/BCSC/AMF, CIRO)
 - Health & Safety (WHMIS 2015, OHSA/BCWCA/AB OHS Act, CCOHS regulations)
+- CASL (Canada's Anti-Spam Legislation, CEMs, consent, unsubscribe rules)
+- Tax (CRA, GST/HST, payroll deductions, corporate tax, SR&ED)
+- Immigration (IRCC, ESDC, LMIA, Temporary Foreign Worker Program, International Mobility Program)
+- Environmental (CEPA, Impact Assessment Act)
+- Corporate Governance (CBCA, OBCA, BCBCA, ABCA, director duties, corporate records)
+- OSFI Prudential (capital adequacy, Basel III/IV, liquidity, OSFI guidelines — federally regulated financial institutions)
+- FCAC Consumer Protection (Bank Act consumer provisions, cost of borrowing disclosures)
 
 ## Output Format
 

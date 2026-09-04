@@ -2,18 +2,18 @@
   "name": "canadian-regulatory-compliance",
   "owner": {
     "name": "Srivatsa Kasagar",
-    "url": "https://github.com/Srivatsa-Kasagar"
+    "url": "https://github.com/lisaross"
   },
   "metadata": {
     "description": "Canadian regulatory compliance assistant covering Privacy (PIPEDA/Bill C-27), Employment, FINTRAC, WHMIS, CASL, Tax, Immigration, Environmental (CEPA), Corporate Governance (CBCA), OSFI Prudential, and FCAC Consumer Protection.",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   "plugins": [
     {
       "name": "canadian-regulatory-compliance",
       "source": "./",
       "description": "Canadian regulatory compliance assistant covering 11 domains: Privacy (PIPEDA/Bill C-27), Employment & Labour, Financial & Securities (FINTRAC/OSC), Health & Safety (WHMIS), CASL, Tax, Immigration (LMIA/IMP), Environmental (CEPA/carbon pricing), Corporate Governance (CBCA), OSFI Prudential, and FCAC Consumer Protection.",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "Srivatsa Kasagar"
       },
