@@ -100,18 +100,24 @@ turns on **when the violation occurred**, not when the examination happens.
 
 **Violations on or after March 26, 2026:**
 
-| Violation Level | Maximum Per Violation |
-|----------------|----------------------|
-| Minor | $40,000 |
-| Serious | $4,000,000 |
-| Very Serious | $20,000,000 |
+| Violation Level | Maximum Per Violation — person | Maximum Per Violation — entity |
+|----------------|-------------------------------|-------------------------------|
+| Minor | $40,000 | $40,000 |
+| Serious | $4,000,000 | $4,000,000 |
+| Very Serious | $4,000,000 | $20,000,000 |
 
-- Cumulative penalties capped at the **greater of $20,000,000 or 3% of gross global
-  revenue**, calculated at the **group level** for affiliated entities. For large
-  institutions this ceiling can exceed $1 billion.
-- The **"very serious"** category was expanded to cover all compliance-program
-  requirements, and a new very serious violation was added: failure to ensure the
-  compliance program is **"reasonably designed, risk-based and effective."**
+Note: s.73.1(2) fixes a single prescribed-violation ceiling per class of respondent — **$4,000,000 if the
+violation is committed by a person** and **$20,000,000 if committed by an entity**; the Minor/Serious
+amounts above are the prescribed penalties within those ceilings.
+
+- Cumulative penalties on one notice of violation are capped at the greater of **$4,000,000 or 3% of the
+  person's gross global income** (s.73.1(3)(a)), and for an entity at the greater of **$20,000,000 or 3% of
+  the entity's gross global revenue** (s.73.1(3)(b)), the latter calculated at the **group level** for
+  affiliated entities (s.73.1(4)). For large institutions this ceiling can exceed $1 billion.
+- The **"very serious"** category was **expanded**, and a new very serious violation was added: failure to
+  ensure the compliance program is **"reasonably designed, risk-based and effective"** (PCMLTFA s.9.6(1.1)).
+  Not every compliance-program requirement is very serious — each violation's class is fixed by regulation
+  under s.73.1(1)(b); check the current schedule for the specific provision at issue.
 - FINTRAC must now consider the entity's **ability to pay**.
 - New tools: **mandatory compliance agreements** for prescribed violations, and
   **compliance orders**. Contravening a compliance order carries its own penalty — for
@@ -121,9 +127,18 @@ turns on **when the violation occurred**, not when the examination happens.
 Serious up to $100,000; Very Serious up to $100,000 (individual) / $500,000 (entity).
 There was **no cumulative cap** under that regime.
 
-**Criminal non-compliance** is prosecuted as an alternative to an AMP, never for the same
-instance. C-12 raised criminal fines to roughly **C$2.5M to C$20M** depending on the
-offence, with imprisonment available and no statutory cumulative cap.
+**Criminal non-compliance** is prosecuted as an alternative to an AMP, never for the same instance. C-12
+raised the fines, which vary by offence and by mode of prosecution:
+
+| Provision | Conduct | Summary conviction | Indictment |
+|---|---|---|---|
+| s.76 | Contravening s.8 (disclosure) | up to C$1,000,000 | up to C$2,500,000 |
+| s.74 | Knowingly contravening the listed record-keeping, identification and program provisions | up to C$2,500,000 | up to C$5,000,000 |
+| s.75 | Contravening s.7 or 7.1 (suspicious / terrorist-property reporting) | up to C$10,000,000 | up to C$20,000,000 |
+| s.77(1) | Contravening s.9(1) or (3) (prescribed transaction reporting) | up to C$10,000,000 | summary only |
+
+Imprisonment is available on each (s.76: up to 1 year summary / 2 years indictment; ss.74–75: up to 2 years
+less a day summary / 5 years indictment). There is no statutory cumulative cap.
 
 Public naming is **mandatory**: since Bill C-97 (Royal Assent June 21, 2019), s. 73.22 of
 the Act requires FINTRAC to publish the name, nature of violation and penalty amount.

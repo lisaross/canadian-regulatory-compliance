@@ -80,11 +80,11 @@ Identify and verify every client before providing services:
 | Report Type | Trigger | Deadline |
 |-------------|---------|---------|
 | Large Cash Transaction Report (LCTR) | Receipt of $10,000+ in cash in a single transaction (or aggregated under the 24-hour rule) | Within 15 calendar days |
-| Large Virtual Currency Transaction Report (LVCTR) | Receipt of $10,000+ in virtual currency | Within 5 working days |
-| Electronic Funds Transfer Report (EFTR) | International EFT of $10,000+ initiated or finally received | Within 5 working days |
+| Large Virtual Currency Transaction Report (LVCTR) | Receipt of $10,000+ in virtual currency in a single transaction (or aggregated under the 24-hour rule) | Within 5 working days |
+| Electronic Funds Transfer Report (EFTR) | International EFT of $10,000+ initiated or finally received in a single transaction (or aggregated under the 24-hour rule) | Within 5 working days |
 | Suspicious Transaction Report (STR) | Reasonable grounds to suspect money laundering, terrorist activity financing, **or sanctions evasion** | As soon as practicable after completing the measures that establish RGS — no fixed outer limit; delay requires a suitable explanation |
 | Listed Person or Entity Property Report | Knowledge or reasonable grounds to believe property is owned/controlled by or on behalf of a terrorist, terrorist group, listed person or entity, or foreign state | Immediately upon discovery |
-| Casino Disbursement Report | Casino disburses $10,000+ | Within 15 calendar days |
+| Casino Disbursement Report | Casino disburses $10,000+ in a single transaction (or aggregated under the 24-hour rule) | Within 15 calendar days |
 
 **Tipping off (prohibition):** Do not disclose to a client, or anyone else, the contents of
 an STR or the fact that one has been or will be filed, where the intent is to prejudice a
@@ -169,9 +169,10 @@ Deadlines differ for venture and non-venture issuers (NI 51-102):
     assets **include** the principal residence and the mortgage on it
 - **Offering memorandum (OM):** Available in most provinces; investor eligibility criteria and risk acknowledgement required
 - **Friends, family and business associates:** Restricted to close relationships with a director, officer, founder, or control person
-- **Minimum amount investment** (s. 2.10): acquisition cost of at least **$150,000** in
-  cash, securities of a single issuer, purchaser as principal. **Not available to
-  individuals** — non-individuals only, since the 2015 amendments.
+- **Minimum amount investment** (s. 2.10): the securities acquired must be those of a **single issuer**, and
+  the acquisition cost of at least **$150,000** must be **paid in cash at the time of the distribution** —
+  securities cannot be tendered as payment. **Not available to individuals** — non-individuals only, since
+  the 2015 amendments.
 
 ## Reference Files
 
