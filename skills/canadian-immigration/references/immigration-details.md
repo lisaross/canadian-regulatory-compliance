@@ -146,5 +146,9 @@ For positions in Quebec lasting **more than 30 consecutive days**:
 
 - **Language:** CLB/NCLC **7** (university), CLB/NCLC **5** (college/polytechnic/non-university), for PGWP applications submitted on/after **Nov 1, 2024**
 - **Field of study:** applicants whose **study permit application** was submitted on/after **Nov 1, 2024** and who graduated from a non-degree program must have graduated in an **eligible field of study** tied to occupations in long-term shortage. Bachelor's/master's/doctoral graduates exempt from the field-of-study requirement
-- Flight school graduates exempt from both
+- Graduates of a **PGWP-eligible flight school** are exempt from **both** the language and field-of-study
+  requirements — but only where the graduate either (a) completed a flight training course at a DLI training
+  centre and holds a **Canadian commercial pilot's licence**, or (b) holds or is obtaining an **instructor's
+  rating** and has a job offer as a flight instructor from a DLI flight training centre. Flight-school
+  graduates who meet neither condition are **not** exempt.
 - **Study permit cap context:** IRCC expects to issue up to **408,000** study permits in 2026 (437,000 in 2025; 485,000 in 2024), with **309,670** application spaces for PAL/TAL-required cohorts. Master's and doctoral students at public DLIs became **PAL/TAL-exempt Jan 1, 2026**. Quebec applicants use a **CAQ** instead of a PAL
