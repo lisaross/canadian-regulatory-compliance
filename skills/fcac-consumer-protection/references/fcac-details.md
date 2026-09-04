@@ -186,6 +186,12 @@ FCAC must also consider duration and ability to pay. The stated purpose is to **
 
 **Typical violation categories:** failure to provide required cost-of-borrowing disclosure; charging a fee not disclosed in the fee disclosure document; increasing a credit limit without express consent; negative-option billing; failure to maintain a compliant complaint process; failure to refer a consumer to OBSI; providing false or misleading information.
 
-**Mandatory naming.** Since April 30, 2020 the Commissioner **must** publicly name an institution found in violation, with the nature of the violation and the penalty. Reputational consequences routinely exceed the monetary penalty.
+**Publication (s.31(1)).** Since April 30, 2020 the Commissioner **shall**, *subject to any
+regulations*, make public the nature of a violation, the name of the person who committed it and the
+amount of the penalty. Regulations under s.19(1)(c.1) may prescribe circumstances in which the name
+is not published, and the Commissioner weighs factors including egregiousness, acceptance of
+responsibility, consumer impact, deterrence, collaboration and remediation — names have been withheld
+on that basis (e.g. Commissioner's Decision #125, September 2025). Reputational consequences
+routinely exceed the monetary penalty.
 
 **Practical note.** Actual AMPs have been well below the ceiling. In February 2026 the Federal Court set aside a $1.6M AMP in part because the Commissioner applied the post-2020 $10M ceiling retrospectively to conduct that was 95% pre-amendment. Pre-2020 ceilings were $200,000 (Jan 1, 2010 – May 23, 2012) and $500,000 (May 24, 2012 – Apr 19, 2020).

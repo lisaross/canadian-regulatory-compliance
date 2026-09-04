@@ -22,7 +22,10 @@ The **Financial Consumer Agency of Canada (FCAC)** is the federal regulator resp
 
 FCAC enforces the consumer provisions of the **Bank Act**, **Insurance Companies Act**, **Trust and Loan Companies Act**, and **FCAC Act**. It does not regulate provincial credit unions, insurance brokers, or payday lenders — those fall under provincial jurisdiction.
 
-**FCAC powers:** Investigate complaints → Issue compliance agreements → Mandatory public naming of institutions found in violation → Impose administrative monetary penalties up to **$10 million per violation** for a financial institution ($1 million for a natural person), under FCAC Act s.19(2) (ceiling in force since April 30, 2020). Actual penalties are set using FCAC's published AMP Framework, which bands amounts by harm, negligence/intent and violation history — $10M is a statutory ceiling, not a typical outcome.
+**FCAC powers:** Investigate complaints → Issue compliance agreements → Publication of enforcement outcomes — under FCAC Act **s.31(1)** the Commissioner **shall**, subject
+to any regulations, make public the nature of a violation, the name of the person who committed it
+and the penalty imposed; regulations made under s.19(1)(c.1) may prescribe circumstances in which the
+name is **not** published, and the Commissioner has withheld names in practice → Impose administrative monetary penalties up to **$10 million per violation** for a financial institution ($1 million for a natural person), under FCAC Act s.19(2) (ceiling in force since April 30, 2020). Actual penalties are set using FCAC's published AMP Framework, which bands amounts by harm, negligence/intent and violation history — $10M is a statutory ceiling, not a typical outcome.
 
 ---
 
@@ -128,7 +131,11 @@ The following disclosure requirements apply under this framework:
 - **Prepayment privileges** — what the borrower is permitted to prepay without penalty
 - **Prepayment penalty** — how it is calculated if the borrower exceeds privileges or breaks the mortgage
 
-**After signing:** Banks that are CBA members follow the voluntary **Code of Conduct for FRFIs: Mortgage prepayment information**, under which lenders provide an annual statement showing prepayment privileges, the dollar amount prepayable without charge, how the prepayment charge is calculated with examples, and customized figures valid as of the statement date. This is a code commitment, not a Bank Act requirement.
+**After signing:** Under the voluntary **Code of Conduct for Federally Regulated Financial
+Institutions: Mortgage Prepayment Information**, adhering FRFIs provide an annual statement showing
+prepayment privileges, the dollar amount prepayable without charge, how the prepayment charge is
+calculated with examples, and customized figures valid as of the statement date. This is a code
+commitment, not a Bank Act requirement.
 
 ### Personal Loans and Lines of Credit
 - Annual percentage rate (APR) or annual interest rate
