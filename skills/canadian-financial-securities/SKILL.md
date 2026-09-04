@@ -33,8 +33,9 @@ Under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (PCML
 - Life insurance companies and brokers/agents
 - Securities dealers
 - Money services businesses (MSBs) — including virtual currency exchange, crowdfunding
-  platform services, armoured car services (since July 2024) and cheque cashing
-  (since April 1, 2025); foreign MSBs are separately registrable
+  platform services, armoured car services (since July 2024), cheque cashing
+  (since April 1, 2025) and **acquirer services in relation to private automated banking machines
+  (since October 1, 2025)**; foreign MSBs are separately registrable
 - Real estate brokers/agents and developers
 - Mortgage administrators, brokers and lenders (since October 2024)
 - Factoring companies (since April 1, 2025)
@@ -63,11 +64,16 @@ Identify and verify every client before providing services:
   establish source of funds/virtual currency AND source of wealth; senior management
   **approval** to keep an account open, or senior management **review** of a reportable
   transaction; enhanced ongoing monitoring.
-- **Domestic PEPs and HIOs** (and family members/close associates): a determination is
-  always required. Where your risk assessment rates the person **high risk**, the same
-  prescribed measures apply as for foreign PEPs.
-- Timing: measures must be completed within **30 days** of opening the account, detecting
-  the fact, or conducting the transaction.
+- **Domestic PEPs and HIOs** (and family members/close associates): for account-based sectors
+  (financial entities, securities dealers, casinos) you must take **reasonable measures** to make a
+  determination **at account opening, during periodic monitoring of existing account holders, and
+  when you detect a fact** giving reasonable grounds to suspect a PEP/HIO connection (s.119).
+  Where your risk assessment rates the person **high risk**, the same prescribed measures apply as
+  for foreign PEPs.
+- Timing: where the measures are triggered, they — including establishing source of funds/virtual
+  currency and source of wealth and obtaining senior-management approval to keep the account open —
+  must be completed within **30 days** after the day the account is opened or the fact is detected
+  (s.121(3)).
 
 **4. Reporting Requirements**
 
