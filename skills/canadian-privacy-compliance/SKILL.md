@@ -84,7 +84,12 @@ example for a new secondary purpose — is not itself invalid.
 
 Under PIPEDA, personal information may be transferred to a third party (including outside Canada) for processing. The transferring organization remains **accountable** for protection during transfer. Use contractual safeguards (data processing agreements, standard contractual clauses equivalent). No PIPEDA prohibition on transfers to specific countries, but organizations must inform individuals transfers may occur and ensure comparable protection.
 
-Quebec Law 25 **adds**: a privacy impact assessment (PIA) is required before transferring personal information outside Quebec. If the PIA reveals inadequate protection, the transfer cannot proceed unless justified and safeguards are in place. The communication must also be the subject of a **written agreement** reflecting the PIA's results and any agreed risk-mitigation terms (s.17).
+Quebec Law 25 **adds**: a privacy impact assessment (PIA) is required before communicating personal
+information outside Quebec, weighing the sensitivity of the information, the purposes of its use, the
+protection measures (including contractual ones) and the legal framework of the receiving State (s.17). The
+information **may be communicated only if the assessment establishes that it would receive adequate
+protection** — there is no override for a failed assessment. The communication must also be the subject of a
+**written agreement** reflecting the assessment's results and any agreed risk-mitigation terms (s.17).
 
 ## Privacy Impact Assessments (PIAs)
 
