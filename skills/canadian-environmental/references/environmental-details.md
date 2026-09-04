@@ -78,7 +78,7 @@ Before starting a new project, answer these questions to determine if an environ
 - [ ] Is the project on federal lands, financed by a federal authority, or to be carried out outside Canada? *(Engages the separate ss. 81–91 environmental effects determination scheme, upheld in 2023 SCC 23 — a lighter process than a designated-project assessment.)*
 - [ ] Is there a **cooperation or substitution agreement** with the province?
 
-If any "yes" → contact the Impact Assessment Agency of Canada early and submit an Initial Project Description.
+A "yes" to the Project List or federal-effects questions → contact the Impact Assessment Agency early and submit an Initial Project Description. A "yes" only to the federal lands / federal funding / outside-Canada question → the separate ss.81–91 effects-determination process applies, in which the federal authority (not the proponent) makes the determination. A Building Canada Act Schedule 1 listing → engage the Major Projects Office for the consolidated conditions document.
 
 ### Ontario — EA Trigger Questions
 - [ ] Is the project a provincial undertaking (transit, energy, waste management, road)?

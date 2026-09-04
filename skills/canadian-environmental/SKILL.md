@@ -52,9 +52,7 @@ Carbon pricing in Canada is now **industrial-only** — the federal consumer fue
 - **Federal OBPS backstop jurisdictions as of 2026:** Prince Edward Island, Manitoba, Yukon, Nunavut.
 
 **Industrial carbon price trajectory — updated May 15, 2026**
-- New headline trajectory for **all** industrial systems: $95 (2026), $100 (2027–2029), $115 (2030), $118 (2031) … $130 (2035), then a 1.5%/yr escalator ending at **$140 in 2040**.
-- This replaces the former "$15/yr to $170/tonne in 2030" schedule. A full updated federal benchmark is to be published later in 2026.
-- **Caution:** GGPPA Schedule 4 (the federal OBPS excess emissions charge) still reads $110 for 2026 rising to $170 for 2030 and had not been amended as of this writing. Confirm the operative rate for the specific compliance year and system before advising.
+- Announced benchmark trajectory (May 15, 2026) that provincial and federal industrial systems are expected to meet: $95 (2026), $100 (2027–2029), $115 (2030) … $140 (2040). This is the policy benchmark, not yet the enacted federal charge: GGPPA Schedule 4 still sets the federal OBPS excess-emissions charge at $110 for 2026 rising to $170 in 2030 until amended. Alberta's TIER fund price is separately frozen at $95. Confirm the operative rate for the specific system and compliance year.
 
 ### Provincial Carbon Pricing Systems (Meeting Federal Benchmark)
 
