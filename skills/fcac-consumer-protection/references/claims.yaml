@@ -1,0 +1,345 @@
+skill: fcac-consumer-protection
+last_verified: 2026-09-11
+claims:
+  - id: fcac-amp-ceiling
+    statement: "FCAC administrative monetary penalty statutory ceiling (FCAC Act s.19(2))"
+    value: "$10,000,000 per violation for a financial institution or payment card network operator; $1,000,000 for a natural person; ceiling in force since April 30, 2020"
+    where: "SKILL.md — Overview (FCAC powers); references/fcac-details.md — FCAC Administrative Monetary Penalties"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/F-8.7/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-amp-framework-bands
+    statement: "FCAC AMP Framework penalty bands"
+    value: "Harm: some $0–2,000,000 / significant $2,000,000–4,000,000 / very significant $4,000,000–6,000,000. Negligence or intent: $0–500,000 / $500,000–1,000,000 / $1,000,000–2,000,000. Violation history: $0–500,000 / $500,000–1,000,000 / $1,000,000–2,000,000"
+    where: "references/fcac-details.md — FCAC Administrative Monetary Penalties"
+    source: "https://www.canada.ca/en/financial-consumer-agency.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-amp-historic-ceilings
+    statement: "Pre-2020 FCAC AMP ceilings and recent judicial treatment"
+    value: "$200,000 (Jan 1, 2010 – May 23, 2012) and $500,000 (May 24, 2012 – Apr 19, 2020); in February 2026 the Federal Court set aside a $1.6M AMP in part for retrospective application of the post-2020 $10M ceiling"
+    where: "references/fcac-details.md — FCAC Administrative Monetary Penalties > Practical note"
+    source: "https://www.canada.ca/en/financial-consumer-agency.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; litigation outcome may be appealed"
+
+  - id: fcac-nsf-fee-cap
+    statement: "NSF fee cap on personal deposit accounts (FCPF Regs s.10.1, SOR/2025-96)"
+    value: "Maximum $10 per NSF occurrence, in force March 12, 2026 (down from the $45–$50 charged before)"
+    where: "SKILL.md — Core Consumer Rights Under the Bank Act > NSF Fees; references/fcac-details.md — NSF Fee Compliance Guide"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-nsf-frequency-and-floor
+    statement: "NSF fee frequency limit and de minimis overdraft exemption"
+    value: "No more than one NSF fee within 2 business days for the same personal deposit account; no NSF fee at all where the account is in unauthorized overdraft by less than $10"
+    where: "SKILL.md — Core Consumer Rights Under the Bank Act > NSF Fees"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-nsf-alert-not-in-force
+    statement: "Status of the proposed pre-NSF-fee electronic alert and grace period"
+    value: "The Canada Gazette Part I draft (November 16, 2024) proposed a pre-fee electronic alert and a 3-hour grace period; dropped from the final regulations and not in force"
+    where: "SKILL.md — NSF Fees; references/fcac-details.md — NSF Fee Compliance Guide > What is NOT in force"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-cheque-hold-periods
+    statement: "Cheque hold period caps (Access to Funds Regulations, SOR/2012-24)"
+    value: "$1,500 or less: 4 business days in person with an employee, 5 business days any other way. More than $1,500: 7 business days in person, 8 business days any other way"
+    where: "SKILL.md — Core Consumer Rights Under the Bank Act > Cheque Hold Periods"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2012-24/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-cheque-first-100
+    statement: "Immediate availability of the first portion of a deposited cheque"
+    value: "First $100 available immediately if deposited in person with an employee; on the business day following the deposit if deposited any other way; a cheque for $100 or less must be made available in full"
+    where: "SKILL.md — Core Consumer Rights Under the Bank Act > Cheque Hold Periods"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2012-24/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-goc-cheque-cashing
+    statement: "Free cashing of Government of Canada cheques"
+    value: "Up to $1,750 free, even for non-customers, on acceptable ID — since June 30, 2022 (raised from $1,500)"
+    where: "SKILL.md — Core Consumer Rights Under the Bank Act > Cheque Hold Periods"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-account-refusal-lookback
+    statement: "Look-back period for refusing to open a retail deposit account on fraud history grounds (Bank Act s.627.18)"
+    value: "A history of illegal or fraudulent activity in relation to financial service providers in the past 7 years — a history of activity, not a criminal conviction"
+    where: "SKILL.md — Core Consumer Rights Under the Bank Act > Right to Open a Retail Deposit Account"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/B-1.01/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-cancellation-windows
+    statement: "Cooling-off / cancellation windows for bank products"
+    value: "Ongoing product by mail or telephone: end of the 14th business day (s.627.1(1)(a)); any other way: end of the 3rd business day (s.627.1(1)(b)); retail deposit account: 14 business days of opening; non-retail deposit account: 14 business days; deposit-type instrument (e.g. GIC): 10 business days of issuance; optional product: any time, effective at end of billing cycle or 30 days after notice, whichever is earlier"
+    where: "SKILL.md — Core Consumer Rights Under the Bank Act > Cancellation Rights (Cooling-Off Periods)"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-cob-regs-repeal
+    statement: "Repeal of the Cost of Borrowing (Banks) Regulations and successor framework"
+    value: "SOR/2001-101 repealed effective June 29, 2022; bank cost-of-borrowing disclosure now sits in Bank Act Part XII.2 (ss. 627.57, 627.89 and following) and the FCPF Regulations (SOR/2021-181), in force June 30, 2022. Cost of Borrowing Regulations still apply to trust and loan companies and insurance companies (SOR/2001-104 and equivalents)"
+    where: "SKILL.md — Cost of Borrowing — Disclosure Requirements"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-fcpf-in-force
+    statement: "Financial Consumer Protection Framework in-force date and scale"
+    value: "In force June 30, 2022; Bank Act Part XII.2 and FCPF Regulations (SOR/2021-181) introduced more than 60 new and enhanced consumer measures"
+    where: "SKILL.md — The Financial Consumer Protection Framework"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-credit-card-grace-period
+    statement: "Minimum credit card interest-free grace period on new purchases"
+    value: "21 days, if the previous balance was paid in full"
+    where: "SKILL.md — Credit Card Specific Protections"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-credit-limit-increase-consent
+    statement: "Consent required for credit limit increases"
+    value: "Unsolicited increases prohibited; express consent required for each individual increase at the time of the increase (Credit Business Practices Regulations s.6; FCAC Commissioner Guidance CG-5 — blanket or evergreen pre-consent does not satisfy express consent)"
+    where: "SKILL.md — Credit Card Specific Protections"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2009-257/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-minimum-payment-warning
+    statement: "Credit card statement minimum-payment disclosure requirement (FCPF Regs s.66(1)(e))"
+    value: "Estimated time, in months and years, to pay the outstanding balance in full if only the minimum payment is made; total interest cost is not a prescribed element. Not required where the agreement requires the balance to be paid in full each month"
+    where: "SKILL.md — Cost of Borrowing > Credit Cards; references/fcac-details.md — Credit Card Disclosure Template Review"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-complaint-escalation-14-days
+    statement: "Internal escalation trigger in bank complaint handling"
+    value: "If not dealt with within 14 calendar days, escalate internally to a designated employee with the experience, competence and authority for complex complaints"
+    where: "SKILL.md — Complaint Handling — Tiered Process > Tier 1"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-complaint-56-days
+    statement: "Prescribed period to deal with a bank consumer complaint"
+    value: "56 calendar days of the day received (Bank Act s.627.43; FCPF Regs s.14); the period may not be paused for any reason"
+    where: "SKILL.md — Complaint Handling — Tiered Process > Tier 1"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-revised-complaint-guideline
+    statement: "Revised FCAC Complaint-Handling Guideline publication and implementation dates"
+    value: "Published June 23, 2026; implementation date June 23, 2027. Introduces the Notice of Acknowledgement and Notice of Final Decision, shifts reimbursement to remediation on a harm basis, and adds ECB information-sharing duties"
+    where: "SKILL.md — Complaint Handling — Tiered Process > Tier 1"
+    source: "https://www.canada.ca/en/financial-consumer-agency.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; in-force date falls within the next review cycle"
+
+  - id: fcac-single-ecb-obsi
+    statement: "External Complaints Body designation"
+    value: "Since November 1, 2024 OBSI is Canada's single, sole ECB for all federally regulated banks; designated by the Minister of Finance in October 2023; the six banks that used ADRBO (RBC, TD, Scotiabank, National Bank, Tangerine, Digital Commerce Bank) transferred to OBSI; ADRBO no longer acts as an ECB"
+    where: "SKILL.md — Complaint Handling — Tiered Process > Tier 2"
+    source: "https://www.canada.ca/en/financial-consumer-agency.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-obsi-escalation-deadlines
+    statement: "OBSI escalation and decision deadlines"
+    value: "Consumer may escalate at the earlier of the 56-day period elapsing or receipt of the Notice of Final Decision, and has 180 days from the final response; OBSI must advise in writing within 30 calendar days if a complaint is outside its terms of reference, and make a final written recommendation within 120 calendar days of receiving the information needed; free summary published 90 days after a final recommendation"
+    where: "SKILL.md — Complaint Handling — Tiered Process > Tier 2"
+    source: "https://www.obsi.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-obsi-max-compensation
+    statement: "OBSI maximum recommended compensation"
+    value: "$350,000 as of 2026; recommendations are not binding. The 2026 Independent External Review recommended $550,000 with inflation indexing plus binding authority — not adopted"
+    where: "SKILL.md — Complaint Handling — Tiered Process > Tier 2"
+    source: "https://www.obsi.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Under active review — the $550,000 recommendation could be adopted."
+
+  - id: fcac-complaint-reporting-cadence
+    statement: "Regulatory reporting cadences under the FCPF"
+    value: "Complaint records retained 7 years; complaint data filed quarterly, within 60 days of quarter-end; public accountability statements within 135 days of financial year end; reportable compliance issues within 60 days of being reported to compliance"
+    where: "SKILL.md — The Financial Consumer Protection Framework > Regulatory reporting"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-reportable-compliance-thresholds
+    statement: "Thresholds that make a compliance issue reportable to FCAC"
+    value: "More than 120 days to fix, or more than 250 consumers affected, or ongoing more than 1 year before detection"
+    where: "SKILL.md — The Financial Consumer Protection Framework > Regulatory reporting"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-electronic-alerts-threshold
+    statement: "Mandatory electronic low-balance / low-credit alert threshold"
+    value: "Without delay when a chequing or savings balance falls below $100 (or a consumer-set amount), and when available credit on a card or line of credit falls below $100; automatic, opt-out in writing; not for business accounts"
+    where: "SKILL.md — The Financial Consumer Protection Framework > Electronic alerts"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-renewal-reminders
+    statement: "Renewal and promotional-offer reminder timing"
+    value: "Terms of 30 days or more: 21 days and 5 days before end of term; under 30 days: one reminder 5 days before. Excludes mortgages secured on real property and business products"
+    where: "SKILL.md — The Financial Consumer Protection Framework > Renewal and promotional-offer reminders"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2021-181/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-low-cost-account-commitment
+    statement: "Modernized Commitment on Low-Cost and No-Cost Accounts"
+    value: "Effective December 1, 2025 (replacing 2014), 14 signatories including the six largest banks. Low-cost chequing at no more than $4/month, at least 18 debit transactions, no minimum balance, free digital statements, no switching fee"
+    where: "SKILL.md — Adjacent Regimes to Flag; references/fcac-details.md — NSF Fee Compliance Guide > Related affordability measures"
+    source: "https://www.canada.ca/en/financial-consumer-agency.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-no-cost-account-eligibility
+    statement: "Eligibility for $0/month no-cost accounts under the modernized Commitment"
+    value: "$0/month mandatory for youth, students, GIS-receiving seniors, RDSP beneficiaries and newcomers in their first year, plus at least one of: Indigenous peoples, Disability Tax Credit recipients, or recipients of certain provincial/territorial social assistance"
+    where: "SKILL.md — Adjacent Regimes to Flag"
+    source: "https://www.canada.ca/en/financial-consumer-agency.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-bank-fees-report
+    statement: "Directed FCAC report on Canadian bank fees"
+    value: "The government has directed FCAC to publish a report on the structure, level and transparency of Canadian bank fees during 2026"
+    where: "references/fcac-details.md — NSF Fee Compliance Guide > Related affordability measures"
+    source: "https://www.canada.ca/en/financial-consumer-agency.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; report due during 2026 — check whether it has been published"
+
+  - id: fcac-criminal-interest-rate
+    statement: "Criminal interest rate under Criminal Code s.347"
+    value: "35% APR since January 1, 2025 (down from 60% EAR, approximately 48% APR); basis moved from EAR to APR; offering or advertising credit above the rate is itself an offence"
+    where: "SKILL.md — Adjacent Regimes to Flag > Criminal interest rate"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-46/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-payday-loan-cap
+    statement: "Payday loan and exempted-loan caps (Criminal Interest Rate Regulations, SOR/2024-114)"
+    value: "Payday loan cost of borrowing capped at $14 per $100; commercial loans over $500,000 exempt (no cap); commercial loans $10,000–$500,000 at 48% APR; pawn loans under $1,000 at 48% APR"
+    where: "SKILL.md — Adjacent Regimes to Flag > Criminal interest rate"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2024-114/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: fcac-payment-card-code
+    statement: "Code of Conduct for the Payment Card Industry in Canada — effective dates and merchant complaint deadlines"
+    value: "Effective October 30, 2024 (balance April 30, 2025), replacing the 2015 Code. Merchant complaints acknowledged within 5 business days, investigated and addressed within 20 business days (30 for PCNOs), semi-annual reporting to FCAC"
+    where: "SKILL.md — Adjacent Regimes to Flag > Code of Conduct for the Payment Card Industry"
+    source: "https://www.canada.ca/en/financial-consumer-agency.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-rpaa-dates
+    statement: "Retail Payment Activities Act key dates and registration fee"
+    value: "Registration provisions in force November 1, 2024; PSPs had to apply by November 15, 2024; risk-management and funds-safeguarding requirements in force September 8, 2025; registration fee $2,500 (indexed); supervised by the Bank of Canada, not FCAC"
+    where: "SKILL.md — Adjacent Regimes to Flag > Retail Payment Activities Act"
+    source: "https://www.bankofcanada.ca/core-functions/retail-payments-supervision/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "Registration fee is indexed — re-check the current amount annually."
+
+  - id: fcac-consumer-driven-banking
+    statement: "Consumer-Driven Banking Act status"
+    value: "The 2024 first tranche was repealed and replaced by a new Act via Bill C-15, Royal Assent March 26, 2026 (S.C. 2026, c. 3, s. 224). Oversight moved from FCAC to the Bank of Canada. Draft regulations pre-published in Canada Gazette Part I on June 27, 2026. Phase 1 is read access only; phase 2 (write access / payment initiation) targeted mid-2027, contingent on Real-Time Rail. AMPs up to $10M for participating entities, $1M for individuals. The screen-scraping prohibition is enacted but not yet in force"
+    where: "SKILL.md — Adjacent Regimes to Flag > Consumer-Driven Banking Act"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; draft regulations pre-published June 27, 2026 — final regulations expected, and the screen-scraping prohibition may be brought into force"
+
+  - id: fcac-mortgage-relief-guideline
+    statement: "FCAC Guideline on Existing Consumer Mortgage Loans in Exceptional Circumstances"
+    value: "Published and effective July 5, 2023; FRFIs report quarterly to FCAC on at-risk accounts, proactive contact, and relief measures"
+    where: "SKILL.md — Mortgage Prepayment Rights"
+    source: "https://www.canada.ca/en/financial-consumer-agency.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fcac-cg9-prepayment-disclosure
+    statement: "Commissioner Guidance CG-9 on mortgage prepayment disclosure"
+    value: "In effect since March 2013; requires an information box at the beginning of the mortgage agreement, the manner in which the charge is calculated and a description of each component of the formula, and a simplified calculation or example where the calculation is inherently complex"
+    where: "SKILL.md — Mortgage Prepayment Rights"
+    source: "https://www.canada.ca/en/financial-consumer-agency.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
