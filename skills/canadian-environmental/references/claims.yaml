@@ -1,0 +1,372 @@
+skill: canadian-environmental
+last_verified: 2026-09-11
+claims:
+  - id: env-obps-charge-2024
+    statement: "GGPPA Schedule 4 federal OBPS excess emissions charge — 2024"
+    value: "$80 per tonne CO2e"
+    where: "references/environmental-details.md — Federal OBPS Annual Compliance Cycle"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/G-11.55/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed; Schedule 4 rates are legislated but the May 2026 benchmark trajectory will require an amendment."
+
+  - id: env-obps-charge-2025
+    statement: "GGPPA Schedule 4 federal OBPS excess emissions charge — 2025"
+    value: "$95 per tonne CO2e"
+    where: "references/environmental-details.md — Federal OBPS Annual Compliance Cycle"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/G-11.55/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-obps-charge-2026
+    statement: "GGPPA Schedule 4 federal OBPS excess emissions charge — 2026"
+    value: "$110 per tonne CO2e"
+    where: "SKILL.md — Industrial carbon price trajectory; references/environmental-details.md — Federal OBPS Annual Compliance Cycle"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/G-11.55/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed; skill flags that the enacted Schedule 4 rate ($110) diverges from the May 2026 announced benchmark ($95 for 2026)."
+
+  - id: env-obps-charge-2027-2030
+    statement: "GGPPA Schedule 4 federal OBPS excess emissions charge — 2027 through 2030"
+    value: "2027 $125, 2028 $140, 2029 $155, 2030 $170 per tonne CO2e"
+    where: "references/environmental-details.md — Federal OBPS Annual Compliance Cycle"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/G-11.55/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed; subject to amendment to reflect the May 15, 2026 trajectory."
+
+  - id: env-industrial-benchmark-trajectory-2026
+    statement: "Announced industrial carbon price benchmark trajectory (May 15, 2026)"
+    value: "$95 (2026), $100 (2027-2029), $115 (2030) … $140 (2040) — policy benchmark, not the enacted federal charge"
+    where: "SKILL.md — Industrial carbon price trajectory — updated May 15, 2026"
+    source: "https://www.canada.ca/en/environment-climate-change.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-fuel-charge-removed
+    statement: "Federal consumer fuel charge status"
+    value: "Rates set to $0 effective April 1, 2025; permanently removed by Bill C-4 (Royal Assent March 12, 2026)"
+    where: "SKILL.md — Federal Carbon Pricing: Industrial Only — Fuel Charge (consumer-facing) — REMOVED"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/G-11.55/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-fuel-charge-residual-sunset
+    statement: "Sunset of fuel charge inspection, assessment, penalty, collection and confidentiality provisions"
+    value: "Continue to apply until April 1, 2035; returns and amounts owing for periods before April 1, 2025 remain due"
+    where: "SKILL.md — Federal Carbon Pricing: Industrial Only — Residual obligation"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/G-11.55/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-obps-coverage-threshold
+    statement: "Federal OBPS mandatory coverage and opt-in thresholds"
+    value: "50,000+ tonnes CO2e/year reported (2014 or later) in a backstop jurisdiction; opt-in at 10,000+ tonnes in certain sectors, requests due July 15 for the following year; registration within 30 days of meeting criteria"
+    where: "SKILL.md — Output-Based Pricing System (OBPS) — STILL IN FORCE"
+    source: "https://www.canada.ca/en/environment-climate-change.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-obps-backstop-jurisdictions
+    statement: "Jurisdictions where the federal OBPS backstop applies"
+    value: "Prince Edward Island, Manitoba, Yukon, Nunavut (as of 2026); Saskatchewan paused its industrial system effective April 1, 2025"
+    where: "SKILL.md — Federal OBPS backstop jurisdictions as of 2026; Provincial vs. federal industrial coverage (2026)"
+    source: "https://www.canada.ca/en/environment-climate-change.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-obps-compliance-deadlines
+    statement: "Federal OBPS reporting and compensation deadlines"
+    value: "Emissions report by June 1; regular-rate compensation deadline December 15; increased-rate deadline February 15; missing December 15 multiplies the remaining obligation by 4; records retained 7 years"
+    where: "references/environmental-details.md — Federal OBPS Annual Compliance Cycle"
+    source: "https://www.canada.ca/en/environment-climate-change.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-bc-carbon-tax-eliminated
+    statement: "British Columbia consumer carbon tax status"
+    value: "Eliminated effective April 1, 2025; all carbon tax accounts closed; climate action tax credit cancelled with final payment April 2025"
+    where: "SKILL.md — British Columbia — Carbon Tax ELIMINATED; B.C. OBPS in force"
+    source: "https://www2.gov.bc.ca/gov/content/taxes"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-bc-obps
+    statement: "B.C. Output-Based Pricing System coverage, tightening rate and key dates"
+    value: "In force since April 1, 2024 under GGIRCA; covers operations emitting 10,000+ tCO2e/year (opt-in below); tightening rate 1%/yr on the reduction factor (0% for industrial process emissions); May 31 reporting, Nov 1 invoices, Nov 30 compliance"
+    where: "SKILL.md — British Columbia — Carbon Tax ELIMINATED; B.C. OBPS in force"
+    source: "https://www2.gov.bc.ca/gov/content/environment/climate-change"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-ab-tier-fund-price
+    statement: "Alberta TIER Fund price"
+    value: "$95 per tonne, frozen indefinitely since May 12, 2025; Canada-Alberta Implementation Agreement (May 15, 2026) path rises to $140 in 2040"
+    where: "SKILL.md — Alberta — TIER; references/environmental-details.md — Alberta TIER Annual Compliance Cycle"
+    source: "https://www.alberta.ca/technology-innovation-and-emissions-reduction-regulation"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-ab-tier-thresholds
+    statement: "Alberta TIER mandatory and opt-in thresholds"
+    value: "Mandatory at 100,000+ tonnes CO2e in 2016 or any later year, or import of more than 10,000 tonnes of hydrogen annually; opt-in threshold 2,000 tonnes CO2e (lowered from 10,000 in 2023) for EITE sectors"
+    where: "SKILL.md — Alberta — TIER; references/environmental-details.md — Alberta TIER Annual Compliance Cycle"
+    source: "https://www.alberta.ca/technology-innovation-and-emissions-reduction-regulation"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-ab-tier-stringency-credit-limit
+    statement: "Alberta TIER benchmark tightening rate and credit use limit"
+    value: "Stringency tightens 2%/yr from 2023 (1%/yr 2020-2022); oil sands mining, upgrading and in-situ tighten 4%/yr in 2029-2030; credit use limited to 90% of total compliance obligation from 2026 onward"
+    where: "SKILL.md — Alberta — TIER"
+    source: "https://www.alberta.ca/technology-innovation-and-emissions-reduction-regulation"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-ab-tier-direct-investment
+    statement: "Alberta TIER on-site direct investment compliance option (OC 369/2025)"
+    value: "Added by December 2025 amendments; credits limited to 50% of eligible capital and up to 50% of attributable operating costs, net of other government support; Cost Containment Program application deadline March 31 of the following year"
+    where: "references/environmental-details.md — Alberta TIER Annual Compliance Cycle"
+    source: "https://www.alberta.ca/technology-innovation-and-emissions-reduction-regulation"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-iaa-in-force-2024
+    statement: "Impact Assessment Act amendments in force date and constitutional precondition"
+    value: "Amended IAA in force June 20, 2024 following Reference re Impact Assessment Act, 2023 SCC 23 (October 13, 2023); Agency cannot require an assessment unless satisfied the project may cause non-negligible adverse federal effects"
+    where: "SKILL.md — Federal — Impact Assessment Act (IAA), as amended June 2024"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/I-2.75/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-iaa-designated-thresholds
+    statement: "IAA designated project thresholds (selected)"
+    value: "Coal, diamond and metal mines and metal mills 5,000+ t/day; rare earth element mines 2,500 t/day; quarries and sand/gravel pits 3,500,000 t/year; oil sands 10,000+ m3/day; pipelines, all-season highways and 345 kV+ international transmission lines requiring 75+ km of new right of way"
+    where: "SKILL.md — Designated projects include (selected)"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2019-285/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; thresholds sit in the Physical Activities Regulations (Project List)."
+
+  - id: env-building-canada-act
+    statement: "Building Canada Act national interest project overlay"
+    value: "Bill C-5, Royal Assent June 26, 2025; for Schedule 1 projects IAA ss. 9-17 and 18(3)-(6) do not apply; single conditions document; target federal review within 2 years"
+    where: "SKILL.md — Building Canada Act overlay (Bill C-5, RA June 26, 2025)"
+    source: "https://laws-lois.justice.gc.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-bc-reviewable-projects-reg
+    statement: "BC Reviewable Projects Regulation version and effects thresholds"
+    value: "B.C. Reg. 243/2019, last amended December 15, 2025 by B.C. Reg. 237/2025; s.4 effects thresholds: 380,000 t/yr CO2e, clearing 60 km or more for linear development, or 600 ha or more of land"
+    where: "references/environmental-details.md — BC — EA Trigger Questions"
+    source: "https://www.bclaws.gov.bc.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; skill warns category tables in Tables 1-14 must be re-verified after the December 2025 amendment."
+
+  - id: env-cepa-bill-s5
+    statement: "CEPA amendment by Bill S-5 and Schedule 1 restructuring"
+    value: "Royal Assent June 13, 2023; Schedule 1 title 'List of Toxic Substances' removed and split into Part 1 (highest-risk, prohibition priority) and Part 2 (all other toxic substances, pollution prevention priority); Watch List added under s. 75.1"
+    where: "SKILL.md — CEPA Schedule 1 Substances"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-15.31/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; the Schedule 1 lists and the Watch List are updated by ECCC on an ongoing basis."
+
+  - id: env-npri-employee-threshold
+    statement: "NPRI employee-hours reporting threshold"
+    value: "20,000 hours or more worked by employees and contractors in the calendar year"
+    where: "references/environmental-details.md — NPRI Reporting Thresholds (2025-2027 reporting periods) — Who must report"
+    source: "https://www.canada.ca/en/services/environment/pollution/pollutants/national-pollutant-release-inventory.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-npri-activity-thresholds
+    statement: "NPRI activity thresholds that apply regardless of employee hours"
+    value: "Incineration of 26+ tonnes of non-hazardous solid or biomedical/hospital waste; hazardous waste and sewage sludge incineration; wood preservation; terminal operations; wastewater discharge averaging 10,000+ m3/day; production of 500,000+ tonnes at pits or quarries"
+    where: "references/environmental-details.md — NPRI Reporting Thresholds — Who must report"
+    source: "https://www.canada.ca/en/services/environment/pollution/pollutants/national-pollutant-release-inventory.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-npri-substance-thresholds
+    statement: "NPRI substance reporting thresholds by Part"
+    value: "Part 1A 10 tonnes (177 substances/groups); Part 1B 1 kg to 1,000 kg; Part 1C 1 kg at 0.1% (163 PFAS); Part 2 PAHs 50 kg; Part 3 any quantity; Part 4 CACs 20 tonnes (CO, NOx, SO2, TPM), VOCs 10 tonnes, PM10 0.5 tonnes, PM2.5 0.3 tonnes; Part 5 speciated VOCs 1 tonne"
+    where: "references/environmental-details.md — NPRI Reporting Thresholds — threshold table"
+    source: "https://www.canada.ca/en/services/environment/pollution/pollutants/national-pollutant-release-inventory.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed; thresholds are set by the annual CEPA s.46 notice and were last changed for the 2025-2027 periods."
+
+  - id: env-npri-substance-list-changes
+    statement: "NPRI substance additions and lowered thresholds for 2025-2027"
+    value: "Added: PFAS, Basic Violet 3, Basic Violet 4, Basic Blue 7, MAPBAP Acetate, benzothiazoles forming 2-mercaptobenzothiazole, long-chain aliphatic amines. Lowered: ethylene oxide (1 kg, 0.1%), hydrogen cyanide (1,000 kg, 0.1%), C.I. Basic Green 4 / Malachite Green (100 kg, 1%)"
+    where: "references/environmental-details.md — NPRI Reporting Thresholds — Recent changes for 2025-2027"
+    source: "https://www.canada.ca/en/services/environment/pollution/pollutants/national-pollutant-release-inventory.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-npri-deadline
+    statement: "NPRI reporting deadline"
+    value: "June 1 for the previous calendar year (2025 CY to June 1, 2026; 2026 to June 1, 2027; 2027 to June 1, 2028); submitted via ECCC Single Window Information Manager (SWIM)"
+    where: "references/environmental-details.md — NPRI Reporting Thresholds — Reporting deadline"
+    source: "https://www.canada.ca/en/services/environment/pollution/pollutants/national-pollutant-release-inventory.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-ghgrp-threshold-deadline
+    statement: "Greenhouse Gas Reporting Program threshold and deadline"
+    value: "General threshold 10,000 tonnes CO2e; 2025 calendar year reports due June 1, 2026 via Single Window; 50,000+ tonnes in 2014 or later in a listed activity makes a facility a covered facility under federal OBPS"
+    where: "references/environmental-details.md — Greenhouse Gas Reporting Program (GHGRP)"
+    source: "https://www.canada.ca/en/environment-climate-change/services/climate-change/greenhouse-gas-emissions/facility-reporting.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed; triggered by the annual s.46 notice in the Canada Gazette."
+
+  - id: env-penalties-cepa
+    statement: "CEPA s. 272 maximum fines (indictment, first offence)"
+    value: "Individual $1M (+ up to 3 yrs), $2M subsequent; corporation $6M, $12M subsequent ($4M / $8M small-revenue)"
+    where: "SKILL.md — Penalties"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-15.31/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-penalties-fisheries-tdg
+    statement: "Fisheries Act s. 40 and TDG Act s. 33 maximum fines"
+    value: "Fisheries Act: individual $1M ($2M subsequent, + up to 3 yrs); corporation $6M, $12M subsequent ($4M / $8M small-revenue). TDG Act: summary $50K first, $100K each subsequent for any person; indictment up to 2 yrs imprisonment"
+    where: "SKILL.md — Penalties"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/F-14/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-penalties-ontario-epa
+    statement: "Ontario EPA s. 187 maximum fines"
+    value: "Ordinary: individual $50K first / $100K subsequent; corporation $250K first / $500K subsequent. s.186(3) serious: individual $5K-$4M first, up to $6M subsequent (+ up to 5 yrs less a day); corporation $25K-$6M first, up to $10M second and subsequent. Per-day fines apply"
+    where: "SKILL.md — Penalties"
+    source: "https://www.ontario.ca/laws/statute/90e19"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-penalties-bc-alberta
+    statement: "BC EMA s. 120 and Alberta EPEA s. 228 maximum fines"
+    value: "BC EMA tiered: $2K (littering), $200K, $300K, or $1M (+ up to 6 months), per day under s.122, no individual/corporate distinction. Alberta EPEA s.228(1) knowing offences: individual $100K (+ up to 2 yrs), corporation $1M; s.228(2): individual $50K, corporation $500K; per day under s.231"
+    where: "SKILL.md — Penalties"
+    source: "https://www.bclaws.gov.bc.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-administrative-penalties
+    statement: "Administrative monetary penalty maxima"
+    value: "Ontario environmental penalties up to $100,000/day; Alberta administrative penalties capped at $5,000 per contravention per day (EPEA s.237(3) bars subsequent prosecution); CEPA AMPs under EVAMPA and the 2017 AMPs Regulations (Parts 7 and 9)"
+    where: "SKILL.md — Penalties — Administrative monetary penalties"
+    source: "https://www.ontario.ca/laws/statute/90e19"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-single-use-plastics-litigation
+    statement: "Single-use Plastics Prohibition Regulations (SOR/2022-138) status and litigation"
+    value: "In force. 2023 FC 1511 quashing of the Schedule 1 listing Order was overturned by the Federal Court of Appeal on January 30, 2026 (2026 FCA 17); leave to appeal to the SCC sought (file 42277); T-1468-22 challenge to the Regulations stayed"
+    where: "SKILL.md — Single-use Plastics Prohibition Regulations (SOR/2022-138)"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2022-138/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; SCC leave decision is pending and would change this entry."
+
+  - id: env-federal-plastics-registry
+    statement: "Federal Plastics Registry reporting phases and exemption"
+    value: "Phase 1 reporting continues for the 2024, 2025 and 2026 calendar years; Phases 2 and 3 postponed by an amended notice published March 14, 2026; producers placing under one tonne of plastic on the market are exempt"
+    where: "SKILL.md — Federal Plastics Registry"
+    source: "https://www.canada.ca/en/environment-climate-change.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: env-clean-fuel-regulations
+    statement: "Clean Fuel Regulations (SOR/2022-140) status and volumetric requirements"
+    value: "In force, last amended September 30, 2024; minimum 5% low-CI content in gasoline, 2% in diesel; targeted amendments announced September 5, 2025, consultation closed January 15, 2026, draft amendments expected in Canada Gazette Part I"
+    where: "SKILL.md — Clean Fuel Regulations (SOR/2022-140)"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2022-140/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-ontario-hazardous-waste-registry
+    statement: "Ontario hazardous waste registry transition"
+    value: "Since January 1, 2023 generators, carriers and receivers register and report through the RPRA online registry, replacing HWIN; paper manifests ended; governed by amended O. Reg. 347"
+    where: "SKILL.md — Provincial Hazardous Waste (Manifesting)"
+    source: "https://www.ontario.ca/laws/regulation/900347"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: env-spill-reporting-numbers
+    statement: "Spill reporting hotlines and written-report deadlines"
+    value: "Ontario Spills Action Centre 1-800-268-6060; BC Emergency Coordination Centre 1-800-663-3456 (natural gas threshold 10 kg above 100 psi); Alberta Energy and Environmental 24-Hour Response Line 1-800-222-6514 / 780-422-4505 with written report due within 7 days; CANUTEC 1-888-226-8832; Canadian Coast Guard marine 1-800-889-8852"
+    where: "SKILL.md — Spill Reporting Requirements; references/environmental-details.md — Spill Response Plan"
+    source: "https://www.ontario.ca/laws/statute/90e19"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; BC regime under Spill Reporting Regulation, B.C. Reg. 187/2017."

@@ -101,6 +101,20 @@ Ask any Canadian compliance question in plain English and get a direct, practica
 
 ---
 
+### `/compliance-currency-check` — Detect Changes in the Law
+Every skill carries a `references/claims.yaml` manifest of its volatile facts — rates, thresholds, deadlines, bill statuses, penalty maxima. This command re-checks those claims against their live primary sources and reports what has changed, so you don't have to re-read every skill. It reports only; you apply the edits.
+
+```
+/compliance-currency-check due
+/compliance-currency-check all
+/compliance-currency-check canadian-tax-compliance
+/compliance-currency-check osfi-prudential
+```
+
+Run `/compliance-currency-check due` quarterly to check only the claims that have come up for review.
+
+---
+
 ## Skills (Auto-Loaded Knowledge)
 
 These skills load automatically when you discuss a relevant topic — you don't need to invoke them manually. Each one contains detailed regulatory knowledge plus a deep-reference file for complex questions.
@@ -199,6 +213,8 @@ Planned additions for future versions:
 ## Changelog
 
 **v0.6.0** — Added `canadian-ai-technology` skill (AI, automated decisions, cybersecurity, platform obligations) — 12 domains.
+
+Added claims.yaml manifests to every skill and the `/compliance-currency-check` command for change detection.
 
 **v0.5.0** — Accuracy audit — every skill fact-checked against primary sources (verified 2026-09-04); ~190 corrections across all 11 skills including carbon pricing removal, FINTRAC penalty increases (Bill C-12), Bill C-27 → C-36, 2026 payroll/minimum wage rates, OSFI 24-hour incident reporting, FCAC NSF $10 cap; each SKILL.md now carries a `last_verified` date. Landing page and README corrected to 11 domains; install path updated to lisaross fork.
 

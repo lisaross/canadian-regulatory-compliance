@@ -1,0 +1,358 @@
+skill: canadian-ai-technology
+last_verified: 2026-09-11
+claims:
+  - id: ai-c36-status
+    statement: "Bill C-36 / PPCDA legislative status"
+    value: "Tabled 15 June 2026 by the Minister of AI and Digital Innovation; given first reading 15 June 2026; at the second reading stage, no second-reading activity yet; not in force. CIF by order-in-council tied to standing up the new Commission, which depends on C-34 passing"
+    where: "SKILL.md — Federal Landscape / Bill C-36 / PPCDA; Watch List"
+    source: "https://www.parl.ca/LegisInfo/en/bill/45-1/C-36"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+    notes: "Bill at the second reading stage with no second-reading activity yet — 90-days-out review. Confirmed on LEGISinfo 2026-09-11 and reconciled with the privacy skill's priv-c36-status claim; both now match."
+
+  - id: ai-c34-status
+    statement: "Bill C-34 / Safe Social Media Act legislative status"
+    value: "First reading 10 June 2026; not in force. Enacts the Digital Safety Act and the Digital Safety Commission of Canada Act"
+    where: "SKILL.md — Federal Landscape / Bill C-34; Watch List"
+    source: "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-34/first-reading"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+    notes: "Gating bill for C-36 as well — highest-priority status check in this skill."
+
+  - id: ai-c8-status
+    statement: "Bill C-8 / Critical Cyber Systems Protection Act status"
+    value: "Royal Assent 15 June 2026, S.C. 2026, c. 9. Part 1 (Telecommunications Act amendments) in force now; Part 2 (CCSPA) in force on days to be fixed by order-in-council — not yet operative"
+    where: "SKILL.md — Cybersecurity, Bill C-8 / Critical Cyber Systems Protection Act; Watch List"
+    source: "https://www.parl.ca/legisinfo/en/bill/45-1/C-8"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+    notes: "Awaiting proclamation and designating regulations; check for an OIC at each review."
+
+  - id: ai-c27-aida-status
+    statement: "Bill C-27 / AIDA status"
+    value: "Died on prorogation 6 January 2025; never revived. Canada has no AI statute"
+    where: "SKILL.md — The Central Framing: Canada Has No AI Act"
+    source: "https://www.parl.ca/LegisInfo/en/bill/44-1/C-27"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed. Settled history, but re-check if a successor AI bill appears."
+
+  - id: ai-national-strategy
+    statement: "AI for All — Canada's National AI Strategy launch and funding"
+    value: "Launched 4 June 2026; six pillars, roughly $2B in funding; announces no omnibus AI statute"
+    where: "SKILL.md — The Central Framing: Canada Has No AI Act"
+    source: "https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: ai-c36-amp-maximum
+    statement: "Bill C-36 proposed AMP for an openness/transparency breach"
+    value: "Greater of $10M or 3% of gross global revenue (s.113(1)(n))"
+    where: "SKILL.md — Federal Landscape / Bill C-36; references/ai-technology-details.md — §3 Maximum penalty row"
+    source: "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-36/first-reading"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+
+  - id: ai-c34-penalty-maximum
+    statement: "Bill C-34 proposed maximum penalty for chatbot/social media services"
+    value: "5% of gross global revenue"
+    where: "SKILL.md — Federal Landscape / Bill C-34; references/ai-technology-details.md — §3 Maximum penalty row"
+    source: "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-34/first-reading"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+
+  - id: ai-c34-social-media-min-age
+    statement: "Stated government intent on a minimum age for social media accounts"
+    value: "16-year minimum age (stated intent; to be set by regulation)"
+    where: "SKILL.md — Federal Landscape / Bill C-34, Left to regulations"
+    source: "https://www.canada.ca/en/canadian-heritage/services/safe-social-media-act.html"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+
+  - id: ai-quebec-s121-in-force
+    statement: "Quebec Law 25 s.12.1 automated decision rule in-force date"
+    value: "In force since 22 September 2023; the only in-force private-sector ADS rule in Canada"
+    where: "SKILL.md — Provincial Regimes / Quebec Law 25 s.12.1"
+    source: "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: ai-quebec-law25-penalties
+    statement: "Quebec Law 25 penalty maxima"
+    value: "AMPs reach $10M or 2% of worldwide turnover; penal fines $25M or 4%"
+    where: "SKILL.md — Provincial Regimes / Quebec Law 25 s.12.1"
+    source: "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: ai-ontario-esa-84-in-force
+    statement: "Ontario ESA s.8.4 AI hiring disclosure in-force date and threshold"
+    value: "In force 1 January 2026; employers with 25+ employees; applies to every publicly advertised job posting; O. Reg. 476/24 defines AI on an OECD-style inference-based test"
+    where: "SKILL.md — AI in Employment / Ontario ESA s.8.4"
+    source: "http://www.ontario.ca/document/your-guide-employment-standards-act-0/requirements-related-publicly-advertised-job"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: ai-ontario-ministry-guidance-date
+    statement: "Ontario Ministry guidance on ESA s.8.4 AI disclosure"
+    value: "Guidance dated 4 February 2026 — a bare statement suffices; no detailed description of the system is required"
+    where: "SKILL.md — AI in Employment / Ontario ESA s.8.4"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/recent-changes"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Ministry has issued no guidance on the meaning of 'artificial intelligence', 'screen', 'assess' or 'select' — watch for supplementary guidance."
+
+  - id: ai-ontario-comp-range-thresholds
+    statement: "Ontario companion job-posting obligations — compensation range limits"
+    value: "Max $50K spread; exempt above $200K. In force 1 January 2026 alongside vacancy-status statement, Canadian-experience prohibition and record-keeping"
+    where: "SKILL.md — AI in Employment / Ontario ESA s.8.4; references/ai-technology-details.md — §4 Ontario ESA s.8.4"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/requirements-related-publicly-advertised-job"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "Dollar thresholds set by regulation and reviewable."
+
+  - id: ai-osfi-e23-effective-date
+    statement: "OSFI Guideline E-23 Model Risk Management effective date"
+    value: "Effective 1 May 2027; final version published 11 September 2025 after an 18-month transition"
+    where: "SKILL.md — Sector Regulators / OSFI Guideline E-23; Watch List"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: ai-osfi-e23-scope
+    statement: "OSFI E-23 scope"
+    value: "All FRFIs (banks, foreign bank branches, P&C, trust and loan, life and fraternal; federally regulated pension plans excluded); all models with non-negligible risk regardless of purpose or materiality; third-party-sourced models; AI/ML expressly in scope"
+    where: "SKILL.md — Sector Regulators / OSFI Guideline E-23"
+    source: "https://www.osfi-bsif.gc.ca/en/news/backgrounder-guideline-e-23-model-risk-management"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: ai-amf-guideline-dates
+    statement: "Quebec AMF Guideline for the Use of AI — publication and effective dates"
+    value: "Published 7 April 2026 (French only); effective 1 May 2027 — same effective date as OSFI E-23"
+    where: "SKILL.md — Sector Regulators / Quebec AMF Guideline; Watch List"
+    source: "https://stikeman.com/en-CA/kh/insurance-law/ai-use-by-financial-institutions-quebecs-amf-publishes-final-guidelines"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Watch for an English version and any AMF transition guidance."
+
+  - id: ai-ontario-edsta-status
+    statement: "Ontario EDSTA (Bill 194) framework and AI regulations status"
+    value: "Framework in force 29 January 2025; AI regulations not made. First regulations published March 2026, in force 1 July 2026, covered cyber security and under-18 digital technology, not AI. No published timeline for AI regs"
+    where: "SKILL.md — Provincial Regimes / Ontario; Watch List"
+    source: "https://www.ontario.ca/laws/statute/24e24"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: ai-openai-findings-date
+    statement: "OPC + CAI + OIPC-BC + OIPC-AB joint OpenAI/ChatGPT investigation findings"
+    value: "Findings issued 6 May 2026 (PIPEDA-2026-002). Well-founded and conditionally resolved federally; well-founded and unresolved at OIPC-BC and at the CAI. OpenAI retired the offending models, deployed a PII filtering tool, and reports quarterly to the regulators"
+    where: "SKILL.md — Privacy Regulators as AI Enforcers"
+    source: "https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2026/pipeda-2026-002/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: quarterly
+    notes: "Unresolved BC and Quebec branches may produce further orders or findings; OpenAI's quarterly reporting is an ongoing event stream."
+
+  - id: ai-fpt-genai-principles-date
+    statement: "FPT Principles for responsible, trustworthy and privacy-protective generative AI"
+    value: "Adopted 7 December 2023 by federal, provincial and territorial privacy authorities; applied as the analytical frame in the OpenAI findings"
+    where: "SKILL.md — Privacy Regulators as AI Enforcers"
+    source: "https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: ai-bc-oipc-scribes-date
+    statement: "BC OIPC guidance — PIPA and AI Scribes for healthcare organizations"
+    value: "Published 28 January 2026; FIPPA-side guidance for public bodies was in preparation"
+    where: "SKILL.md — Provincial Regimes / Alberta and British Columbia"
+    source: "https://oipc.bc.ca/documents/news-releases/3083"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Watch for the in-preparation FIPPA guidance to land."
+
+  - id: ai-alberta-oipc-ai-guidance
+    statement: "Alberta OIPC AI outputs and standalone-AI-law recommendation"
+    value: "AI Scribe PIA Guidance (September 2025); Guidance for Small Custodians; 15 July 2025 report recommending Alberta enact a standalone AI law. No Alberta AI bill exists. POPA in force June 2025 with a one-year grace period for privacy management programs"
+    where: "SKILL.md — Provincial Regimes / Alberta and British Columbia; Watch List"
+    source: "https://oipc.ab.ca/resources/ai/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "OIPC also expects PIPA and HIA amendments 'in the near future'."
+
+  - id: ai-ccspa-incident-deadline
+    statement: "CCSPA cyber incident reporting deadline"
+    value: "Report to the Communications Security Establishment within a period not exceeding 72 hours (hard ceiling; the exact period is to be set by regulation), then immediately notify the sector regulator with a copy"
+    where: "SKILL.md — Cybersecurity; references/ai-technology-details.md — §2 Incident-Clock Reconciliation"
+    source: "https://laws.justice.gc.ca/eng/AnnualStatutes/2026_9/page-1.html"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+    notes: "The specific period within the 72-hour ceiling is a pending regulation."
+
+  - id: ai-ccspa-program-deadline
+    statement: "CCSPA cyber security program deadline for designated operators"
+    value: "Establish a cyber security program within 90 days of designation and give it to the regulator"
+    where: "SKILL.md — Cybersecurity, Designated operators"
+    source: "https://laws.justice.gc.ca/eng/AnnualStatutes/2026_9/page-1.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: ai-ccspa-designated-sectors
+    statement: "CCSPA designated sectors"
+    value: "Finance, telecommunications, energy and transportation; which specific entities are designated remains undetermined pending regulation"
+    where: "SKILL.md — Cybersecurity, Designated operators; Watch List"
+    source: "https://laws.justice.gc.ca/eng/AnnualStatutes/2026_9/page-1.html"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+
+  - id: ai-osfi-incident-clock
+    statement: "OSFI technology and cyber incident reporting deadline for FRFIs"
+    value: "24 hours to the Technology Risk Division and the Lead Supervisor; tightest of the four clocks and starts on awareness, not assessment"
+    where: "SKILL.md — Cybersecurity, Parallel clocks; references/ai-technology-details.md — §2"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-security-incident-reporting"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: ai-incident-clock-matrix
+    statement: "Four-regime incident clock matrix"
+    value: "CCSPA <=72h to CSE (may-interfere threshold, not in force); PIPEDA as soon as feasible to OPC and individuals (RROSH); OSFI 24h (technology or cyber incident); Quebec Law 25 promptly to CAI and individuals (risk of serious injury, no fixed deadline)"
+    where: "references/ai-technology-details.md — §2 Incident-Clock Reconciliation"
+    source: "https://laws.justice.gc.ca/eng/AnnualStatutes/2026_9/page-1.html"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+    notes: "The CCSPA row changes the moment Part 2 is proclaimed."
+
+  - id: ai-federal-directive-adm-deadline
+    statement: "Directive on Automated Decision-Making compliance deadline and scope"
+    value: "Compliance deadline 24 June 2026; binds roughly 97 federal institutions; systems developed or procured before 24 June 2025 had until 24 June 2026 to meet new or updated requirements"
+    where: "SKILL.md — Federal Public Sector and Government Contractors; references/ai-technology-details.md — §1"
+    source: "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592&section=html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "The Directive is periodically re-issued with new review cycles; institution count changes."
+
+  - id: ai-federal-ai-strategy-public-service
+    statement: "AI Strategy for the Federal Public Service term"
+    value: "2025-2027, issued spring 2025 by OCIO/TBS"
+    where: "SKILL.md — Federal Public Sector and Government Contractors"
+    source: "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/guide-use-generative-ai.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed. Term-limited strategy — expires 2027."
+
+  - id: ai-competition-bureau-algorithmic-pricing
+    statement: "Competition Bureau algorithmic pricing consultation output"
+    value: "Consultation on Algorithmic Pricing and Competition: What We Heard published 22 January 2026 (100+ submissions) — a stocktake, not a rule; stops short of proposing legislation"
+    where: "SKILL.md — AI in Marketing and Pricing; Watch List"
+    source: "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/publications/consultation-algorithmic-pricing-and-competition-what-we-heard"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: ai-competition-c59-drip-pricing
+    statement: "Competition Act Bill C-59 amendments relevant to AI marketing"
+    value: "Drip pricing deemed false or misleading unless the mandatory fee is imposed by an Act of Parliament or a province; private access to the Competition Tribunal extended to deceptive marketing practices with an eased leave test. In force"
+    where: "SKILL.md — AI in Marketing and Pricing"
+    source: "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/guide-june-2024-amendments-competition-act"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Skill states the C-59 deceptive-marketing private access is in force; the statute phased provisions in on different dates — confirm the applicable date on review. No dollar penalty figure for AI-washing is stated in the skill."
+
+  - id: ai-competition-annual-plan
+    statement: "Competition Bureau treatment of AI as an enforcement priority"
+    value: "AI is a named priority in the 2025-26 Annual Plan; the Bureau's position is that it does not need a new AI statute"
+    where: "SKILL.md — AI in Marketing and Pricing"
+    source: "https://competition-bureau.canada.ca/sites/default/files/documents/Policy-Submission-on-Competition-and-AI--FINAL.pdf"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "Annual Plan is republished each fiscal year."
+
+  - id: ai-iso-42001-csa-adoption
+    statement: "ISO/IEC 42001 adoption as a National Standard of Canada"
+    value: "CSA ISO/IEC 42001:25 (AI management system) and CSA ISO/IEC 42006:26 (requirements for certifying bodies); SCC is the only Canadian accreditation body offering AIMS accreditation, prerequisite ISO/IEC 17021-1. Also CAN-ASC-6.2:2025 Accessible and Equitable AI Systems"
+    where: "SKILL.md — Standards, Certification and Voluntary Frameworks"
+    source: "https://scc-ccn.ca/accreditation-scheme/management-systems/artificial-intelligence-management-systems"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Standard designations carry year suffixes that change on revision."
+
+  - id: ai-ised-voluntary-code-signatories
+    statement: "ISED Voluntary Code of Conduct on generative AI — signatory count"
+    value: "46 signatories; launched September 2023; six principles across 18 measures; Implementation Guide for Managers March 2025"
+    where: "SKILL.md — Standards, Certification and Voluntary Frameworks"
+    source: "https://ised-isde.canada.ca/site/ised/en/voluntary-code-conduct-responsible-development-and-management-advanced-generative-ai-systems"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: quarterly
+    notes: "Signatory count grows as organizations join — the most frequently stale number in this section."
+
+  - id: ai-caisi-funding
+    statement: "Canadian AI Safety Institute funding and mandate"
+    value: "Announced November 2024; $50M over five years; led by ISED leveraging NRC and CIFAR; research priorities 2025-26"
+    where: "SKILL.md — Standards, Certification and Voluntary Frameworks"
+    source: "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "AI for All commits to expanding CAISI's evaluation capability — funding figure may be superseded."
+
+  - id: ai-copyright-status
+    statement: "Copyright and AI — legislative status"
+    value: "Consultation ran 12 October 2023 - 15 January 2024; What We Heard report published 11 February 2025; April 2026 House of Commons heritage committee report recommended opt-in consent for training use plus developer transparency. No bill, no timeline; the June 2026 AI for All strategy does not mention copyright"
+    where: "SKILL.md — Copyright and AI; Watch List"
+    source: "https://ised-isde.canada.ca/site/strategic-policy-sector/en/marketplace-framework-policy/consultation-copyright-age-generative-artificial-intelligence-what-we-heard-report"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: ai-enforceable-cells-today
+    statement: "Cells in the cross-jurisdiction matrix enforceable against a private-sector organization today"
+    value: "Only three — Quebec Law 25 s.12.1, Ontario ESA s.8.4, and the general privacy and Competition Act floors"
+    where: "references/ai-technology-details.md — §1 Cross-Jurisdiction Obligation Matrix, Reading the matrix"
+    source: "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+    notes: "source URL unconfirmed. This count changes the moment C-36, C-34, CCSPA Part 2 or the Ontario EDSTA AI regulations land."
+
+  - id: ai-watch-list-as-at-date
+    statement: "Watch List currency date"
+    value: "As at 4 September 2026"
+    where: "SKILL.md — Watch List"
+    source: "https://www.parl.ca/legisinfo"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: quarterly
+    notes: "The whole Watch List table is dated; refresh the date whenever any row is re-verified."

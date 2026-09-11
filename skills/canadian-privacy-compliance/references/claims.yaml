@@ -1,0 +1,251 @@
+skill: canadian-privacy-compliance
+last_verified: 2026-09-11
+claims:
+  - id: priv-c36-status
+    statement: "Bill C-36 / PPCDA legislative status"
+    value: "Introduced and given first reading 15 June 2026; at the second reading stage in the House of Commons, with no second-reading activity recorded as of September 2026; not in force"
+    where: "SKILL.md — Governing Legislation / Federal"
+    source: "https://www.parl.ca/LegisInfo/en/bill/45-1/C-36"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+    notes: "Bill status is the most volatile item in this skill; check LEGISinfo. 90-days-out review applied because the bill is still in pre-Royal-Assent stages. Confirmed on LEGISinfo 2026-09-11: current status 'At second reading in the House of Commons'; last completed stage is first reading (15 June 2026); second reading shows no activity yet."
+
+  - id: priv-c36-first-reading-date
+    statement: "Bill C-36 / PPCDA first reading date"
+    value: "1st reading 2026-06-15"
+    where: "references/pipeda-details.md — Bill C-36 (PPCDA) Key Changes vs. PIPEDA"
+    source: "https://www.parl.ca/LegisInfo/en/bill/45-1/C-36"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: priv-c27-status
+    statement: "Bill C-27 / CPPA status (historical)"
+    value: "Died on the Order Paper at prorogation 6 January 2025, with AIDA and the proposed Personal Information and Data Protection Tribunal; never revived"
+    where: "SKILL.md — Governing Legislation / Federal"
+    source: "https://www.parl.ca/LegisInfo/en/bill/44-1/C-27"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed. Settled history, but re-check if any successor bill revives CPPA/AIDA text."
+
+  - id: priv-pipeda-s28-penalties
+    statement: "PIPEDA s.28 offence maxima for knowing contravention"
+    value: "Up to $10,000 on summary conviction; up to $100,000 on indictment"
+    where: "SKILL.md — Breach Notification Requirements / Federal (PIPEDA)"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Would be superseded if Bill C-36 receives Royal Assent."
+
+  - id: priv-c36-amp-maximum
+    statement: "Bill C-36 proposed administrative monetary penalty maximum"
+    value: "Greater of $10M or 3% of gross global revenue"
+    where: "SKILL.md — Breach Notification Requirements / Federal (PIPEDA), Penalties for non-compliance"
+    source: "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-36/first-reading"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+    notes: "Proposed figure; subject to amendment at committee."
+
+  - id: priv-c36-offence-maxima
+    statement: "Bill C-36 proposed offence maxima"
+    value: "Greater of $25M or 5% of gross global revenue on indictment; greater of $20M or 4% on summary conviction"
+    where: "SKILL.md — Breach Notification Requirements / Federal (PIPEDA), Penalties for non-compliance"
+    source: "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-36/first-reading"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+    notes: "Proposed figures; subject to amendment at committee."
+
+  - id: priv-pipeda-breach-log-retention
+    statement: "PIPEDA breach record retention period"
+    value: "24 months after the day the organization determines the breach occurred (SOR/2018-64 s.6(1))"
+    where: "SKILL.md — Breach Notification Requirements / Federal (PIPEDA), Maintain breach log"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-64/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: priv-pipeda-breach-in-force
+    statement: "PIPEDA mandatory breach reporting in force date"
+    value: "In force since 2018"
+    where: "SKILL.md — Breach Notification Requirements / Federal"
+    source: "https://www.priv.gc.ca/en/privacy-topics/business-privacy/safeguards-and-breaches/privacy-breaches/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: priv-pipeda-breach-deadline
+    statement: "PIPEDA breach notification deadline to OPC and individuals"
+    value: "As soon as feasible, where a real risk of significant harm (RROSH) exists"
+    where: "SKILL.md — Breach Notification Requirements / Federal (PIPEDA)"
+    source: "https://www.priv.gc.ca/en/privacy-topics/business-privacy/safeguards-and-breaches/privacy-breaches/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: priv-pipeda-access-deadline
+    statement: "PIPEDA individual access response deadline and extensions"
+    value: "30 days (s.8(3)); single extension up to 30 further days (s.8(4)(a)); alternative-format conversion extension is the period necessary, not capped (s.8(4)(b)); failure is deemed refusal (s.8(5))"
+    where: "SKILL.md — The 10 Fair Information Principles, item 9 Individual Access"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: priv-quebec-law25-portability-date
+    statement: "Quebec Law 25 data portability (s.27) in-force date"
+    value: "Took effect 22 September 2024 — final phase of the Law 25 phase-in"
+    where: "SKILL.md — Governing Legislation / Provincial, Law 25"
+    source: "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: priv-quebec-incident-register-retention
+    statement: "Quebec Law 25 confidentiality incident register retention"
+    value: "Register covers all incidents (s.3.8); entries retained a minimum of five years from the date of awareness"
+    where: "SKILL.md — Breach Notification Requirements / Quebec (Law 25)"
+    source: "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: priv-quebec-cai-notice-deadline
+    statement: "Quebec Law 25 deadline to notify the CAI of a confidentiality incident"
+    value: "Promptly ('avec diligence') — no fixed deadline; no 72-hour rule in Quebec"
+    where: "SKILL.md — Breach Notification Requirements / Quebec (Law 25)"
+    source: "https://www.cai.gouv.qc.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: priv-bc-pipa-no-breach-notification
+    statement: "BC PIPA private-sector mandatory breach notification"
+    value: "None — BC PIPA has no mandatory breach-notification obligation for private-sector organizations; OIPC BC recommends reporting as best practice"
+    where: "SKILL.md — Governing Legislation / Provincial, PIPA BC"
+    source: "https://www.oipc.bc.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed. Most likely item in this section to change — BC has repeatedly consulted on adding breach notification."
+
+  - id: priv-bc-fippa-public-sector-breach-date
+    statement: "BC public-sector breach notification in-force date (FIPPA s.36.3)"
+    value: "Since 1 February 2023"
+    where: "SKILL.md — Governing Legislation / Provincial, PIPA BC"
+    source: "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96165_00"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: priv-substantially-similar-list
+    statement: "Provinces with private-sector laws deemed substantially similar to PIPEDA"
+    value: "BC (PIPA BC), Alberta (PIPA AB), Quebec (Law 25 / P-39.1); Ontario has none"
+    where: "SKILL.md — Governing Legislation / Provincial (substantially similar)"
+    source: "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed. Designations are made by GIC order and are periodically revisited; Ontario has repeatedly consulted on a private-sector law."
+
+  - id: priv-alberta-breach-notification
+    statement: "Alberta PIPA breach reporting trigger and deadline"
+    value: "Real risk of significant harm (s.34.1); notify OIPC Alberta without unreasonable delay; the Commissioner decides whether individuals must be notified (s.37.1)"
+    where: "SKILL.md — Breach Notification Requirements / Alberta (PIPA AB)"
+    source: "https://www.alberta.ca/personal-information-protection-act"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: priv-pipeda-s7-consent-exceptions
+    statement: "PIPEDA consent exceptions list (s.7)"
+    value: "Law enforcement, emergencies threatening life, journalistic/artistic/literary purposes, business transactions (s.7.2), publicly available information, employment relationship for federal works (s.7.3); former investigative-body exception repealed in 2015 and replaced by s.7(3)(d.1)-(d.2)"
+    where: "SKILL.md — Consent Framework, Exceptions to consent"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: priv-quebec-s121-adm
+    statement: "Quebec Law 25 automated decision-making obligations (s.12.1) and mandatory PIA (s.3.3)"
+    value: "s.12.1 requires notice, explanation and a review channel where a decision is based exclusively on automated processing; s.3.3 requires a PIA for any project to acquire, develop or overhaul an information system involving personal information"
+    where: "SKILL.md — Privacy Impact Assessments (PIAs)"
+    source: "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: priv-quebec-cross-border-agreement
+    statement: "Quebec Law 25 cross-border transfer requirements (s.17)"
+    value: "PIA required before transferring personal information outside Quebec; transfer barred if protection inadequate; a written agreement reflecting the PIA's results is required"
+    where: "SKILL.md — Cross-Border Data Transfers"
+    source: "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: priv-c36-regulator
+    statement: "Bill C-36 proposed privacy regulator"
+    value: "Digital Safety and Data Protection Commission of Canada, with a Privacy and Consumer Data Commissioner and Division; binding order power; no tribunal (the C-27 Tribunal is eliminated)"
+    where: "references/pipeda-details.md — Bill C-36 (PPCDA) Key Changes vs. PIPEDA, Regulator / Tribunal rows"
+    source: "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-36/first-reading"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+
+  - id: priv-c36-portability
+    statement: "Bill C-36 proposed data portability right (s.72)"
+    value: "Limited right — applies only where both organizations are subject to a regulation-made 'data mobility framework'"
+    where: "references/pipeda-details.md — Bill C-36 (PPCDA) Key Changes vs. PIPEDA, Data portability row"
+    source: "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-36/first-reading"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+
+  - id: priv-c36-no-aida
+    statement: "Bill C-36 treatment of AI regulation"
+    value: "Not included — AIDA is not carried forward"
+    where: "references/pipeda-details.md — Bill C-36 (PPCDA) Key Changes vs. PIPEDA, AI regulation row"
+    source: "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-36/first-reading"
+    verified: 2026-09-11
+    review_by: 2026-12-10
+    cadence: on-event
+
+  - id: priv-rrosh-factors
+    statement: "PIPEDA RROSH assessment factors (s.10.1(8))"
+    value: "Inclusive list: sensitivity of the information (a), probability of misuse (b), any other prescribed factor (c); number of individuals affected is NOT a factor but is required report content (SOR/2018-64 s.2(1)(d))"
+    where: "references/pipeda-details.md — Breach Assessment: RROSH Factors"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-64/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "'Any other prescribed factor' means new prescribed factors can be added by regulation."
+
+  - id: priv-quebec-sensitive-definition
+    statement: "Quebec Law 25 sensitive personal information definition and express consent"
+    value: "Defined at s.59 (nature or context entailing a high reasonable expectation of privacy); express consent required for use of sensitive personal information (s.14); s.12 governs secondary use; s.13 governs communication to third parties"
+    where: "references/pipeda-details.md — Sensitive Information Categories"
+    source: "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: priv-opc-sensitive-categories
+    statement: "OPC-identified sensitive information categories under PIPEDA"
+    value: "Medical/health, financial, ethnic and racial origin, political and religious beliefs, sexual orientation and gender identity, criminal history, social insurance numbers"
+    where: "references/pipeda-details.md — Sensitive Information Categories"
+    source: "https://www.priv.gc.ca/en/privacy-topics/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed. Derived from evolving OPC guidance and case law, so the list can grow."

@@ -1,0 +1,352 @@
+skill: canadian-immigration
+last_verified: 2026-09-11
+claims:
+  - id: imm-median-wage-thresholds
+    statement: "Provincial/territorial hourly wage thresholds separating high-wage and low-wage LMIA streams"
+    value: "Provincial median + 20%; as of July 17, 2026: AB $37.50, BC $38.40, ON $36.92, QC $36.00"
+    where: "SKILL.md — LMIA Streams (threshold footnote)"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers/median-wage.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "ESDC updates the median wage table annually (most recently mid-July); the +20% high-wage uplift was itself introduced recently."
+
+  - id: imm-low-wage-cap
+    statement: "Low-wage stream cap on proportion of workforce"
+    value: "10% general cap; 20% for construction, food manufacturing, hospitals, nursing/residential care and certain in-home caregiver NOCs; 15% for eligible employers outside CMAs under a temporary public policy running to March 2027"
+    where: "SKILL.md — LMIA Streams, Low-wage positions"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers/low-wage.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: quarterly
+    notes: "Cap percentages have been changed several times since 2024; the 15% public policy has a stated March 2027 expiry."
+
+  - id: imm-cma-unemployment-refusal
+    statement: "Refusal to process low-wage LMIAs in high-unemployment CMAs"
+    value: "Since 26 Sep 2024, ESDC will not process low-wage LMIA applications for work locations in a census metropolitan area with a published unemployment rate of 6% or higher; the rate table is refreshed quarterly"
+    where: "SKILL.md — LMIA Streams and Current restrictions"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers/low-wage.html"
+    verified: 2026-09-11
+    review_by: 2026-12-11
+    cadence: quarterly
+    notes: "The CMA list itself is refreshed quarterly, so both the 6% threshold and the affected-CMA list need re-checking each quarter."
+
+  - id: imm-cma-refusal-exemptions
+    statement: "Exemptions from the CMA unemployment refusal-to-process measure"
+    value: "Primary agriculture, construction, food manufacturing, hospitals, nursing and residential care facilities, certain in-home caregiver positions, positions supporting permanent residence only, and short-duration positions of 120 calendar days or less meeting the criteria"
+    where: "SKILL.md — LMIA Streams, Low-wage positions"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers/low-wage.html"
+    verified: 2026-09-11
+    review_by: 2026-12-11
+    cadence: quarterly
+    notes: "The exemption list has been expanded and contracted repeatedly since Sep 2024."
+
+  - id: imm-lmia-fee
+    statement: "LMIA processing fee"
+    value: "$1,000 per position, payable by the employer and never recoverable from the worker"
+    where: "SKILL.md — LMIA Application Requirements (Employer)"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: imm-lmia-fee-exemptions
+    statement: "LMIA fee exemptions"
+    value: "Caregivers for individuals with certified medical needs; households with gross annual income of $150,000 or less hiring a caregiver for a child under 13; on-farm primary agriculture positions (NOC 80020, 80021, 82030, 82031, 84120, 85100, 85101, 85103)"
+    where: "SKILL.md — LMIA Application Requirements (Employer)"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "The $150,000 household income figure and the NOC list are both subject to periodic revision."
+
+  - id: imm-recruitment-high-wage
+    statement: "High-wage LMIA recruitment requirements"
+    value: "Advertise on Job Bank for at least 4 consecutive weeks within the 3 months before applying, plus 2 additional methods, one of which must be national in scope; two online ads of the same type count as only one method; Job Match (invite all matches rated 4 stars or higher within the first 30 days) and Direct Apply mandatory; at least one recruitment activity ongoing until the LMIA decision"
+    where: "SKILL.md — LMIA Application Requirements; references/immigration-details.md — Recruitment"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers/high-wage.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Advertising durations were lengthened in 2024 — verify the current requirement."
+
+  - id: imm-recruitment-low-wage
+    statement: "Low-wage LMIA recruitment requirements"
+    value: "Advertise for at least 8 consecutive weeks, plus youth-targeted recruitment (ages 15–30) and 2 additional methods each targeting a different underrepresented group (vulnerable youth, Indigenous peoples, newcomers, persons with disabilities, asylum claimants with valid work permits); Job Match invitations for matches rated 2 stars or higher within the first 30 days"
+    where: "SKILL.md — LMIA Application Requirements; references/immigration-details.md — Recruitment"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers/low-wage.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: imm-lmia-processing-times
+    statement: "ESDC published LMIA average processing times in business days"
+    value: "As of July 2026: Global Talent Stream 10, SAWP 8, Agricultural 23, Low-wage 73, Permanent resident stream 86, High-wage 88"
+    where: "SKILL.md — LMIA Processing Times"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers/labour-market-impact-assessment-processing-times.html"
+    verified: 2026-09-11
+    review_by: 2026-12-11
+    cadence: monthly
+    notes: "ESDC republishes this table monthly and the figures move materially month to month — the single most perishable item in the skill."
+
+  - id: imm-lmia-validity
+    statement: "Validity period of a positive LMIA"
+    value: "Up to 6 months from issuance (all streams except SAWP); the deadline for the worker to apply for a work permit, not the permit's duration"
+    where: "SKILL.md — LMIA Processing Times"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Validity has been changed between 6, 9 and 12 months in recent years."
+
+  - id: imm-advertising-period-range
+    statement: "Mandatory advertising period excluded from LMIA processing times"
+    value: "14 days to 8 weeks depending on stream"
+    where: "SKILL.md — LMIA Processing Times"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: imm-gts-service-standard
+    statement: "Global Talent Stream service standards"
+    value: "10-business-day LMIA service standard (met 80% of the time) plus a 10-business-day IRCC work permit standard; Labour Market Benefits Plan required; Category A (referral partner) or Category B (global talent occupations list)"
+    where: "SKILL.md — LMIA Streams, Global Talent Stream"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers/global-talent.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "The Category B global talent occupations list is updated periodically."
+
+  - id: imm-provincial-registration
+    statement: "Provinces requiring an employer registration certificate with the LMIA"
+    value: "Employers hiring in BC, MB, SK or NS must hold a provincial employer registration certificate (or proof of exemption) and include it with the LMIA — the application is incomplete without it"
+    where: "SKILL.md — Current restrictions"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "The list of provinces with registration regimes has grown — check whether others have been added."
+
+  - id: imm-quebec-montreal-suspension
+    statement: "Suspension of certain Montreal and Laval LMIA applications"
+    value: "Certain Montreal and Laval LMIA applications suspended to 31 December 2026, including facilitated-process and work-permit-renewal applications"
+    where: "SKILL.md — Current restrictions; references/immigration-details.md — Quebec (CAQ) requirements"
+    source: "https://www.quebec.ca/en/immigration"
+    verified: 2026-09-11
+    review_by: 2026-12-31
+    cadence: on-event
+    notes: "Has a hard stated expiry of 31 Dec 2026 and has been extended before."
+
+  - id: imm-quebec-simultaneous-filing
+    statement: "Quebec dual-filing threshold for LMIA applications"
+    value: "Positions in Quebec lasting more than 30 consecutive days must be filed simultaneously with Service Canada and MIFI, in MIFI's required format"
+    where: "SKILL.md — Current restrictions; references/immigration-details.md — Quebec (CAQ) requirements"
+    source: "https://www.quebec.ca/en/immigration"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: imm-caq-fee
+    statement: "Quebec CAQ temporary selection fee"
+    value: "$233 as of Jan 1, 2026; adjusted annually"
+    where: "references/immigration-details.md — Quebec (CAQ) requirements"
+    source: "https://www.quebec.ca/en/immigration"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Explicitly adjusted each 1 January."
+
+  - id: imm-caq-french-requirement
+    statement: "French language requirement for CAQ renewal"
+    value: "Level 4 spoken French required for a CAQ after 3 years of work in Quebec; enforcement begins Dec 17, 2028 (agricultural workers and certain others exempt)"
+    where: "references/immigration-details.md — Quebec (CAQ) requirements"
+    source: "https://www.quebec.ca/en/immigration"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Future-dated obligation with implementation detail still to be published."
+
+  - id: imm-employer-compliance-fee
+    statement: "IRCC employer compliance fee for IMP offers of employment"
+    value: "$230, payable through the IRCC Employer Portal before the worker applies"
+    where: "SKILL.md — LMIA-Exempt Work Permits; references/immigration-details.md — IMP Offer of Employment Steps"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/employer-specific/lmia-exempt.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "IRCC fees are periodically adjusted."
+
+  - id: imm-ict-eligibility
+    statement: "Intracompany transfer employment history requirement"
+    value: "Must have been employed by the foreign affiliate for at least 1 year in the past 3 years; Canadian entity must have a qualifying relationship with the foreign entity"
+    where: "SKILL.md — Key LMIA Exemption Categories, Intracompany Transfers"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: imm-express-entry-ita-deadline
+    statement: "Deadline to submit a complete PR application after an Invitation to Apply"
+    value: "60 days"
+    where: "SKILL.md — Express Entry, How it works"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: imm-express-entry-service-standard
+    statement: "Express Entry processing service standard"
+    value: "6 months / 180 days from receipt of a complete application for FSW, FST, CEC and Express Entry–linked PNP; a service standard, not a guarantee — published processing-time estimates vary by program and are updated regularly"
+    where: "SKILL.md — Express Entry, How it works"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: monthly
+    notes: "The underlying published estimates change far more often than the standard itself."
+
+  - id: imm-crs-job-offer-points
+    statement: "CRS points for an arranged employment / job offer"
+    value: "As of 25 March 2025 a job offer adds no CRS points; the former 200-point Major Group 00 award and 50-point skilled-occupation award were removed. A provincial nomination is still worth 600 CRS points."
+    where: "SKILL.md — Express Entry, Employer role"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/eligibility/criteria-comprehensive-ranking-system.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "The 2025 removal was announced as temporary in some IRCC communications — confirm whether it has been reinstated."
+
+  - id: imm-employer-amps
+    statement: "Administrative monetary penalties for employer non-compliance (TFWP and IMP)"
+    value: "$500 to $100,000 per violation, to a maximum of $1 million per employer per 12-month period"
+    where: "SKILL.md — Employer Compliance Obligations, Penalties for non-compliance"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Set in IRPR; amounts and the points-based matrix have been amended before."
+
+  - id: imm-employer-bans
+    statement: "Ban periods for employer non-compliance"
+    value: "1, 2, 5 or 10 years, or permanently (permanent for the most serious violations); publication on IRCC's public non-compliant employers list for any monetary penalty or any ban (warnings are not published)"
+    where: "SKILL.md — Employer Compliance Obligations, Penalties for non-compliance"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: imm-inspection-window
+    statement: "Employer inspection and document-retention window"
+    value: "From the first day of the period of employment for which the work permit was issued until six years after the last day of that period (IRPR ss.209.2(1)(b), 209.3(1)(c)); all records kept 6 years beginning on the worker's first day of the employment period"
+    where: "SKILL.md — Employer Compliance Obligations; references/immigration-details.md — Employer Inspection Preparation Guide"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: imm-lmia-exemption-codes
+    statement: "Common employer-specific LMIA exemption codes requiring a portal offer and compliance fee"
+    value: "C10, C11, C61, C62, C63, T34/T35/T36, T37/T38, C16, C41 (C41 eligibility narrowed in January 2025). Not employer-specific: C43 (PGWP) and A75 (BOWP) are open work permits — no portal offer, no compliance fee. Codes were restructured 15 Dec 2022."
+    where: "references/immigration-details.md — IMP Offer of Employment Steps"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/temporary-residents/foreign-workers/exemption-codes.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "A list IRCC updates; C41 was narrowed as recently as January 2025."
+
+  - id: imm-work-permit-durations
+    statement: "Typical work permit durations by permit type"
+    value: "LMIA high-wage up to 3 years; LMIA low-wage maximum 1 year; CUSMA Professional (T36) up to 3 years renewable, no cumulative maximum; ICT Executive/Senior Manager (C62/T37) initial max 3 years (1 year for a new office), 2-year renewals, 7 years cumulative; ICT Specialized Knowledge (C63/T38) initial max 3 years (1 year new office), 2-year renewals, 5 years cumulative"
+    where: "references/immigration-details.md — Work Permit Duration Guidelines"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "The high-wage 3-year maximum was changed from 2 years recently."
+
+  - id: imm-pgwp-duration
+    statement: "Post-Graduation Work Permit duration rules"
+    value: "Program of 2 years or more gives 3 years; master's of 8 months or more gives 3 years; program of 8 months but under 2 years gives up to program length; capped by passport expiry"
+    where: "references/immigration-details.md — Work Permit Duration Guidelines"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "PGWP rules have changed repeatedly since 2024."
+
+  - id: imm-pgwp-language
+    statement: "PGWP language requirements"
+    value: "CLB/NCLC 7 (university), CLB/NCLC 5 (college/polytechnic/non-university), for PGWP applications submitted on or after Nov 1, 2024"
+    where: "references/immigration-details.md — PGWP eligibility (changed Nov 2024)"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: imm-pgwp-field-of-study
+    statement: "PGWP field-of-study requirement"
+    value: "Applicants whose study permit application was submitted on or after Nov 1, 2024 and who graduated from a non-degree program must have graduated in an eligible field of study tied to occupations in long-term shortage; bachelor's/master's/doctoral graduates exempt; flight school graduates exempt from both language and field-of-study requirements"
+    where: "references/immigration-details.md — PGWP eligibility (changed Nov 2024)"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "The eligible-field-of-study list is itself revised by IRCC."
+
+  - id: imm-study-permit-cap
+    statement: "IRCC study permit cap figures"
+    value: "Up to 408,000 study permits expected in 2026 (437,000 in 2025; 485,000 in 2024), with 309,670 application spaces for PAL/TAL-required cohorts; master's and doctoral students at public DLIs became PAL/TAL-exempt Jan 1, 2026; Quebec applicants use a CAQ instead of a PAL"
+    where: "references/immigration-details.md — PGWP eligibility, Study permit cap context"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/news.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Set annually in the Immigration Levels Plan, typically announced in the autumn."
+
+  - id: imm-work-permit-renewal
+    statement: "Work permit renewal timing and maintained status"
+    value: "Application must be received before the current work permit expires to preserve maintained status (online: before midnight UTC on the expiry date); IRCC recommends applying at least 30 days early but the legal test is the expiry date; under maintained status the worker may keep working under the same employer, occupation and location until a decision is made"
+    where: "references/immigration-details.md — Work Permit Duration Guidelines, Renewal"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/permit/temporary/extend.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: imm-cusma-credentials
+    statement: "CUSMA professional category minimum credentials"
+    value: "Baccalaureate or Licenciatura degree for most categories; Computer Systems Analyst and Graphic Designer also accept a post-secondary diploma/certificate plus 3 years experience; Management Consultant accepts 5 years equivalent consulting experience; Engineer also accepts a state/provincial licence; Lawyer accepts LL.B., J.D., LL.L., B.C.L., Licenciatura or provincial bar membership"
+    where: "references/immigration-details.md — CUSMA/USMCA Professional Categories (Selected)"
+    source: "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/temporary-residents/foreign-workers/international-free-trade-agreements.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "The skill itself flags that the CUSMA Appendix 2 list should be verified before reliance."
+
+  - id: imm-record-retention-table
+    statement: "Employer record retention periods for immigration compliance"
+    value: "6 years for LMIA and supporting documents, signed employment contracts, payroll records, time and attendance records, housing documentation, health insurance records, transportation receipts, and recruitment records"
+    where: "references/immigration-details.md — Employer Inspection Preparation Guide, Records to Maintain"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: imm-low-wage-employer-costs
+    statement: "Employer-borne costs in low-wage and agricultural streams"
+    value: "Round-trip transportation costs and, in applicable provinces/territories, private emergency medical insurance covering the period before provincial coverage begins — never recoverable from the worker; SAWP/agricultural employers must also provide adequate housing"
+    where: "SKILL.md — Employer Compliance Obligations, Employers must"
+    source: "https://www.canada.ca/en/employment-social-development/services/foreign-workers/low-wage.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"

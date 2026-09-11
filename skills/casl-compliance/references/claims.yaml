@@ -1,0 +1,252 @@
+skill: casl-compliance
+last_verified: 2026-09-11
+claims:
+  - id: casl-amp-max-individual
+    statement: "CASL maximum administrative monetary penalty per violation — individual"
+    value: "$1,000,000"
+    where: "SKILL.md — Penalties and Enforcement"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Statutory maximum in CASL s.20(4); changes only by amendment."
+
+  - id: casl-amp-max-organization
+    statement: "CASL maximum administrative monetary penalty per violation — organization"
+    value: "$10,000,000"
+    where: "SKILL.md — Penalties and Enforcement"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: casl-private-right-of-action
+    statement: "CASL private right of action (ss. 47-51, 55) status"
+    value: "Not in force. Scheduled for 1 July 2017, suspended indefinitely by Order in Council P.C. 2017-0580 (2 June 2017; SI/2017-31). No new date set; suspension remains in effect as of September 2026"
+    where: "SKILL.md — Penalties and Enforcement"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Highest-consequence volatile item in this skill — reinstatement would create class-action exposure overnight."
+
+  - id: casl-in-force-date
+    statement: "CASL coming-into-force date"
+    value: "1 July 2014 (S.C. 2010, c. 23)"
+    where: "SKILL.md — Overview"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: casl-implied-consent-ebr-window
+    statement: "Implied consent window — existing business relationship"
+    value: "Purchase, lease or barter within the past 2 years; runs 2 years from last transaction"
+    where: "SKILL.md — The Three Requirements for a Compliant CEM / 1. Consent"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: casl-implied-consent-enbr-window
+    statement: "Implied consent window — existing non-business relationship"
+    value: "Donation, volunteer work or club membership within past 2 years; runs 2 years from last activity"
+    where: "SKILL.md — The Three Requirements for a Compliant CEM / 1. Consent"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: casl-implied-consent-inquiry-window
+    statement: "Implied consent window — inquiry or application"
+    value: "6 months from the inquiry or application"
+    where: "SKILL.md — The Three Requirements for a Compliant CEM / 1. Consent"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: casl-implied-consent-published-address
+    statement: "Implied consent — conspicuously published address"
+    value: "No time limit, but only for messages relevant to the recipient's role or function"
+    where: "SKILL.md — The Three Requirements for a Compliant CEM / 1. Consent"
+    source: "https://crtc.gc.ca/eng/internet/anti.htm"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: casl-express-consent-expiry
+    statement: "Express consent expiry"
+    value: "Does not expire unless withdrawn"
+    where: "SKILL.md — The Three Requirements for a Compliant CEM / 1. Consent, Express Consent"
+    source: "https://crtc.gc.ca/eng/internet/anti.htm"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: casl-unsubscribe-processing-deadline
+    statement: "Deadline to give effect to an unsubscribe request"
+    value: "10 business days (not calendar days)"
+    where: "SKILL.md — The Three Requirements for a Compliant CEM / 3. Unsubscribe Mechanism"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: casl-unsubscribe-functional-period
+    statement: "Period the unsubscribe mechanism must remain functional"
+    value: "At least 60 days after the message is sent"
+    where: "SKILL.md — The Three Requirements for a Compliant CEM / 3. Unsubscribe Mechanism"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2012-36/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: casl-identification-validity-period
+    statement: "Period sender identification and contact information must remain valid and accessible"
+    value: "At least 60 days after the message is sent"
+    where: "SKILL.md — The Three Requirements for a Compliant CEM / 2. Identification"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2012-36/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: casl-mailing-address-po-box
+    statement: "Acceptable mailing address formats for CEM identification"
+    value: "Street/civic address, postal box, rural route or general delivery; CRTC Bulletin 2012-548 confirms a P.O. box is acceptable"
+    where: "SKILL.md — The Three Requirements for a Compliant CEM / 2. Identification"
+    source: "https://crtc.gc.ca/eng/archive/2012/2012-548.htm"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed. CRTC guidance bulletins are periodically revised or replaced."
+
+  - id: casl-compu-finder-penalty
+    statement: "CRTC enforcement — Compu-Finder penalty as imposed"
+    value: "$200,000 (Decision CRTC 2017-368), reduced from a proposed $1.1M"
+    where: "SKILL.md — Penalties and Enforcement, Notable enforcement actions"
+    source: "https://crtc.gc.ca/eng/archive/2017/2017-368.htm"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: casl-blackstone-penalty
+    statement: "CRTC enforcement — Blackstone Learning Corp penalty as imposed"
+    value: "$50,000 (Decision CRTC 2016-428), reduced from a proposed $640K"
+    where: "SKILL.md — Penalties and Enforcement, Notable enforcement actions"
+    source: "https://crtc.gc.ca/eng/archive/2016/2016-428.htm"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: casl-hudsons-bay-undertaking
+    statement: "CRTC enforcement — Hudson's Bay undertaking"
+    value: "$120,000 undertaking (June 2024)"
+    where: "SKILL.md — Penalties and Enforcement, Notable enforcement actions"
+    source: "https://crtc.gc.ca/eng/internet/anti.htm"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: casl-cumulative-enforcement-total
+    statement: "Cumulative CASL AMPs and undertakings reported by the CRTC"
+    value: "Roughly $3.6 million combined as of 31 March 2023; no published AMP-only running total"
+    where: "SKILL.md — Penalties and Enforcement"
+    source: "https://crtc.gc.ca/eng/internet/anti.htm"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed. Cumulative figure grows with each new enforcement action; the quoted date is already stale relative to today."
+
+  - id: casl-new-enforcement-actions
+    statement: "List of notable CRTC CASL enforcement actions cited in the skill"
+    value: "Compu-Finder, Blackstone Learning, Hudson's Bay; most cases resolve by voluntary undertaking rather than formal penalty"
+    where: "SKILL.md — Penalties and Enforcement, Notable enforcement actions"
+    source: "https://crtc.gc.ca/eng/internet/anti.htm"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: quarterly
+    notes: "source URL unconfirmed. The CRTC publishes new decisions and undertakings on a rolling basis; this list needs periodic top-up."
+
+  - id: casl-s66-consent-exceptions
+    statement: "CASL s.6(6) — messages where consent is not required but s.6(2) identification and unsubscribe still apply"
+    value: "Messages that solely: provide a requested quote or estimate; facilitate/complete/confirm a previously agreed transaction; provide warranty, recall, safety or security information; give factual notice about an ongoing subscription, membership, account or loan; provide information about a current employment relationship or benefit plan; deliver a product, goods or service owed under a prior transaction"
+    where: "SKILL.md — What is a Commercial Electronic Message (CEM)?"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: casl-s65-full-exclusions
+    statement: "CASL s.6(5) and GIC Regs SOR/2013-221 s.3 — messages to which section 6 does not apply at all"
+    value: "Personal or family relationship (s.6(5)(a)); inquiry about commercial activity (s.6(5)(b)); internal and inter-organization business communications (s.3(a)); responses to a request, inquiry, complaint or otherwise solicited (s.3(b)); messages satisfying a legal obligation, right, court order, judgment or tariff (s.3(c)); registered charity fundraising (s.3(g)); political contribution solicitation (s.3(h))"
+    where: "SKILL.md — What is a Commercial Electronic Message (CEM)?"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2013-221/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Exemption list is set by Governor in Council regulation and can be amended without amending CASL itself."
+
+  - id: casl-referral-exemption
+    statement: "Referral exemption — SOR/2013-221 s.4(1)"
+    value: "Consent under s.6(1) does not apply to the FIRST CEM sent as a result of a referral, where the referrer has an existing business, existing non-business, family or personal relationship with both sender and recipient; the CEM must disclose the referrer's full name and state it is sent as a result of a referral; identification and unsubscribe still apply"
+    where: "references/casl-details.md — Sector-Specific Nuances / Referral and 'Forward to a Friend' Programs"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2013-221/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: casl-s9-aiding
+    statement: "CASL s.9 liability for aiding a contravention"
+    value: "It is a violation to aid, induce, procure or cause to be procured a contravention of ss.6-8; each participant's exposure turns on actual conduct and the facts"
+    where: "references/casl-details.md — Sector-Specific Nuances / Referral and 'Forward to a Friend' Programs"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: casl-withdrawal-class-specific
+    statement: "Scope of a consent withdrawal (s.11(1)(a))"
+    value: "A recipient may withdraw from all CEMs or from a specified class of CEMs; a class-specific withdrawal does not bar all CEMs to that address"
+    where: "SKILL.md — The Three Requirements for a Compliant CEM / 3. Unsubscribe Mechanism"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: casl-enforcement-agencies
+    statement: "Agencies with CASL enforcement authority"
+    value: "CRTC, Competition Bureau, OPC — enforcement is exclusively public while the private right of action remains suspended"
+    where: "SKILL.md — Penalties and Enforcement"
+    source: "https://www.fightspam.gc.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: casl-rubric-scoring-bands
+    statement: "Internal campaign review rubric score bands"
+    value: "90-100 compliant, proceed; 70-89 compliant with minor gaps, fix before sending; below 70 non-compliant, do not send"
+    where: "references/casl-details.md — Campaign Review Rubric, Score interpretation"
+    source: "https://crtc.gc.ca/eng/internet/anti.htm"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed. Internal scoring aid, not a CRTC standard; maintained in-skill and revised when the underlying CASL requirements change."
+
+  - id: casl-complaint-response-window
+    statement: "Recommended immediate-response window on a CRTC inquiry or complaint"
+    value: "24-48 hours — preserve records, identify messages and recipients, pull consent records, check unsubscribe processing, notify counsel"
+    where: "references/casl-details.md — CRTC Complaint Response Guidance / Immediate Steps"
+    source: "https://crtc.gc.ca/eng/internet/anti.htm"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed. Practice guidance rather than a statutory deadline."

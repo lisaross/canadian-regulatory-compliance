@@ -53,7 +53,7 @@ Both were tabled in June 2026 and **neither is in force**. They regulate differe
 |---|---|---|
 | **Short title** | Protecting Privacy and Consumer Data Act | Safe Social Media Act |
 | **First reading** | 15 June 2026 | 10 June 2026 |
-| **Status** | First reading — **not law** | First reading — **not law** |
+| **Status** | First reading 15 June 2026; at the second reading stage, no second-reading activity yet — **not law** | First reading — **not law** |
 | **What it enacts** | PPCDA; repeals PIPEDA Part 1 (remainder renamed the *Electronic Documents Act*) | Digital Safety Act + Digital Safety Commission of Canada Act |
 | **Who it binds** | Organizations handling personal information in commercial activity | Regulated **social media services** and **chatbot services** |
 | **AI hook** | **Automated decision systems** — technology that **assists or replaces** human judgment | **Chatbot services** — AI simulating a sustained human-like relationship; **synthetic content** labelling |

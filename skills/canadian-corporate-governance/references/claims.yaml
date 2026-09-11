@@ -1,0 +1,282 @@
+skill: canadian-corporate-governance
+last_verified: 2026-09-11
+claims:
+  - id: corp-isc-register-in-force
+    statement: "CBCA ISC register and filing in-force dates"
+    value: "Register required since 13 June 2019; filing with Corporations Canada required since 22 January 2024, with some information published in a public registry"
+    where: "SKILL.md — Corporate Records — Minute Book Requirements; SKILL.md — Filing Obligations (in force 22 January 2024)"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-isc-threshold
+    statement: "Individual with significant control ownership threshold"
+    value: "25% or more of voting shares, or shares representing 25% or more of the FMV of all outstanding shares, or de facto control (CBCA s.2.1(3))"
+    where: "SKILL.md — Beneficial Ownership Register (ISC Register) — Definition"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-isc-filing-deadlines
+    statement: "CBCA ISC filing deadlines"
+    value: "Annually with the annual return (within 60 days of the anniversary date); within 15 days of recording any change in the ISC register; on incorporation; within 30 days of a Certificate of Amalgamation or Continuance"
+    where: "SKILL.md — Filing Obligations (in force 22 January 2024); references/corporate-governance-details.md — ISC Register Template"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: corp-isc-register-update
+    statement: "CBCA ISC register update and review obligations"
+    value: "Updated within 15 days of becoming aware of a change and reviewed at least once each financial year (s.21.1(2)-(3))"
+    where: "SKILL.md — Filing Obligations (in force 22 January 2024)"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-isc-corporate-penalties
+    statement: "CBCA ISC corporate penalty maxima"
+    value: "Failure to prepare/maintain the register (s.21.1(6)): up to $100,000; failure to file (s.21.21): up to $100,000, refusal of a certificate of existence, and administrative dissolution"
+    where: "SKILL.md — Beneficial Ownership Register (ISC Register) — Penalties"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-isc-individual-penalties
+    statement: "CBCA ISC penalties for directors, officers and shareholders (s.21.4(5))"
+    value: "On summary conviction up to $200,000, up to 2 years' imprisonment, or both; on indictment up to $1,000,000, up to 5 years' imprisonment, or both"
+    where: "SKILL.md — Beneficial Ownership Register (ISC Register) — Penalties"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-isc-register-exemptions
+    statement: "Corporations exempt from maintaining a CBCA ISC register"
+    value: "Reporting issuers, corporations listed on a designated stock exchange (ITA s.248(1)), wholly-owned subsidiaries of either, and Crown corporations and their wholly-owned subsidiaries (CBCA s.21.1(7) and regulations); exempt corporations must still file an annual confirmation of exemption with the annual return"
+    where: "SKILL.md — Beneficial Ownership Register (ISC Register) — Who Must Comply"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-provincial-transparency-registers
+    statement: "Provincial beneficial ownership register in-force dates"
+    value: "Ontario internal register in force 1 January 2023; BC internal register under BCBCA Part 4.1 in force 1 October 2020 (updated within 30 days of a change); Quebec public disclosure of ultimate beneficiaries to the REQ in force 31 March 2023"
+    where: "SKILL.md — Beneficial Ownership Register (ISC Register) — Note"
+    source: "https://www.ontario.ca/laws/statute/90b16"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-cbca-annual-return-deadline
+    statement: "CBCA annual return deadline"
+    value: "Within 60 days of the corporation's anniversary date (incorporation, amalgamation or continuance under the CBCA)"
+    where: "SKILL.md — Annual Filings — Federal (CBCA) — Annual Return"
+    source: "https://ised-isde.canada.ca/site/corporations-canada/en"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: corp-cbca-annual-return-fee
+    statement: "CBCA annual return filing fee"
+    value: "$12 online; $40 by email or mail"
+    where: "SKILL.md — Annual Filings — Federal (CBCA) — Annual Return"
+    source: "https://ised-isde.canada.ca/site/corporations-canada/en"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed; Corporations Canada fee schedules change without statutory amendment."
+
+  - id: corp-cbca-annual-return-isc-link
+    statement: "CBCA annual return cannot be filed without the ISC filing"
+    value: "The ISC filing (or confirmation of exemption) must be submitted with the annual return; failure to file can result in dissolution (striking off)"
+    where: "SKILL.md — Annual Filings — Federal (CBCA); references/corporate-governance-details.md — Annual Compliance Calendar"
+    source: "https://ised-isde.canada.ca/site/corporations-canada/en"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: corp-ontario-annual-return
+    statement: "Ontario annual return deadline and filing channel"
+    value: "Filed with the Ontario Business Registry within 6 months after the end of the corporation's tax year; since 15 May 2021 it can no longer be filed with the T2 via Schedule 546"
+    where: "SKILL.md — Annual Filings — Ontario — Annual Return (Corporations Information Act)"
+    source: "https://www.ontario.ca/page/ontario-business-registry"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: corp-ontario-initial-return-notice
+    statement: "Ontario initial return and notice of change deadlines"
+    value: "Initial Return within 60 days of incorporation/amalgamation/continuance into Ontario; Notice of Change within 15 days of any change to director/officer or registered office information"
+    where: "SKILL.md — Annual Filings — Ontario — Annual Return (Corporations Information Act)"
+    source: "https://www.ontario.ca/page/ontario-business-registry"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-bc-annual-report
+    statement: "BCBCA annual report deadline"
+    value: "Within 2 months of the corporation's recognition date anniversary (anniversary of incorporation), filed with BC Registry Services"
+    where: "SKILL.md — Annual Filings — BC (BCBCA) — Annual Report"
+    source: "https://www2.gov.bc.ca/gov/content/employment-business/business/managing-a-business/permits-licences/businesses-incorporated-companies"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: corp-alberta-annual-return
+    statement: "ABCA annual return deadline"
+    value: "No later than the last day of the month following the corporation's anniversary month (Alta Reg 118/2000, s.24); information current as of the last day of the anniversary month; not tied to fiscal year-end"
+    where: "SKILL.md — Annual Filings — Alberta (ABCA) — Annual Return"
+    source: "https://www.alberta.ca/corporate-registry"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: corp-director-residency
+    statement: "Director residency requirements by jurisdiction"
+    value: "CBCA: at least 25% of directors must be resident Canadians (some exceptions for small boards); Ontario removed its requirement effective 5 July 2021 and Alberta effective 29 March 2021"
+    where: "references/corporate-governance-details.md — Director Onboarding Checklist — Legal & Regulatory"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-director-change-notice
+    statement: "Deadline to file notice of change of directors"
+    value: "Within 15 days with Corporations Canada (CBCA), or as required provincially"
+    where: "references/corporate-governance-details.md — Director Onboarding Checklist; SKILL.md — Annual Filings"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-director-eligibility
+    statement: "CBCA director eligibility requirements (s.105(1))"
+    value: "At least 18, not incapable (s.2(1)), an individual, and not of bankrupt status; the CBCA imposes no fraud-conviction disqualification"
+    where: "references/corporate-governance-details.md — Director Onboarding Checklist — Legal & Regulatory"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-director-wage-liability
+    statement: "Director liability for unpaid wages"
+    value: "Up to 6 months wages per employee (CBCA s.119 / provincial ESA equivalents); due diligence defence available"
+    where: "SKILL.md — Director Liability Exposure; references/corporate-governance-details.md — Director Liability Exposure — Quick Reference"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-director-tax-limitation
+    statement: "Two-year limitation on CRA assessment of former directors"
+    value: "ITA s.227.1(4) and ETA s.323(5) bar the CRA from assessing or proceeding against a former director more than two years after the person last ceased to hold office"
+    where: "references/corporate-governance-details.md — Director Liability Exposure — Quick Reference; Resignation timing"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-records-retention
+    statement: "Corporate record retention periods"
+    value: "Financial statements last 6 years; securities register continuous with no statutory destruction date, cancelled certificates destroyable 6 years after cancellation (s.50(5)); meeting minutes and registers permanent"
+    where: "SKILL.md — Corporate Records — Minute Book Requirements"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-shareholder-vote-thresholds
+    statement: "Shareholder resolution approval thresholds"
+    value: "Ordinary resolutions: majority of votes cast (over 50%); special resolutions: two-thirds of votes cast (articles amendment, amalgamation, continuance, sale of substantially all assets, dissolution)"
+    where: "SKILL.md — Shareholder Rights — Voting Rights"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-cbca-audit-committee
+    statement: "CBCA statutory audit committee composition (s.171(1))"
+    value: "A distributing corporation whose securities are held by more than one person (s.102(2)) must have an audit committee of not fewer than three directors, a majority of whom are not officers or employees of the corporation or its affiliates; the Director may grant an exemption (s.171(2))"
+    where: "SKILL.md — Audit Committee Requirements"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-ni-52-110-audit-committee
+    statement: "NI 52-110 audit committee composition for non-venture reporting issuers"
+    value: "Minimum three members, every member a director, every member independent, and every member financially literate; a member not financially literate on appointment must become so within a reasonable time (s.3.8)"
+    where: "SKILL.md — Audit Committee Requirements — Securities law (NI 52-110)"
+    source: "https://www.osc.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-ni-52-110-exemption-conditions
+    statement: "NI 52-110 exemption availability conditions"
+    value: "s.3.3(2) (controlled companies) and s.3.6 (temporary, limited and exceptional circumstances) available only where a majority of committee members would be independent (s.3.7); ss.3.2, 3.4, 3.5 and 3.8 available only where the board determines reliance will not materially adversely affect the committee's independence (s.3.9)"
+    where: "SKILL.md — Audit Committee Requirements — Securities law (NI 52-110)"
+    source: "https://www.osc.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-venture-issuer-audit-committee
+    statement: "Venture issuer audit committee requirements"
+    value: "Exempt from NI 52-110 Part 3 (s.6.1); committees need three members, all directors, with a majority who are not executive officers, employees or control persons (s.6.1.1)"
+    where: "SKILL.md — Audit Committee Requirements — Venture issuers"
+    source: "https://www.osc.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: corp-agm-deadline
+    statement: "Annual Meeting of Shareholders timing"
+    value: "Within 6 months of fiscal year-end (illustrated as April for a December 31 FYE)"
+    where: "references/corporate-governance-details.md — Annual Compliance Calendar — CBCA Corporation"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: corp-minute-book-retention
+    statement: "Minute book audit retention expectations"
+    value: "Minutes of annual and board meetings past 6 years minimum; audited financial statements past 6 fiscal years"
+    where: "references/corporate-governance-details.md — Minute Book Audit Tool"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-44/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
