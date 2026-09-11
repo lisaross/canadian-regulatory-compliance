@@ -1,0 +1,252 @@
+skill: canadian-health-safety
+last_verified: 2026-09-11
+claims:
+  - id: hs-whmis-ghs-alignment
+    statement: "WHMIS / GHS alignment edition and amendment dates"
+    value: "Hazardous Products Regulations amended 4 January 2023 (in force 15 December 2022) to align with GHS 7th revised edition, plus the Chemicals Under Pressure class from the 8th edition"
+    where: "SKILL.md — WHMIS (Workplace Hazardous Materials Information System)"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2015-17/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-whmis-transition-end
+    statement: "End of the WHMIS/HPR 3-year transition period"
+    value: "Transition ended 14 December 2025; amended requirements now apply in full"
+    where: "SKILL.md — WHMIS (Workplace Hazardous Materials Information System)"
+    source: "https://www.canada.ca/en/health-canada/services/environmental-workplace-health/occupational-health-safety/workplace-hazardous-materials-information-system.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-whmis-enforcement-date
+    statement: "Health Canada WHMIS compliance promotion period end date"
+    value: "Compliance promotion until 19 July 2027 (the U.S. OSHA deadline for mixtures), then risk-based enforcement"
+    where: "SKILL.md — WHMIS (Workplace Hazardous Materials Information System)"
+    source: "https://www.canada.ca/en/health-canada/services/environmental-workplace-health/occupational-health-safety/workplace-hazardous-materials-information-system.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-sds-update-90-days
+    statement: "SDS update deadline on significant new data"
+    value: "Suppliers within 90 days (HPR s.5.12); Ontario employers preparing their own SDS within 90 days (O. Reg. 860 s.18(3)); same 90-day duty in AB, MB, NB, PEI and QC"
+    where: "SKILL.md — Safety Data Sheets (SDS) — Employer obligations; references/whmis-ccohs.md — Red Flags During Label Review"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2015-17/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-sds-3-year-refresh
+    statement: "Jurisdictions requiring employers to actively seek an updated SDS every 3 years"
+    value: "Federally regulated, BC, SK, NL, NWT, NS, NU and YT employers (e.g. COHSR s.10.32(2)); the attempt must be documented"
+    where: "SKILL.md — Safety Data Sheets (SDS); references/whmis-ccohs.md — Red Flags During Label Review"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-86-304/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-jhsc-federal-thresholds
+    statement: "Federal JHSC / representative employee thresholds"
+    value: "Policy committee at 300+ employees (CLC s.134.1); workplace committee at 20+ employees (s.135); health and safety representative for fewer than 20 employees (s.136)"
+    where: "SKILL.md — Joint Health and Safety Committees (JHSC) / Representatives"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/L-2/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-jhsc-ontario-thresholds
+    statement: "Ontario JHSC / representative worker thresholds and committee size"
+    value: "Committee at 20+ workers regularly employed (OHSA s.9); 20-49 workers minimum 2 members, 50+ minimum 4 members; representative at 6-19 workers (s.8); neither at 1-5 workers unless a designated substance regulation applies"
+    where: "SKILL.md — Joint Health and Safety Committees (JHSC) / Representatives"
+    source: "https://www.ontario.ca/laws/statute/90o01"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-jhsc-bc-alberta-thresholds
+    statement: "BC and Alberta JHSC / representative worker thresholds"
+    value: "BC: committee at 20+ workers regularly employed (WCA s.31); representative at more than 9 but fewer than 20 (WCA s.45); neither at 9 or fewer. Alberta: committee at 20+ regularly employed workers plus a mandatory health and safety program (OHS Act s.13); representative at 5-19 workers (s.14); neither below 5"
+    where: "SKILL.md — Joint Health and Safety Committees (JHSC) / Representatives"
+    source: "https://www.bclaws.gov.bc.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-quebec-lsst
+    statement: "Quebec LSST prevention mechanism thresholds and in-force date"
+    value: "In force 1 October 2025: 20+ workers for 21+ days in a year requires a prevention program, CSS and a designated RSS; 19 or fewer requires an action plan and a health and safety liaison officer (ALSS)"
+    where: "SKILL.md — Joint Health and Safety Committees (JHSC) / Representatives"
+    source: "https://www.legisquebec.gouv.qc.ca/en/document/cs/s-2.1"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; skill states Quebec's regime is not covered in depth and needs separate verification."
+
+  - id: hs-jhsc-meeting-frequency
+    statement: "JHSC meeting frequency by jurisdiction"
+    value: "BC joint committees at least once each month (WCA s.37(2)); federal policy committees at least quarterly (CLC s.134.1(7)); federal workplace committees at least 9 times a year; Ontario JHSCs at least once every 3 months"
+    where: "SKILL.md — Joint Health and Safety Committees — Meeting frequency"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/L-2/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-jhsc-certification-training
+    statement: "JHSC member certification and education requirements"
+    value: "Ontario requires one certified worker and one certified management member (OHSA s.9(12)), Part 1 and Part 2 training with refresher every 3 years; exempt: fewer than 20 workers, construction projects under 50 workers, projects under 3 months (s.9(13); O. Reg. 385/96 s.4). BC requires 8 hours of joint committee member education annually (OHSR s.3.27)"
+    where: "SKILL.md — Joint Health and Safety Committees — Certified members (Ontario)"
+    source: "https://www.ontario.ca/laws/statute/90o01"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-ontario-critical-injury-definition
+    statement: "Ontario critical injury definition instrument"
+    value: "O. Reg. 420/21, which revoked R.R.O. 1990, Reg. 834 on 1 July 2021; seven enumerated categories; MLITSD treats fracture or amputation of more than one finger or toe as critical"
+    where: "SKILL.md — Critical Injuries / Fatalities (report immediately)"
+    source: "https://www.ontario.ca/laws/regulation/210420"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-ontario-reporting-deadlines
+    statement: "Ontario OHSA incident notice and written report deadlines"
+    value: "Immediate telephone notice for fatality or critical injury, written report to a Director within 48 hours (OHSA s.51; O. Reg. 420/21); non-critical injury requiring medical attention: written notice within 4 days (s.52(1)); occupational illness: written notice within 4 days (s.52(2)); retain copies 3 years"
+    where: "SKILL.md — Written Reports"
+    source: "https://www.ontario.ca/laws/statute/90o01"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-wsib-form7-deadline
+    statement: "WSIB Form 7 filing deadline and trigger"
+    value: "Received by the WSIB within three business days (excluding statutory holidays) of the reporting obligation arising — health care beyond first aid, absence from work, reduced pay, modified work at less than regular pay, or modified work at regular pay for more than seven calendar days"
+    where: "SKILL.md — Written Reports; references/whmis-ccohs.md — Ontario OHSA — Forms Reference"
+    source: "https://www.wsib.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: hs-wsib-late-filing-penalty
+    statement: "WSIB Form 7 late filing penalties"
+    value: "$250 for late filing; $1,000 if over 30 calendar days; fatalities reported by calling 1-800-387-0750 as soon as possible"
+    where: "SKILL.md — Written Reports; references/whmis-ccohs.md — Ontario OHSA — Forms Reference"
+    source: "https://www.wsib.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: hs-bc-investigation-deadlines
+    statement: "WorkSafeBC notification and investigation report deadlines"
+    value: "Immediate notification to WorkSafeBC for serious injury or death, major structural failure or collapse, major hazardous substance release, fire or explosion with potential to cause serious injury, or blasting incident causing injury (WCA s.68); preliminary investigation report within 48 hours (s.71, to WorkSafeBC only on request); full investigation report to WorkSafeBC within 30 days (s.72), extensions available"
+    where: "SKILL.md — Written Reports; references/whmis-ccohs.md — WorkSafeBC Reporting Thresholds"
+    source: "https://www.worksafebc.com/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-alberta-reporting
+    statement: "Alberta OHS incident reporting requirements and record retention"
+    value: "Report by phone to the OHS Contact Centre (1-866-415-8690) as soon as possible for death, hospital admission beyond emergency/urgent care, unplanned explosion/fire/flood, crane/derrick/hoist collapse or upset, or building/structural collapse (OHS Act s.33); potentially serious incidents reported online after the investigation is complete (s.33(6)), no immediate PSI reporting; no fixed deadline for the investigation report; retained at least 2 years"
+    where: "SKILL.md — Written Reports"
+    source: "https://www.alberta.ca/occupational-health-safety"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-criminal-code-c45-fines
+    statement: "Criminal Code summary-conviction fine maximum for organizations (Bill C-45)"
+    value: "Rose from $25,000 to $100,000 on summary conviction; no cap for indictable offences; Bill C-45 (S.C. 2003, c.21) effective 31 March 2004"
+    where: "SKILL.md — Criminal Liability — Bill C-45 (the Westray Bill)"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-46/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-federal-harassment-regs-in-force
+    statement: "Work Place Harassment and Violence Prevention Regulations in-force date"
+    value: "SOR/2020-130 came into force 1 January 2021, replacing COHSR Part XX"
+    where: "SKILL.md — Federal: Harassment and Violence Prevention"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2020-130/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-federal-harassment-timelines
+    statement: "Federal harassment and violence prevention procedural deadlines"
+    value: "Workplace assessment, prevention policy and training reviewed/provided at least every 3 years; contact the principal party within 7 days of a notice of occurrence; begin negotiated resolution no later than 45 days after notice; complete the resolution process within 1 year; monthly status updates"
+    where: "SKILL.md — Federal: Harassment and Violence Prevention"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2020-130/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-federal-harassment-annual-report
+    statement: "Federal harassment and violence annual report deadline and record retention"
+    value: "Annual report filed with the Head of Compliance and Enforcement on or before March 1 each year; health and safety records retained 10 years"
+    where: "SKILL.md — Federal: Harassment and Violence Prevention"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2020-130/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: hs-whmis-label-bilingual
+    statement: "Supplier label and SDS bilingual requirement"
+    value: "Both English and French required (HPR s.6.2(1)) for a hazardous product sold or imported for use, handling or storage in a Canadian workplace (HPA ss.13-14), in every province; Quebec adds French-language requirements under the Charter of the French Language"
+    where: "references/whmis-ccohs.md — WHMIS Label Review Checklist — Supplier Label"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2015-17/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-whmis-excluded-products
+    statement: "Products excluded from WHMIS supplier requirements"
+    value: "Explosives, cosmetics/devices/drugs/foods, pest control products, consumer products, wood, radioactive nuclear substances, hazardous waste for disposal, tobacco and manufactured articles"
+    where: "references/whmis-ccohs.md — WHMIS Label Review Checklist — Supplier Label"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/H-3/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-whmis-hazard-classes
+    statement: "WHMIS hazard classes adopted and not adopted from GHS"
+    value: "Chemicals under pressure added as a new physical hazard class; aerosols gain Category 3; pyrophoric and chemically unstable gases folded into flammable gases Category 1A. Not adopted: GHS Explosives and Desensitized Explosives (governed by the Explosives Act) and the environmental hazards group"
+    where: "SKILL.md — Hazard Classes"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2015-17/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: hs-terminology-changes
+    statement: "Superseded WHMIS terminology"
+    value: "Avoid the label 'WHMIS 2015'; the WHMIS 1988 term 'controlled product' is repealed and replaced by 'hazardous product'"
+    where: "SKILL.md — WHMIS; SKILL.md — Safety Data Sheets (SDS) — Employer obligations"
+    source: "https://www.canada.ca/en/health-canada/services/environmental-workplace-health/occupational-health-safety/workplace-hazardous-materials-information-system.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
