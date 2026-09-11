@@ -1,0 +1,319 @@
+skill: osfi-prudential
+last_verified: 2026-09-11
+claims:
+  - id: osfi-dsb-level
+    statement: "Domestic Stability Buffer (DSB) level and range"
+    value: "3.0% of RWA effective June 19, 2026 (lowered from 3.5%, its level since June 2023); range narrowed from 0–4% to 0–3%"
+    where: "SKILL.md — Capital Adequacy — Basel III/IV Framework > Domestic Stability Buffer (DSB)"
+    source: "https://www.osfi-bsif.gc.ca/en/data-forms/financial-data/domestic-stability-buffer"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: semiannual
+    notes: "OSFI reviews the DSB twice yearly (June and December) and may adjust it at any time. Next scheduled announcement December 2026."
+
+  - id: osfi-dsib-cet1-target
+    statement: "D-SIB CET1 supervisory target including the DSB"
+    value: "At least 11.0% of RWA (4.5% minimum + 2.5% conservation buffer + 1.0% D-SIB surcharge + 3.0% DSB); Tier 1 12.5% and Total 14.5% at a 3.0% DSB"
+    where: "SKILL.md — Capital Adequacy — Basel III/IV Framework > Key Capital Ratios"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/capital-adequacy-requirements-car-2026"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: semiannual
+    notes: "Moves with the DSB; re-check at the next DSB announcement."
+
+  - id: osfi-cet1-minimum
+    statement: "CET1 minimum and target ratios"
+    value: "OSFI minimum 4.5% of RWA; SMSB target 7.0%; D-SIB target 8.0% + DSB"
+    where: "SKILL.md — Capital Adequacy — Basel III/IV Framework > Key Capital Ratios"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/capital-adequacy-requirements-car-2026"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "CAR Guideline is reissued annually (currently CAR 2026)."
+
+  - id: osfi-tier1-minimum
+    statement: "Tier 1 capital minimum and target ratios"
+    value: "OSFI minimum 6.0% of RWA; SMSB target 8.5%; D-SIB target 9.5% + DSB"
+    where: "SKILL.md — Capital Adequacy — Basel III/IV Framework > Key Capital Ratios"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/capital-adequacy-requirements-car-2026"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+
+  - id: osfi-total-capital-minimum
+    statement: "Total capital minimum and target ratios"
+    value: "OSFI minimum 8.0% of RWA; SMSB target 10.5%; D-SIB target 11.5% + DSB"
+    where: "SKILL.md — Capital Adequacy — Basel III/IV Framework > Key Capital Ratios"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/capital-adequacy-requirements-car-2026"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+
+  - id: osfi-leverage-ratio
+    statement: "Leverage ratio minimum and D-SIB requirement"
+    value: "3.0% of total exposures (SMSB 3.0%); D-SIB 3.5% (3.0% + 0.5% D-SIB buffer)"
+    where: "SKILL.md — Capital Adequacy — Basel III/IV Framework > Key Capital Ratios"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/leverage-requirements-guideline-2026"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: osfi-output-floor
+    statement: "Basel III standardized capital output floor level and status"
+    value: "67.5%; increases deferred until further notice (Superintendent's statement, February 2025), with at least two years' notice before any resumption"
+    where: "SKILL.md — Capital Adequacy — Basel III/IV Framework > Basel III output floor"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/capital-adequacy-requirements-car-2026"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "The deferral is open-ended; OSFI may restate its position at any quarterly release."
+
+  - id: osfi-dsib-list
+    statement: "Designated D-SIBs and G-SIBs in Canada"
+    value: "D-SIBs: the Big Six (RBC, TD, BNS, BMO, CIBC, NBC), 1% surcharge; RBC and TD also designated G-SIBs, bucket 1"
+    where: "SKILL.md — Capital Adequacy — Basel III/IV Framework > D-SIBs"
+    source: "https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/domestic-systemically-important-banks"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "G-SIB bucket allocations are updated annually by the FSB each November."
+
+  - id: osfi-lcr-minimum
+    statement: "Liquidity Coverage Ratio (LCR) minimum and reporting frequency"
+    value: "Minimum 100%; HQLA ÷ net cash outflows over a 30-day stress period; reported monthly to OSFI"
+    where: "SKILL.md — Liquidity Requirements > Liquidity Coverage Ratio (LCR)"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/liquidity-adequacy-requirements-lar-2026"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed; LAR Guideline is reissued annually"
+
+  - id: osfi-nsfr-minimum
+    statement: "Net Stable Funding Ratio (NSFR) minimum and reporting frequency"
+    value: "Minimum 100%; ASF ÷ RSF over a 1-year horizon; reported quarterly to OSFI"
+    where: "SKILL.md — Liquidity Requirements > Net Stable Funding Ratio (NSFR)"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/liquidity-adequacy-requirements-lar-2026"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: osfi-nccf-horizon
+    statement: "Net Cumulative Cash Flow (NCCF) horizon and bucketing"
+    value: "12-month horizon — weekly buckets for weeks 1–4, monthly for months 2–12; D-SIBs and Category I file the Comprehensive NCCF, Category II the Streamlined NCCF"
+    where: "SKILL.md — Liquidity Requirements > Liquidity Adequacy Requirements (LAR) Guideline"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/liquidity-adequacy-requirements-lar-2026"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: osfi-liquidity-reporting-lags
+    statement: "Maximum reporting lags for liquidity returns"
+    value: "LCR monthly within 14 calendar days (3 business days in stress); NSFR quarterly within 30 calendar days; NCCF monthly within 14 calendar days (3 business days in stress); OCFS monthly within 14 calendar days"
+    where: "references/osfi-details.md — OSFI Regulatory Reporting Calendar"
+    source: "https://www.osfi-bsif.gc.ca/en/data-forms/reporting-returns"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed; verify against OSFI's current filing schedule"
+
+  - id: osfi-icaap-filing-cadence
+    statement: "ICAAP data return filing cadence and deadlines"
+    value: "D-SIBs file quarterly within 30 days of fiscal quarter-end; SMSBs file annually within 90 days of fiscal year-end"
+    where: "SKILL.md — ICAAP — Internal Capital Adequacy Assessment Process"
+    source: "https://www.osfi-bsif.gc.ca/en/data-forms/reporting-returns"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: osfi-b20-mqr
+    statement: "B-20 mortgage qualifying rate (MQR)"
+    value: "Greater of the contract rate + 2.00 percentage points, or the 5.25% floor rate (reviewed periodically by OSFI)"
+    where: "SKILL.md — Mortgage Stress Test (OSFI B-20)"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/residential-mortgage-underwriting-practices-procedures-guideline-b-20"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "OSFI has historically announced MQR reviews in December; treat the 5.25% floor as change-prone."
+
+  - id: osfi-b20-lti-limit
+    statement: "Loan-to-income (LTI) portfolio limit for uninsured mortgages"
+    value: "Institution-specific limit on the share of newly originated uninsured mortgages exceeding a 4.5x loan-to-income multiple; portfolio-level, in effect since fiscal 2025, reported quarterly; reaffirmed by OSFI January 29, 2026 as operating alongside — not replacing — the MQR"
+    where: "SKILL.md — Mortgage Stress Test (OSFI B-20) > Loan-to-income (LTI) limits"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/residential-mortgage-underwriting-practices-procedures-guideline-b-20"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+
+  - id: osfi-b20-straight-switch
+    statement: "Straight-switch MQR exemption at renewal"
+    value: "Since November 21, 2024 OSFI no longer prescribes the MQR for uninsured straight switches between federally regulated lenders with no increase in amortization or loan amount"
+    where: "SKILL.md — Mortgage Stress Test (OSFI B-20)"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/residential-mortgage-underwriting-practices-procedures-guideline-b-20"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: osfi-insured-mortgage-price-cap
+    statement: "Insured mortgage price cap"
+    value: "$1.5 million effective December 15, 2024, up from $1M (set by the Department of Finance, not OSFI)"
+    where: "SKILL.md — Mortgage Stress Test (OSFI B-20) > Insured mortgage eligibility"
+    source: "https://www.canada.ca/en/department-finance.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: osfi-insured-gds-tds
+    statement: "GDS/TDS limits for insured mortgages"
+    value: "39% GDS / 44% TDS, prescribed in law for insured mortgages; B-20 does not prescribe GDS/TDS limits for uninsured mortgages (OSFI declined in its October 2023 consultation response)"
+    where: "SKILL.md — Mortgage Stress Test (OSFI B-20) > Debt service ratios"
+    source: "https://www.canada.ca/en/department-finance.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: osfi-b10-effective-date
+    statement: "Guideline B-10 Third-Party Risk Management effective date"
+    value: "Effective May 1, 2024"
+    where: "SKILL.md — Key OSFI Guidelines"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/third-party-risk-management-guideline"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: osfi-b13-effective-date
+    statement: "Guideline B-13 Technology and Cyber Risk effective date"
+    value: "Effective January 1, 2024; three domains — governance and risk management, technology operations and resilience, cyber security"
+    where: "SKILL.md — Key OSFI Guidelines"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: osfi-cyber-incident-24h
+    statement: "Technology and cyber security incident reporting deadline to OSFI"
+    value: "Within 24 hours of the incident, or sooner if possible, to OSFI's Technology Risk Division and the Lead Supervisor, under the Technology and Cyber Security Incident Reporting Advisory (August 13, 2021)"
+    where: "SKILL.md — OSFI Supervisory Framework > Incident Reporting"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-security-incident-reporting-advisory"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "The 2021 Advisory shortened the window from the 72 hours under the 2019 Advisory; the window has changed before."
+
+  - id: osfi-b15-revision-and-phase-in
+    statement: "Guideline B-15 Climate Risk Management revision date and disclosure phase-in"
+    value: "Revised March 7, 2025; disclosures phased in from fiscal 2024 (D-SIBs, Canadian IAIGs) and fiscal 2025 (other in-scope FRFIs); Scope 1 and 2 GHG emissions required; Scope 3 deferred to fiscal 2028 (fiscal 2029 for off-balance-sheet AUM), aligned to CSSB standards"
+    where: "SKILL.md — Key OSFI Guidelines"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/climate-risk-management-guideline-b-15"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: osfi-b15-disclosure-lag
+    statement: "Climate-related financial disclosure filing lag (B-15)"
+    value: "Annual, within 180 days of fiscal year-end"
+    where: "references/osfi-details.md — OSFI Regulatory Reporting Calendar"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/climate-risk-management-guideline-b-15"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+
+  - id: osfi-e21-milestones
+    statement: "Guideline E-21 Operational Risk Management and Resilience implementation milestones"
+    value: "Revised August 22, 2024; operational risk management effective immediately; Section 4 by September 1, 2025; full adherence by September 1, 2026; scenario testing of all critical operations by September 1, 2027"
+    where: "SKILL.md — Key OSFI Guidelines"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/operational-risk-management-resilience-guideline-e-21"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "The September 1, 2026 full-adherence date falls immediately before this verification; confirm it passed as scheduled."
+
+  - id: osfi-e23-effective-date
+    statement: "Guideline E-23 Model Risk Management version in force and revision effective date"
+    value: "The 2017 version remains in force for deposit-taking institutions; the revised Model Risk Management (2027) guideline was published September 11, 2025 and takes effect May 1, 2027, extending coverage to all FRFIs including insurers and explicitly covering AI and machine learning models"
+    where: "SKILL.md — Key OSFI Guidelines"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/model-risk-management-guideline-e-23"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: osfi-integrity-security-guideline
+    statement: "Integrity and Security Guideline dates"
+    value: "Issued January 31, 2024; fully in force since July 31, 2025"
+    where: "SKILL.md — Key OSFI Guidelines"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/integrity-security-guideline"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: osfi-senior-leader-regime
+    statement: "Corporate governance policy status — Senior Leader Regime consultation"
+    value: "Draft Corporate Governance and Accountability Guideline postponed; Senior Leader Regime consultative document issued January 29, 2026, consultation closes October 31, 2026"
+    where: "SKILL.md — Key OSFI Guidelines"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: on-event
+    notes: "Consultation closes October 31, 2026 — expect a policy update shortly after."
+
+  - id: osfi-culture-risk-notice
+    statement: "Culture risk management instrument and date"
+    value: "Regulatory Notice — Culture Risk Management, November 21, 2024; issued as a regulatory notice, not a guideline; the draft Culture and Behaviour Risk Management guideline was not finalized"
+    where: "SKILL.md — Key OSFI Guidelines"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: osfi-tlac-minimum
+    statement: "Total Loss Absorbing Capacity (TLAC) minimum for D-SIBs"
+    value: "Minimum 21.5% of RWA in loss-absorbing instruments that can be bailed in; 6.75% on a leverage basis"
+    where: "SKILL.md — Recovery and Resolution Planning > Resolution Planning (CDIC)"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/total-loss-absorbing-capacity-tlac-guideline"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+
+  - id: osfi-cdic-efirp-window
+    statement: "CDIC restructuring window for a D-SIB in resolution"
+    value: "One year, extendable in one-year increments to a maximum of five years, using Enhanced Financial Institution Restructuring Powers (E-FIRP)"
+    where: "SKILL.md — Recovery and Resolution Planning > Resolution Planning (CDIC)"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/C-3/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: osfi-supervisory-framework-date
+    statement: "OSFI Supervisory Framework effective date and rating scales"
+    value: "Effective April 1, 2024, replacing the Composite Risk Rating approach; Tier Rating 1–5 and an 8-point Overall Risk Rating mapping to Intervention Stages 0–4"
+    where: "SKILL.md — OSFI Supervisory Framework"
+    source: "https://www.osfi-bsif.gc.ca/en/supervision/supervisory-framework"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+
+  - id: osfi-rescinded-guidance
+    statement: "Scale of OSFI's guidance-library rescissions"
+    value: "April 1, 2025: 20 guidelines and advisories rescinded; December 31, 2025: a further 32 documents rescinded or removed — 52 documents and 600+ pages in total; guidance now issued on predetermined quarterly release dates"
+    where: "SKILL.md — Policy Modernization and Rescinded Guidance"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: quarterly
+    notes: "Quarterly release dates mean the rescinded list grows; re-check the guidance library each quarter."
+
+  - id: osfi-policy-plan-deferrals
+    statement: "OSFI August 2025 policy plan deferrals"
+    value: "Draft Corporate Governance and Accountability Guideline postponed; LICAT revision deferred beyond 2028; B-12 Interest Rate Risk consultation rescheduled; Climate Risk Forum wound down"
+    where: "SKILL.md — Policy Modernization and Rescinded Guidance"
+    source: "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "OSFI publishes an annual policy plan; re-check when the next one is issued."
