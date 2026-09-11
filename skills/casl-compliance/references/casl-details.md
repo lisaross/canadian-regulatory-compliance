@@ -28,7 +28,26 @@ Did the recipient conspicuously publish their email address (e.g., on a website)
 
 ## Campaign Review Rubric
 
-Use this rubric to score a draft email or SMS before sending:
+**Step 0 — classify before scoring.** Determine the message's status first; it decides which checks below
+apply.
+1. **Not a CEM at all** (no commercial purpose, s.1(2)): CASL s.6 never engages. No checks, no score.
+2. **s.6(5) or SOR/2013-221 s.3 class** (personal/family, inquiry into commercial activity, internal business
+   communications, solicited messages, legal-obligation messages, qualifying charity and political messages):
+   **s.6 does not apply at all** — skip the consent, identification **and** unsubscribe checks entirely.
+   Record the class relied on and the facts supporting it.
+3. **SOR/2013-221 s.4 first-referral or s.6(6) class** (solely transactional, warranty/recall/safety,
+   subscription notice, employment relationship, delivery under a prior transaction): **consent only** is
+   relieved — score Identification and Unsubscribe only (see the Consent N/A row below).
+4. **Any other CEM:** score all three sections.
+
+Use this rubric to score a draft email or SMS before sending. **This rubric is an internal scoring aid, not a CRTC standard.** A numeric score can be misleading on its own — a campaign missing unsubscribe entirely, missing identification entirely, or lacking any consent basis is non-compliant regardless of overall score. Treat a 0 on any individual consent, identification, or unsubscribe check as a hard stop: do not
+send, no matter what the total adds up to. **Exception:** a 0 on consent is not a hard stop where a
+valid statutory exception removes the consent requirement for that message — notably the Regulation
+s.4 **first-referral** exemption (SOR/2013-221) or s.6(6) relief for solely transactional,
+warranty/recall, subscription-notice or employment-relationship messages. In those cases
+identification and unsubscribe under s.6(2) still apply and their checks still hard-stop. The hard
+stop applies whenever there is **neither** consent **nor** an applicable exception — and any
+follow-up message beyond the exempted one needs its own consent basis or its own exception.
 
 ### Consent (30 points)
 | Check | Points |
@@ -37,12 +56,16 @@ Use this rubric to score a draft email or SMS before sending:
 | Implied consent confirmed and within valid window | 20 |
 | Implied consent window expired for some recipients | 0 — remove those recipients |
 | No consent on file | 0 — do not send |
+| Valid s.4 first-referral or s.6(6) exemption applies — consent not required | N/A — exclude from score |
+
+Where the consent check is **N/A**, score the campaign out of **70** (Identification 40 + Unsubscribe 30) and
+apply the same percentage bands. Do not record a 0; a 0 signals a missing consent basis, which is a hard stop.
 
 ### Identification (40 points)
 | Check | Points |
 |-------|--------|
 | Sender legal name present | 10 |
-| Physical street address present (not P.O. box only) | 15 |
+| Valid mailing address present (street/civic address, postal box, rural route, or general delivery all qualify — CRTC Bulletin 2012-548) | 15 |
 | Second contact present (phone, email, or URL) | 15 |
 
 ### Unsubscribe (30 points)
@@ -70,9 +93,16 @@ Use this rubric to score a draft email or SMS before sending:
 - Keep transactional emails strictly transactional, or ensure recipients have CASL consent if promotional content is included
 
 ### Referral and "Forward to a Friend" Programs
-- If your system sends a CEM on behalf of the referrer to a friend, the organization sending the message (not the individual referrer) is responsible for CASL compliance
-- You cannot rely on the referrer's implied relationship with their friend
-- Best practice: avoid automated "forward to friend" CEMs unless you have a defensible consent basis
+- The Governor in Council Regulations (SOR/2013-221, s.4(1)) provide a referral exemption: s.6(1)'s consent requirement does **not** apply to the **first** CEM sent to a recipient as a result of a referral, where the referrer has an existing business relationship, existing non-business relationship, family relationship, or personal relationship with **both** the sender and the recipient
+- To qualify, the CEM must disclose the referrer's full name **and** state that the message is sent as a result of a referral
+- Identification and unsubscribe requirements still apply even when the referral exemption removes the need for consent
+- The exemption covers only the first message resulting from the referral — any follow-up message needs its own valid consent basis
+- If your system sends a CEM on behalf of the referrer to a friend, the organization sending the
+  message is responsible for its own sending conduct under ss.6–8. That does **not** categorically
+  exclude the referrer or other participants: s.9 makes it a violation to aid, induce, procure or
+  cause to be procured a contravention of ss.6–8, so where the referral exemption or another ss.6–8
+  requirement fails, each participant's exposure turns on their actual conduct and the facts.
+- Best practice: confirm and document the referrer's qualifying relationship with both parties before relying on this exemption for an automated "forward to a friend" feature
 
 ### Lead Generation Forms (Third-Party Lists)
 - Purchasing or renting a list does not transfer consent

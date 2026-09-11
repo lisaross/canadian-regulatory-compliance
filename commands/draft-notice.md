@@ -50,7 +50,7 @@ Draft an internal STR documentation memo (not the FINTRAC form itself, which mus
 - Decision: STR filed / not filed, and rationale
 - Date reviewed, compliance officer sign-off
 
-Note to user: The actual STR must be filed through the FINTRAC portal at fintrac-canafe.gc.ca. This memo serves as your internal record.
+Note to user: The actual STR must be filed through the FINTRAC portal at fintrac-canafe.canada.ca. This memo serves as your internal record.
 
 ---
 

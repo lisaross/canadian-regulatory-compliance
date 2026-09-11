@@ -11,10 +11,17 @@ If a file path is provided, read the document first.
 ## Your Task
 
 Conduct a structured compliance review covering all applicable Canadian regulatory areas. Determine which of the following apply based on the document's content:
-- Privacy & Data (PIPEDA, Bill C-27, provincial privacy laws)
+- Privacy & Data (PIPEDA, Bill C-36 (PPCDA), provincial privacy laws)
 - Employment & Labour (ESA, Canada Labour Code, CHRA, provincial codes)
 - Financial & Securities (FINTRAC/PCMLTFA, OSC/BCSC/AMF, CIRO)
-- Health & Safety (WHMIS 2015, OHSA/BCWCA/AB OHS Act, CCOHS regulations)
+- Health & Safety (WHMIS (GHS-aligned), OHSA/BCWCA/AB OHS Act, CCOHS regulations)
+- CASL (Canada's Anti-Spam Legislation, CEMs, consent, unsubscribe rules)
+- Tax (CRA, GST/HST, payroll deductions, corporate tax, SR&ED)
+- Immigration (IRCC, ESDC, LMIA, Temporary Foreign Worker Program, International Mobility Program)
+- Environmental (CEPA, Impact Assessment Act)
+- Corporate Governance (CBCA, OBCA, BCBCA, ABCA, director duties, corporate records)
+- OSFI Prudential (capital adequacy, Basel III/IV, liquidity, OSFI guidelines — federally regulated financial institutions)
+- FCAC Consumer Protection (Bank Act consumer provisions, cost of borrowing disclosures)
 
 ## Output Format
 

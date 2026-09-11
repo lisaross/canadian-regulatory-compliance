@@ -1,13 +1,19 @@
-# PIPEDA Deep Reference & Bill C-27 Comparison
+# PIPEDA Deep Reference & Bill C-36 (PPCDA) Comparison
 
 ## PIPEDA Structure at a Glance
 
-| Part | Topic |
+| Part / Schedule | Topic |
 |------|-------|
 | Part 1 | Protection of Personal Information in the Private Sector (the core rules) |
-| Part 2 | Amendments to the Canada Evidence Act |
-| Part 3 | Amendments to the Statutory Instruments Act |
-| Schedule 1 | The 10 Fair Information Principles (CSA Model Code) |
+| Part 2 | Electronic Documents |
+| Part 3 | Amendments to the Canada Evidence Act |
+| Part 4 | Amendments to the Statutory Instruments Act |
+| Part 5 | Amendments to the Statute Revision Act |
+| Part 6 | Coming into Force |
+| Schedule 1 | The 10 Fair Information Principles (CSA Model Code, CAN/CSA-Q830-96) |
+| Schedule 2 | Acts of Parliament and the specific provisions of them referred to in Part 2 |
+| Schedule 3 | Statutory instruments and regulations, and the provisions of them, referred to in Part 2 |
+| Schedule 4 | Organizations (column 1) and the personal information in respect of which Part 1 applies to them (column 2), per s.4(1.1) |
 
 ## Sensitive Information Categories
 
@@ -20,7 +26,12 @@ PIPEDA does not define a list of sensitive categories, but case law and OPC guid
 - Criminal history
 - Social insurance numbers
 
-Under Quebec Law 25, sensitive personal information is explicitly defined and requires explicit consent.
+Under Quebec Law 25 (P-39.1), sensitive personal information is explicitly defined — information
+that, by its nature (medical, biometric, or otherwise intimate) or the context of its use, entails a
+high level of reasonable expectation of privacy (s.59). Where consent is required, consent to the
+use of sensitive personal information must be **express** (s.14), and s.12 governs use for purposes
+other than those for which it was collected — both subject to the Act's statutory exceptions. The
+requirements governing **communication** to third parties are separate (s.13).
 
 ## Individual Rights Under PIPEDA
 
@@ -31,17 +42,21 @@ Under Quebec Law 25, sensitive personal information is explicitly defined and re
 | Withdraw consent | At any time, subject to legal/contractual limits |
 | Complaint | Complain to OPC; OPC investigates and may issue findings |
 
-## Bill C-27 Key Changes vs. PIPEDA
+## Bill C-36 (PPCDA) Key Changes vs. PIPEDA
 
-| Area | PIPEDA (current) | Bill C-27 / CPPA (proposed) |
+| Area | PIPEDA (in force) | Bill C-36 / PPCDA (proposed, 1st reading 2026-06-15) |
 |------|-----------------|----------------------------|
-| Consent | Meaningful consent | Adds "valid consent" definition; bundled consent prohibited |
-| De-identification | No specific provision | Permits use without consent for internal research if de-identified |
-| Data portability | Not required | Organizations must transfer data to other organizations on individual request |
-| Algorithmic transparency | Not required | Must explain automated decision systems on request |
-| Children's privacy | Age of consent unclear | Heightened protection for minors; consent by parent/guardian |
-| Penalties | Up to $100K | Up to 3% global revenue or $10M (general); 5% or $25M (serious) |
-| Tribunal | OPC recommends; Federal Court enforces | New Personal Information and Data Protection Tribunal |
+| Status | Operative federal private-sector law | At second reading; **not in force** |
+| Privacy as a right | "right of privacy of individuals" | "**fundamental** right of privacy of individuals" |
+| Consent | Meaningful consent (Sch. 1, Principle 3) | Meaningful consent retained, with codified exceptions incl. legitimate interest |
+| De-identification | No specific provision | Consent exception permitting de-identification and anonymization (s.20), plus a requirement that technical and administrative measures be **proportionate** to the purpose, the sensitivity of the information and the risk of re-identification (s.74) |
+| Data portability | Not required | **Limited** right (s.72): only where **both** organizations are subject to a regulation-made "data mobility framework" |
+| Algorithmic transparency | Not required | Explanation on request where output has a "legal or similarly significant effect"; plus right to written representations to a human reviewer |
+| Children's privacy | Age of consent unclear | Heightened standard for children's personal information |
+| Penalties | s.28 offence: $10K summary / $100K indictable, knowing contravention only | AMP up to **greater of** $10M or 3% gross global revenue; offences greater of $25M or 5% (indictment) / $20M or 4% (summary) |
+| Regulator | OPC; Federal Court enforces | **Digital Safety and Data Protection Commission of Canada**, with a Privacy and Consumer Data Commissioner and Division; binding order power; Federal Court review |
+| Tribunal | n/a | **None** — the C-27 Tribunal is eliminated |
+| AI regulation | n/a | **Not included** — AIDA not carried forward |
 
 ## Model Privacy Policy Outline
 
@@ -61,12 +76,15 @@ Use this structure when drafting or reviewing a corporate privacy policy:
 
 ## Breach Assessment: RROSH Factors
 
-When assessing whether a breach creates a Real Risk of Significant Harm, consider:
-- **Sensitivity** of the personal information involved
-- **Probability** that the information was, is being, or will be misused
-- **Number** of individuals affected
-- **Combination** of information that could enable identity theft or fraud
-- **Nature of the harm**: bodily harm, humiliation, financial loss, damaged relationships, reputational damage, identity theft, loss of employment
+PIPEDA s.10.1(8) sets out the factors relevant to assessing whether a breach creates a Real Risk of
+Significant Harm. The list is **inclusive**, not exhaustive, and names:
+- **Sensitivity** of the personal information involved (s.10.1(8)(a))
+- **Probability** that the information has been, is being, or will be misused (s.10.1(8)(b))
+- **Any other prescribed factor** (s.10.1(8)(c))
+
+"Significant harm" is itself defined at s.10.1(7) to include: bodily harm, humiliation, damage to reputation or relationships, loss of employment, business or professional opportunities, financial loss, identity theft, negative effects on a credit record, and damage to or loss of property.
+
+Note: the **number of individuals affected** is not an RROSH factor — it is content required in the breach report to OPC (SOR/2018-64 s.2(1)(d)). A breach affecting even a single individual can be reportable if RROSH is present.
 
 ## Common PIPEDA Compliance Gaps (OPC Findings)
 

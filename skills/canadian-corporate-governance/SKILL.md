@@ -8,7 +8,8 @@ description: >
   "OBCA", "BC Business Corporations Act", "Alberta Business Corporations Act",
   "incorporating in Canada", "director liability", "officer liability",
   or any question about Canadian corporate law obligations for directors, officers, or companies.
-version: 0.1.0
+version: 0.2.0
+last_verified: 2026-09-04
 ---
 
 # Canadian Corporate Governance
@@ -70,24 +71,26 @@ Every Canadian corporation must maintain a **minute book** (paper or electronic)
 | By-laws (current and historical) | Permanent |
 | Register of Directors (current + historical) | Permanent |
 | Register of Officers | Permanent |
-| Register of Shareholders | Current + 6 years after transfer |
-| Register of Securities | Permanent |
+| Register of Shareholders | Current + historical |
+| Securities register (s.50) | Continuous — no statutory destruction date; the corporation is **not required to produce** a cancelled registered certificate 6 years after its cancellation (s.50(7)(a)) |
 | Unanimous Shareholder Agreements | Current version |
 | Minutes of shareholder meetings | Permanent |
 | Minutes of board meetings | Permanent |
 | Minutes of committee meetings | Permanent |
 | Financial statements (last 6 years) | 6 years |
-| Proxies and voting records | Until next annual meeting |
 
-**Beneficial Ownership Register (new CBCA requirement — in force 2023):**
-Corporations must maintain a register of **individuals with significant control (ISC)** — those who directly or indirectly own or control 25%+ of voting shares or 25%+ of the fair market value of all shares. See Beneficial Ownership section below.
+### Practice conventions (not statutory)
+- Proxies and voting records — commonly retained until the next annual meeting, though this is not a CBCA or Regulations requirement.
+
+**Beneficial Ownership Register (ISC register — register required since 13 June 2019; filing required since 22 January 2024):**
+Corporations must maintain a register of **individuals with significant control (ISC)** — those who directly or indirectly own or control 25%+ of voting shares or shares representing 25%+ of the fair market value of all outstanding shares (CBCA s.2.1(3)). Since 22 January 2024 this information must also be **filed with Corporations Canada**, and some of it is published in a public registry. See Beneficial Ownership section below.
 
 ---
 
 ## Beneficial Ownership Register (ISC Register)
 
 ### Who Must Comply
-All CBCA corporations (private and public, except reporting issuers and certain listed entities) must maintain and file an ISC register.
+All CBCA corporations must **file** ISC information with Corporations Canada. Most must also **maintain** an ISC register; exempt from the register requirement are reporting issuers, corporations listed on a designated stock exchange (ITA s.248(1)), wholly-owned subsidiaries of either, and Crown corporations and their wholly-owned subsidiaries (CBCA s.21.1(7) and regulations). **Exempt corporations must still file an annual confirmation of their exemption, stating its basis, with their annual return.**
 
 ### Definition: Individual with Significant Control
 An individual who:
@@ -96,17 +99,39 @@ An individual who:
 - Has direct or indirect influence resulting in **de facto control** over the corporation
 
 ### Information Required in the Register
-- Full legal name
-- Date of birth
-- Latest known address
+- Full legal name and date of birth
+- Residential address
+- Address for service, if one has been provided to the corporation
+- Citizenship
 - Jurisdiction of residence for tax purposes
 - Date on which they became or ceased to be an ISC
-- Description of how they qualify as an ISC (ownership, control, or influence)
+- Description of how they qualify as an ISC, including their interests and rights in respect of shares
+- A description of each step the corporation took to identify its ISCs and keep the register accurate (s.21.1(1)(f))
 
-### Filing Obligations (CBCA Amendment 2023)
-- Corporations must **file their ISC register** with Corporations Canada annually (within 15 days of the annual meeting or June 15, whichever comes first for non-annual updates)
-- Corporations must update the register within **15 days** of becoming aware of a change
-- **Penalties** for non-compliance: up to $200,000 for the corporation; directors and officers liable up to $200,000 or 6 months imprisonment
+### Filing Obligations (in force 22 January 2024)
+ISC information must be filed with Corporations Canada:
+- **Annually**, with the annual return (within 60 days of the anniversary date)
+- **Within 15 days** of recording any change in the ISC register
+- **On incorporation**
+- **Within 30 days** of a Certificate of Amalgamation or Continuance
+
+The register itself must be updated within **15 days** of becoming aware of a change and reviewed at least once each financial year (s.21.1(2)–(3)).
+
+**Penalties:**
+- Corporation — failure to prepare/maintain the register (s.21.1(6)): up to **$100,000**
+- Corporation — failure to send ISC information to the Director (s.21.21(1)–(2)): an offence; on summary
+  conviction a fine of up to **$100,000** (s.21.21(4)). Separately, and not as part of that penalty,
+  Corporations Canada may refuse a **certificate of compliance** while filings are overdue, and the Director
+  has a discretionary administrative-dissolution power for continued non-compliance.
+- Directors and officers (s.21.4(1)–(3)): an offence where they **knowingly authorize, permit or
+  acquiesce in** the corporation's contravention of s.21.1(1), s.21.21(1)–(2), s.21.3(1) or
+  s.21.31(1), or knowingly record or provide false or misleading register information
+- Shareholders (s.21.4(4)): an offence only where they **knowingly contravene s.21.1(4)** (the duty
+  to reply accurately and completely to a corporation's request for ISC information)
+- Penalty for either (s.21.4(5)): on summary conviction up to **$200,000**, up to **2 years'
+  imprisonment**, or both; on indictment up to **$1,000,000**, up to **5 years' imprisonment**, or both
+
+**Note:** The CBCA ISC register is a federal regime. Ontario (internal register, in force 1 January 2023) and BC (internal register under BCBCA Part 4.1, in force 1 October 2020, updated within 30 days of a change) maintain their own transparency registers, and Quebec requires public disclosure of ultimate beneficiaries to the Registraire des entreprises (REQ), in force 31 March 2023.
 
 ---
 
@@ -114,24 +139,27 @@ An individual who:
 
 ### Federal (CBCA) — Annual Return
 - **File with:** Corporations Canada
-- **Deadline:** Within **60 days** of the anniversary of the corporation's incorporation date
+- **Deadline:** Within **60 days** of the corporation's anniversary date — the date it was
+  incorporated, amalgamated or continued under the CBCA
 - **Contents:** Confirmation/update of registered office address, directors, and officers
-- **Fee:** $12–$40 online (varies by type)
+- **Fee:** $12 online; $40 by email or mail
+- **Also required:** the ISC filing (or confirmation of exemption) must be submitted with the annual return — the annual return cannot be filed without it
 - **Penalty for late filing:** The corporation can be dissolved (struck off) for failure to file
 
-### Ontario (OBCA) — Annual Return
-- **File with:** Ontario Business Registry
-- **Deadline:** 6 months after fiscal year-end
-- **Extra:** Ontario corporations must also file notice of change for director/officer changes within 15 days
+### Ontario — Annual Return (Corporations Information Act)
+- **File with:** Ontario Business Registry (OBR) — since 15 May 2021 this can no longer be filed with the T2 via Schedule 546
+- **Deadline:** within 6 months after the end of the corporation's tax year
+- **Also required:** an **Initial Return within 60 days** of incorporation/amalgamation/continuance into Ontario, and a **Notice of Change within 15 days** of any change to director/officer or registered office information
 
 ### BC (BCBCA) — Annual Report
 - **File with:** BC Registry Services
-- **Deadline:** Within 2 months of the corporation's **recognition date anniversary** (i.e., anniversary of incorporation)
+- **Deadline:** Within 2 months of the anniversary of the corporation's **recognition date** — the
+  date it was incorporated, amalgamated, or continued **into** British Columbia
 
 ### Alberta (ABCA) — Annual Return
-- **File with:** Alberta Corporate Registry
-- **Deadline:** Within 3 months of fiscal year-end
-- **Extra:** Must maintain current registered address and agent
+- **File with:** an authorized Alberta Corporate Registry service provider
+- **Deadline:** no later than the **last day of the month following the corporation's anniversary month** (Alta Reg 118/2000, s.24); information current as of the last day of the anniversary month. **Not tied to fiscal year-end.**
+- **Extra:** Must maintain a current registered address and agent for service
 
 ---
 
@@ -164,12 +192,22 @@ Shareholders or directors may apply to court to bring an action on behalf of the
 
 ## Audit Committee Requirements
 
-**Publicly listed companies** must have an audit committee under National Instrument 52-110:
-- Minimum 3 members; all must be **independent**
-- Majority must be **financially literate**
-- Mandate: oversee external audit, review financial statements, review internal controls
+**CBCA (statutory):** A distributing corporation whose securities are held by more than one person (s.102(2)) **must** have an audit committee of **not fewer than three directors, a majority of whom are not officers or employees** of the corporation or its affiliates (s.171(1)). The committee must review the financial statements before board approval. The Director may grant an exemption (s.171(2)).
 
-**Private CBCA corporations:** No mandatory audit committee, but governance best practices recommend one for corporations with significant revenues or external debt.
+**Securities law (NI 52-110):** For a non-venture reporting issuer **to which the Instrument applies** — s.1.2
+excludes investment funds, issuers of asset-backed securities, designated foreign issuers, SEC foreign
+issuers, and qualifying subsidiary, exchangeable-security and credit-support issuers — the audit committee
+must have **minimum three members**, **every** member a director, **every** member **independent**, and
+**every** member **financially literate**. A member not financially literate on appointment must become so within a reasonable time (s.3.8). Limited exemptions apply (ss.3.2–3.6, 3.8). The exemptions in **s.3.3(2)** (controlled companies)
+and **s.3.6** (temporary, limited and exceptional circumstances) are available only where a
+**majority** of committee members would be independent (s.3.7). Separately, the exemptions in
+**ss.3.2, 3.4, 3.5 and 3.8** are available only where the board has determined that reliance will
+not materially adversely affect the committee's ability to act independently and satisfy the
+Instrument (s.3.9).
+
+**Venture issuers** are exempt from Part 3 (s.6.1). Their committees need three members, all directors, with a **majority** who are not executive officers, employees or control persons (s.6.1.1).
+
+**Non-distributing (private) CBCA corporations:** No mandatory audit committee, but best practice recommends one where there are significant revenues or external debt.
 
 ---
 

@@ -6,7 +6,8 @@ description: >
   "express consent", "implied consent", "unsubscribe mechanism", "opt-in", "opt-out",
   "CRTC complaint", "spam", "electronic marketing Canada", or any question about
   whether a digital communication or marketing practice complies with Canadian anti-spam rules.
-version: 0.1.0
+version: 0.2.0
+last_verified: 2026-09-04
 ---
 
 # CASL — Canada's Anti-Spam Legislation
@@ -35,13 +36,40 @@ The test is **purpose**, not content. A single commercial purpose is enough — 
 - Instant messages promoting services
 - "We miss you" re-engagement emails
 
-**NOT CEMs (exemptions from consent requirement):**
-- Pure transactional/relationship messages (order confirmations, password resets, account statements) with no promotional content
-- Messages between individuals with a personal relationship
-- Messages sent in response to a request, inquiry, or complaint
-- Internal business communications (employee to employee, same organization)
-- Messages to registered charities or political parties soliciting donations
-- Due diligence messages in merger/acquisition transactions
+**Still CEMs, but with relief from some or all of s.6:**
+
+*Consent not required (s.6(6)) — identification and unsubscribe under s.6(2) still apply:*
+- Messages that **solely** provide a requested quote or estimate
+- Messages that **solely** facilitate, complete or confirm a previously agreed transaction
+- Messages that **solely** provide warranty, recall, safety or security information
+- Messages that **solely** give factual notice about an ongoing subscription, membership, account or loan
+- Messages that **solely** provide information about a current employment relationship or benefit plan
+- Messages that **solely** deliver a product, goods or service (including updates/upgrades) owed under a prior transaction
+
+*Section 6 does not apply at all (s.6(5) and GIC Regs SOR/2013-221 s.3):*
+- Messages between individuals with a personal or family relationship (s.6(5)(a))
+- Messages to a person engaged in commercial activity consisting solely of an inquiry about that activity (s.6(5)(b))
+- Internal business communications, and messages between employees of two organizations that have a relationship, concerning the recipient organization's activities (s.3(a))
+- Messages sent in response to a request, inquiry or complaint, or otherwise solicited (s.3(b))
+- Messages sent to satisfy or enforce a legal obligation, right, court order, judgment or tariff (s.3(c))
+- Messages sent **by or on behalf of** a registered charity whose **primary purpose is raising funds for the charity** (s.3(g))
+- Messages sent **by or on behalf of** a political party, organization or candidate whose **primary purpose is soliciting a contribution** (s.3(h))
+
+Note: these are all CEMs under s.1(2) — they pass the "purpose" test but are relieved of consent (s.6(6)) or of all of s.6 (s.6(5), SOR/2013-221 s.3). A message with no commercial purpose at all is simply not a CEM and CASL s.6 never engages. Relief is lost if the supporting conditions stop being met.
+
+**Step 0 — classify before checking.** Determine the message's status first; the checks that follow depend on it.
+1. **Not a CEM at all** (no commercial purpose, s.1(2)): CASL s.6 never engages. No checks.
+2. **s.6(5) or SOR/2013-221 s.3 class** (personal/family, inquiry into commercial activity, internal business
+   communications, solicited messages, legal-obligation messages, qualifying charity and political messages):
+   **s.6 does not apply at all** — skip the consent, identification **and** unsubscribe checks. Record the
+   class relied on and the facts supporting it.
+3. **SOR/2013-221 s.4 first-referral or s.6(6) class** (solely transactional, warranty/recall/safety,
+   subscription notice, employment relationship, delivery under a prior transaction): **consent only** is
+   relieved. Identification and unsubscribe under s.6(2) still apply and still hard-stop.
+4. **Any other CEM:** all three checks apply.
+
+Relief is lost if the supporting conditions stop being met, and any follow-up message beyond the exempted one
+needs its own consent basis or its own exception.
 
 ---
 
@@ -73,7 +101,7 @@ The sender must have either **express** or **implied** consent from the recipien
 Every CEM must clearly identify:
 - The **sender's name** (person or organization sending the message)
 - If sending on behalf of another party, identify **both** the sender and the party on whose behalf the message is sent
-- **Mailing address** (physical street address, not just a P.O. box)
+- **Mailing address** — a valid current street/civic address, postal box, rural route, or general delivery address (CRTC Bulletin 2012-548 confirms a P.O. box is acceptable). Must remain valid at least 60 days after sending.
 - **One other contact** — phone number, email address, or web address
 
 This information must be accurate and accessible **for at least 60 days** after the message is sent.
@@ -83,7 +111,7 @@ Every CEM must include:
 - A **functional unsubscribe mechanism** — link, reply address, or other electronic means
 - The mechanism must be **easy to perform** — no fees, no login requirement, no excessive steps
 - Unsubscribe requests must be **processed within 10 business days**
-- Once someone unsubscribes, you **must not send further CEMs** to that address (even if they have a separate relationship with you)
+- A recipient may withdraw consent from *all* CEMs or from a *specified class* of CEMs (s.11(1)(a)) — once processed, stop sending the CEMs (or class of CEMs) covered by that withdrawal; a class-specific withdrawal does not bar all CEMs to that address
 - The unsubscribe mechanism must remain functional for **at least 60 days** after the message is sent
 
 ---
@@ -135,9 +163,12 @@ A compliant consent request must include:
 
 The CRTC can also seek undertakings (binding commitments to change practices) and issue compliance orders.
 
-**Private right of action:** CASL allows individuals to sue for damages (not yet in force — government has not proclaimed this section into force as of 2025, but monitor for activation).
+**Private right of action (ss. 47-51, 55): not in force.** Scheduled for 1 July 2017, suspended indefinitely by Order in Council P.C. 2017-0580 (2 June 2017; Canada Gazette Part II, SI/2017-31). No new date set; suspension remains in effect as of September 2026. Enforcement is exclusively public — CRTC, Competition Bureau, OPC.
 
-Notable enforcement actions have included fines of $100K–$1.1M against organizations for sending CEMs without consent and failing to honour unsubscribes.
+Notable enforcement actions (amounts as **imposed**, not as originally proposed): Compu-Finder $200,000 (Decision CRTC 2017-368, down from a proposed $1.1M); Blackstone Learning $50,000 (Decision 2016-428, down from a proposed $640K); Hudson's Bay $120,000 undertaking (June 2024). CASL matters resolve either by **undertaking** (a negotiated voluntary compliance agreement, which ends the proceeding without a finding of violation) or by a **notice of violation** leading to an AMP; CRTC does not publish a breakdown of their relative frequency. CRTC reporting put the
+**combined total of AMPs and undertakings** under CASL at roughly **$3.6 million as of 31 March
+2023**; there is no published AMP-only running total, so treat any figure quoted as current with
+caution.
 
 ---
 

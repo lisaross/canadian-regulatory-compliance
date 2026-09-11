@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Canadian Regulatory Compliance — Claude Code Skill</title>
-  <meta name="description" content="A Claude Code skill covering 13 Canadian regulatory domains — Privacy, Employment, Financial, Health & Safety, CASL, Tax, Immigration, Environmental, Corporate Governance, OSFI Prudential, FCAC Consumer Protection, Accessibility, and Indigenous Relations — across federal and provincial jurisdictions." />
+  <meta name="description" content="A Claude Code skill covering 11 Canadian regulatory domains — Privacy, Employment, Financial, Health & Safety, CASL, Tax, Immigration, Environmental, Corporate Governance, OSFI Prudential, and FCAC Consumer Protection — across federal and provincial jurisdictions." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -117,13 +117,13 @@
     <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
       <div class="flex items-center gap-2">
         <span class="text-white font-semibold text-sm tracking-tight">Canadian Regulatory Compliance</span>
-        <span class="text-xs bg-white/10 text-slate-300 px-2 py-0.5 rounded-full font-mono">v0.4.0</span>
+        <span class="text-xs bg-white/10 text-slate-300 px-2 py-0.5 rounded-full font-mono">v0.5.0</span>
       </div>
       <div class="hidden md:flex items-center gap-8">
         <a href="#coverage" class="nav-link">Coverage</a>
         <a href="#commands" class="nav-link">Commands</a>
         <a href="#install" class="nav-link">Install</a>
-        <a href="https://github.com/Srivatsa-Kasagar/canadian-regulatory-compliance" class="nav-link">GitHub</a>
+        <a href="https://github.com/lisaross/canadian-regulatory-compliance" class="nav-link">GitHub</a>
       </div>
     </div>
   </nav>
@@ -133,8 +133,8 @@
     <div class="max-w-5xl mx-auto text-center">
       <div class="flex items-center justify-center gap-3 mb-6">
         <span class="badge">Claude Code Skill</span>
-        <span class="badge">13 Regulatory Domains</span>
-        <span class="badge">v0.4.0</span>
+        <span class="badge">11 Regulatory Domains</span>
+        <span class="badge">v0.5.0</span>
       </div>
 
       <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
@@ -144,8 +144,8 @@
 
       <p class="text-slate-300 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed">
         A Claude Code skill that gives your AI deep knowledge of Canadian regulatory obligations across
-        13 domains — Privacy, Employment, Financial, Health &amp; Safety, CASL, Tax, Immigration,
-        Environmental, Corporate Governance, Accessibility, Consumer Protection, and more —
+        11 domains — Privacy, Employment, Financial, Health &amp; Safety, CASL, Tax, Immigration,
+        Environmental, Corporate Governance, OSFI Prudential, and FCAC Consumer Protection —
         for federal and multi-province operations.
       </p>
 
@@ -161,7 +161,7 @@
       <!-- Stats -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
         <div class="stat-card">
-          <div class="text-3xl font-bold text-white mb-1">13</div>
+          <div class="text-3xl font-bold text-white mb-1">11</div>
           <div class="text-slate-400 text-sm">Regulatory Domains</div>
         </div>
         <div class="stat-card">
@@ -169,7 +169,7 @@
           <div class="text-slate-400 text-sm">Slash Commands</div>
         </div>
         <div class="stat-card">
-          <div class="text-3xl font-bold text-white mb-1">5+</div>
+          <div class="text-3xl font-bold text-white mb-1">5</div>
           <div class="text-slate-400 text-sm">Jurisdictions</div>
         </div>
         <div class="stat-card">
@@ -197,7 +197,7 @@
     <div class="max-w-5xl mx-auto">
       <div class="text-center mb-14">
         <p class="section-label mb-3">Coverage</p>
-        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">13 domains of Canadian law,<br/> ready when you need them</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">11 domains of Canadian law,<br/> ready when you need them</h2>
         <p class="text-slate-500 mt-4 text-base max-w-2xl mx-auto">The skill loads specialized regulatory knowledge automatically based on what you ask. No setup. No lookups. Just answers.</p>
       </div>
 
@@ -209,10 +209,10 @@
             <div class="skill-icon bg-blue-50 text-blue-600">&#128274;</div>
             <div>
               <h3 class="font-bold text-slate-900 text-lg mb-1">Privacy &amp; Data Protection</h3>
-              <p class="text-slate-500 text-sm mb-3">PIPEDA, Bill C-27 (CPPA), BC PIPA, Alberta PIPA, Quebec Law 25. Breach notification, consent frameworks, PIAs, cross-border transfers, and the 10 Fair Information Principles.</p>
+              <p class="text-slate-500 text-sm mb-3">PIPEDA, Bill C-36 (PPCDA), BC PIPA, Alberta PIPA, Quebec Law 25. Breach notification, consent frameworks, PIAs, cross-border transfers, and the 10 Fair Information Principles.</p>
               <div class="flex flex-wrap gap-1.5">
                 <span class="command-tag">PIPEDA</span>
-                <span class="command-tag">Bill C-27</span>
+                <span class="command-tag">Bill C-36</span>
                 <span class="command-tag">Law 25</span>
                 <span class="command-tag">OPC</span>
               </div>
@@ -260,7 +260,7 @@
             <div class="skill-icon bg-orange-50 text-orange-600">&#9895;</div>
             <div>
               <h3 class="font-bold text-slate-900 text-lg mb-1">Health &amp; Safety</h3>
-              <p class="text-slate-500 text-sm mb-3">WHMIS 2015, OHSA (Ontario), BC OHSR, Alberta OHS Act, CCOHS. SDS requirements, hazard classification, workplace incident reporting, right to refuse, and workplace violence/harassment obligations.</p>
+              <p class="text-slate-500 text-sm mb-3">WHMIS (GHS-aligned), OHSA (Ontario), BC OHSR, Alberta OHS Act, CCOHS. SDS requirements, hazard classification, workplace incident reporting, right to refuse, and workplace violence/harassment obligations.</p>
               <div class="flex flex-wrap gap-1.5">
                 <span class="command-tag">WHMIS</span>
                 <span class="command-tag">OHSA</span>
@@ -396,64 +396,16 @@
           </div>
         </div>
 
-        <!-- Accessibility -->
-        <div class="card-hover bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-          <div class="flex items-start gap-4">
-            <div class="skill-icon bg-sky-50 text-sky-600">&#9855;</div>
-            <div>
-              <h3 class="font-bold text-slate-900 text-lg mb-1">Accessibility (AODA &amp; ACA)</h3>
-              <p class="text-slate-500 text-sm mb-3">AODA obligations for Ontario businesses (customer service, employment, information &amp; communications, transportation, built environment standards) and the Accessible Canada Act for federally regulated employers. Compliance timelines, reporting, and accessibility plans.</p>
-              <div class="flex flex-wrap gap-1.5">
-                <span class="command-tag">AODA</span>
-                <span class="command-tag">ACA</span>
-                <span class="command-tag">WCAG</span>
-                <span class="command-tag">Accessibility Plans</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Consumer Protection -->
-        <div class="card-hover bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-          <div class="flex items-start gap-4">
-            <div class="skill-icon bg-yellow-50 text-yellow-600">&#128722;</div>
-            <div>
-              <h3 class="font-bold text-slate-900 text-lg mb-1">Consumer Protection</h3>
-              <p class="text-slate-500 text-sm mb-3">Competition Act obligations: misleading advertising, deceptive marketing practices, drip pricing, and affiliate marketing disclosure rules. Provincial consumer protection acts (Ontario CPA, BC BPCPA, Quebec CPA) covering cancellation rights, online contracts, and unfair practices.</p>
-              <div class="flex flex-wrap gap-1.5">
-                <span class="command-tag">Competition Act</span>
-                <span class="command-tag">Misleading Ads</span>
-                <span class="command-tag">CPA (ON)</span>
-                <span class="command-tag">BPCPA</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Indigenous Relations -->
-        <div class="card-hover bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-          <div class="flex items-start gap-4">
-            <div class="skill-icon bg-amber-50 text-amber-700">&#127795;</div>
-            <div>
-              <h3 class="font-bold text-slate-900 text-lg mb-1">Indigenous Relations &amp; Duty to Consult</h3>
-              <p class="text-slate-500 text-sm mb-3">UNDRIP obligations under Bill C-15, Crown and proponent duty to consult and accommodate, Impact Benefit Agreement frameworks, free prior and informed consent (FPIC), and Indigenous engagement requirements for resource, infrastructure, and Crown-adjacent projects.</p>
-              <div class="flex flex-wrap gap-1.5">
-                <span class="command-tag">UNDRIP</span>
-                <span class="command-tag">Bill C-15</span>
-                <span class="command-tag">Duty to Consult</span>
-                <span class="command-tag">IBA</span>
-                <span class="command-tag">FPIC</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <!-- Coming Soon -->
-        <div class="bg-slate-50 border border-dashed border-slate-300 rounded-2xl p-6 flex items-center justify-center text-center">
+        <div class="bg-slate-50 border border-dashed border-slate-300 rounded-2xl p-6 flex items-center justify-center text-center md:col-span-2">
           <div>
             <div class="text-3xl mb-3 text-slate-300">+</div>
             <p class="text-slate-400 text-sm font-medium">More domains coming</p>
-            <p class="text-slate-400 text-xs mt-1">Quebec Bill 96, Competition Bureau enforcement, and more</p>
+            <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+              Provincial Consumer Protection<br/>
+              Accessibility<br/>
+              Indigenous Relations &amp; Duty to Consult
+            </p>
           </div>
         </div>
 
@@ -525,7 +477,7 @@
           <div class="flex items-start justify-between gap-4 mb-4 flex-wrap">
             <div>
               <code class="text-blue-700 font-bold text-base font-mono">/draft-notice</code>
-              <p class="text-slate-600 text-sm mt-1">Drafts a regulatory notice or compliance document. Supports six notice types: PIPEDA privacy breach notifications, FINTRAC STR memos, OH&amp;S incident reports, ESA-compliant termination letters, and CASL unsubscribe confirmations.</p>
+              <p class="text-slate-600 text-sm mt-1">Drafts a regulatory notice or compliance document. Supports eight notice types: PIPEDA privacy breach notifications, FINTRAC STR memos, OH&amp;S incident reports, ESA-compliant termination letters, CASL unsubscribe confirmations, CASL violation responses, LMIA employer support letters, and ESDC compliance responses.</p>
             </div>
           </div>
           <div class="code-block">
@@ -621,7 +573,7 @@
         </div>
         <div class="code-block">
           <span class="comment"># Register the marketplace</span><br/>
-          claude plugin marketplace add <span class="arg">Srivatsa-Kasagar/canadian-regulatory-compliance</span><br/>
+          claude plugin marketplace add <span class="arg">lisaross/canadian-regulatory-compliance</span><br/>
           <br/>
           <span class="comment"># Install the plugin permanently</span><br/>
           claude plugin install <span class="arg">canadian-regulatory-compliance</span>
@@ -706,12 +658,12 @@
     <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
       <div class="text-center md:text-left">
         <div class="text-white font-semibold text-sm mb-1">Canadian Regulatory Compliance <span class="maple-leaf">&#9426;</span></div>
-        <div class="text-slate-400 text-xs">A Claude Code Skill by Srivatsa Kasagar &mdash; v0.4.0</div>
+        <div class="text-slate-400 text-xs">A Claude Code Skill by Srivatsa Kasagar &mdash; v0.5.0</div>
       </div>
       <div class="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400">
         <span>Privacy &bull; Employment &bull; Financial &bull; Health &amp; Safety</span>
         <span class="hidden md:inline">&bull;</span>
-        <span>CASL &bull; Tax &bull; Immigration &bull; Environmental &bull; Corporate &bull; OSFI &bull; FCAC &bull; Accessibility &bull; Consumer &bull; Indigenous</span>
+        <span>CASL &bull; Tax &bull; Immigration &bull; Environmental &bull; Corporate &bull; OSFI &bull; FCAC</span>
       </div>
       <div class="text-slate-500 text-xs text-center md:text-right">
         For informational purposes only.<br/>Not legal or tax advice.

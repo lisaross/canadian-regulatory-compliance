@@ -7,7 +7,8 @@ description: >
   "contractor vs employee tax", "personal services business", "CRA audit",
   "tax filing deadline", or any question about Canadian federal or provincial tax
   obligations for businesses.
-version: 0.1.0
+version: 0.2.0
+last_verified: 2026-09-04
 ---
 
 # Canadian Tax Compliance
@@ -22,13 +23,15 @@ version: 0.1.0
 | British Columbia | — | 5% PST (separate) | 5% GST + 5% PST |
 | Alberta | — | None | 5% GST only |
 | Quebec | — | 9.975% QST (separate) | 5% GST + 9.975% QST |
-| Nova Scotia | — | — | 15% HST |
+| Nova Scotia | — | — | 14% HST |
 | New Brunswick | — | — | 15% HST |
 | Newfoundland & Labrador | — | — | 15% HST |
 | PEI | — | — | 15% HST |
 | Manitoba | — | 7% RST (separate) | 5% GST + 7% RST |
 | Saskatchewan | — | 6% PST (separate) | 5% GST + 6% PST |
 | Territories (YT, NT, NU) | — | None | 5% GST only |
+
+*Nova Scotia reduced the provincial portion of its HST from 10% to 9% effective April 1, 2025, bringing the total to 14%. Transitional rules: GST/HST Notices 342 and 343.*
 
 ### Registration Thresholds
 - **Mandatory registration:** Annual taxable supplies exceed **$30,000** in a single calendar quarter or over 4 consecutive quarters
@@ -71,48 +74,75 @@ Every employer paying employment income must:
 3. Deduct federal and provincial income tax
 4. Remit all deductions to CRA plus employer's share of CPP and EI
 
-### 2025 Rates (verify annually at canada.ca/cra)
+### 2026 Rates (verify annually at canada.ca/cra)
 
-| Deduction | Employee Rate | Employer Rate | Annual Maximum (Employee) |
-|-----------|--------------|--------------|--------------------------|
-| CPP | 5.95% | 5.95% (match) | ~$3,867 |
-| CPP2 (second additional) | 4.00% on earnings $73,200–$81,200 | 4.00% (match) | ~$396 |
-| EI | 1.66% | 1.66% × 1.4 = 2.32% | ~$1,049 |
+| Deduction | Employee Rate | Employer Rate | 2026 Annual Maximum (Employee) |
+|-----------|--------------|--------------|--------------------------------|
+| CPP | 5.95% on earnings $3,500–$74,600 | 5.95% (match) | $4,230.45 |
+| CPP2 (second additional) | 4.00% on earnings $74,600–$85,000 | 4.00% (match) | $416.00 |
+| EI (outside Quebec) | 1.63% up to $68,900 | 1.63% × 1.4 = 2.282% | $1,123.07 (employer $1,572.30) |
+| EI (Quebec) | 1.30% up to $68,900 | 1.30% × 1.4 = 1.82% | $895.70 (employer $1,253.98) |
+
+Combined maximum employee CPP + CPP2 for 2026: $4,646.45.
+Key 2026 figures: YMPE $74,600 · YAMPE $85,000 · basic exemption $3,500 · MIE $68,900.
 
 Income tax: Use CRA Payroll Deductions tables (TD1 federal + provincial TD1 form)
 
 ### Remittance Schedules
 
-| Average Monthly Withholding | Remittance Frequency | Due Date |
-|---------------------------|---------------------|---------|
-| Less than $3,000 | Monthly | 15th of following month |
-| $3,000 – $49,999 | Twice monthly | 25th (for 1st–15th payroll) / 10th of next month (for 16th–end) |
-| $50,000+ | Accelerated (up to 3× weekly) | Next Wednesday or Friday after payday |
-| New employers (first year) | Monthly | 15th of following month |
+| Remitter Type | Withholding basis | Frequency | Due Date |
+|--------------|-------------------|-----------|---------|
+| Quarterly — new small employer | **MWA** (current monthly withholding) under $1,000, perfect compliance record | Quarterly | Apr 15, Jul 15, Oct 15, Jan 15 |
+| Quarterly — small employer | **AMWA** under $3,000, account open 12+ months, perfect compliance record | Quarterly | Apr 15, Jul 15, Oct 15, Jan 15 |
+| Regular | **AMWA** under $25,000 | Monthly | 15th of the month after the month you paid employees |
+| Accelerated — Threshold 1 | **AMWA** $25,000 – $99,999.99 | Up to twice monthly | 25th of same month (1st–15th payroll) / 10th of next month (16th–end) |
+| Accelerated — Threshold 2 | **AMWA** $100,000 or more | Up to 4 times monthly | 3rd working day after the 7th, 14th, 21st, and last day of the month |
 
-**Penalty for late remittance:** 3–10% of amount due, depending on days late; second offence in a calendar year doubles the penalty.
+AMWA is the average monthly withholding amount from **two calendar years ago**; a new small employer has no such history, so that row uses the current **monthly** withholding amount instead.
+
+AMWA is generally based on remittances from **two calendar years ago**.
+
+**Penalty for late remittance:** 3% (1–3 days late), 5% (4–5 days), 7% (6–7 days), 10% (more than 7 days, or
+if no amount is remitted). The penalty is generally applied only to the portion of the failure exceeding $500
+— but that $500 relief is **not available where the failure was made knowingly or under circumstances
+amounting to gross negligence** (s.227(9.1)), in which case the penalty applies to the full amount. A second
+or later failure in the same calendar year attracts a **20%** penalty, again only where made knowingly or
+under circumstances of gross negligence. Remitting on the due date but not at a financial institution can
+attract a 3% penalty.
 
 ### T4 Slips and Summaries
-- **Deadline:** February 28 of the following year (February 29 in leap years)
+- **Deadline:** Last day of February following the calendar year. If that day falls on a Saturday, Sunday, or CRA-recognized holiday, the deadline moves to the next business day (for the 2025 tax year: March 2, 2026).
 - Issue T4 to every employee who received employment income in the calendar year
 - File T4 Summary with CRA
-- **T4A:** For self-employed/contractor payments of $500+ in a calendar year (fees for services in Box 048)
-- Penalties for late T4 filing: $10 per day (minimum $100, maximum $7,500)
+- **T4A:** For self-employed/contractor payments of more than $500 in a calendar year (fees for services in
+  Box 048) — **but not** where another slip governs: use **T4A-NR** for services rendered **in Canada by a
+  non-resident**; **T5018** where your business's primary activity is **construction** (Contract Payment
+  Reporting System, filed within six months of fiscal year-end); and **T1204** for federal government service
+  contract payments. Confirm which slip applies before filing.
+- Penalty for late-filed information returns: the greater of $100 and a per-day amount based on the number of slips (max 100 days), per type of return — 1–50: $10/day (max $1,000) · 51–500: $15/day (max $1,500) · 501–2,500: $25/day (max $2,500) · 2,501–10,000: $50/day (max $5,000) · 10,001+: $75/day (max $7,500). Late T4s and late T5s are penalized separately. Filing more than 5 slips of one type on paper attracts its own penalty ($125–$2,500).
 
 ---
 
 ## Corporate Income Tax
 
-### Federal and Provincial Rates (2025)
+### Federal and Provincial Rates (2026)
 
 | Rate Type | Federal | Ontario | BC | Alberta |
 |-----------|---------|---------|-----|---------|
 | General corporate | 15% | 11.5% | 12% | 8% |
-| Small business (on first $500K active income) | 9% | 3.2% | 2% | 2% |
+| Small business (on first $500K active income) | 9% | 3.2% → 2.2% (July 1, 2026); 2.70% calendar-2026 blended | 2% | 2% |
 | Combined general (approx.) | — | 26.5% | 27% | 23% |
-| Combined small business (approx.) | — | 12.2% | 11% | 11% |
+| Combined small business (approx.) | — | 12.2% → 11.2% (after July 1, 2026) | 11% | 11% |
 
-**Small business deduction:** Available to Canadian-Controlled Private Corporations (CCPCs) on the first $500,000 of active business income. Phases out if taxable capital exceeds $10M.
+**Small business deduction:** Available to CCPCs on the first $500,000 of active business income.
+Two independent grinds apply, and the larger governs:
+- **Taxable capital:** business limit reduces straight-line where taxable capital employed in Canada
+  (associated-group basis) is between **$10M and $50M**; nil at $50M.
+- **Passive investment income:** business limit reduces by $5 for every $1 of adjusted aggregate
+  investment income above **$50,000**; nil at **$150,000**. (Ontario and New Brunswick do not
+  parallel this grind provincially.)
+
+**Provincial small business limits vary:** the $500,000 federal limit is not universal provincially — Nova Scotia's limit is $700,000, and Prince Edward Island's and Saskatchewan's are each $600,000.
 
 ### Filing Deadlines
 - **T2 Corporate Income Tax Return:** Within **6 months** of fiscal year-end
@@ -121,7 +151,14 @@ Income tax: Use CRA Payroll Deductions tables (TD1 federal + provincial TD1 form
 
 ### SR&ED Tax Credits (Scientific Research & Experimental Development)
 One of Canada's most valuable tax incentives:
-- **Federal:** 15% refundable/non-refundable ITC on qualifying expenditures; **35% refundable** for CCPCs on first $3M
+- **Federal:** 15% ITC on qualifying expenditures (non-refundable for most corporations); an enhanced **35%**
+  ITC for CCPCs up to the annual expenditure limit. **Rate and refundability are separate:** up to the limit,
+  the 35% ITC on **current** expenditures is **100% refundable**, while the ITC on **capital** expenditures is
+  **40% refundable**. The limit is **$6 million** for tax years beginning after December 15, 2024 (up from
+  $3 million) — a **maximum credit of $2.1 million** per year at the 35% rate, of which the refundable portion
+  depends on the current/capital split. Phases out on taxable capital between **$15M and $75M**. Eligible
+  Canadian public corporations are now also eligible for the 35% rate, and **capital expenditures** made after
+  December 15, 2024 again qualify.
 - **Provincial:** Additional credits (e.g., Ontario 3.5–8%, BC 10%)
 - **Claim deadline:** 18 months after the end of the fiscal year in which the expenditures were incurred
 - Qualifying work: basic research, applied research, or experimental development aimed at technological advancement
@@ -144,11 +181,17 @@ CRA uses a multi-factor test (similar to the employment law test but with tax co
 **Tax consequences of misclassification:**
 - Employer liable for **both employer and employee CPP/EI contributions** for the period of misclassification
 - Plus **interest and penalties**
-- CRA may reassess up to 3 years (or longer if misrepresentation)
+- CRA may reassess within the normal reassessment period: **3 years** from the original notice of assessment for individuals, most trusts and CCPCs; **4 years** for non-CCPC corporations and mutual fund trusts. No time limit where there has been misrepresentation attributable to neglect, carelessness, wilful default, or fraud.
 
 **Personal Services Business (PSB):** If an incorporated contractor would be an employee but for their corporation, CRA may deem them a PSB — resulting in loss of small business deduction and most expense deductions. Significant tax cost.
 
-**Ruling request:** File Form CPT1 (Request for a CPT1 Ruling) to get CRA's determination of status before engagement begins.
+**Ruling request:** File Form **CPT1, *Request for a Ruling as to the Status of a Worker under the
+Canada Pension Plan and/or the Employment Insurance Act*** (or request online via My Business Account
+/ Represent a Client). The request must be made **before June 30 of the year following** the year in
+question (CPP s.26.1(2); EI Act
+s.90(2)) — CRA states this operationally as **on or before June 29**. Where June 29 falls on a Saturday or
+Sunday, a request received or postmarked on the next business day is on time. Note the CRA does **not** issue
+rulings on hypothetical or proposed employment — the working relationship must already exist.
 
 ---
 
@@ -156,14 +199,21 @@ CRA uses a multi-factor test (similar to the employment law test but with tax co
 
 | Month | Deadline |
 |-------|---------|
-| February 28 | T4/T4A slips and summaries due |
-| March 31 | T3 trust returns due (60 days after Dec 31) |
-| April 30 | Personal tax returns due (T1); balance owing due |
+| Last day of February | T4/T4A/T4A-NR slips and summaries due (next business day if it falls on a weekend) |
+| March 31 | T3 trust returns due (90 days after a December 31 year-end; the deadline is 90 days after the trust's tax year-end whenever that falls) |
+| April 30 | Personal tax returns due (T1); balance owing due. 2026 federal brackets: 14% to $58,523 · 20.5% to $117,045 · 26% to $181,440 · 29% to $258,482 · 33% above (BPA $16,452). Lowest bracket dropped from 15% (pre-2025) to 14.5% (2025) to 14% (2026+, Bill C-4). |
 | June 15 | Self-employed individuals' T1 return due (balance still due April 30) |
 | 2 months after FYE | Corporate tax balance owing |
 | 3 months after FYE | Corporate tax balance owing (eligible CCPCs) |
 | 6 months after FYE | T2 corporate return due |
 | Monthly 15th | Standard payroll remittance due |
+
+## 2025–2026 changes still current
+
+- **Capital gains inclusion rate stays ½.** The proposed increase to ⅔ was cancelled effective March 21, 2025; the $1.25 million Lifetime Capital Gains Exemption (LCGE) increase was kept.
+- **Digital Services Tax (DST) repealed.** Repealed via Bill C-15, which received Royal Assent March 26, 2026.
+- **Underused Housing Tax (UHT) eliminated for 2025 and later years.** Obligations for 2022–2024 still stand and must still be met.
+- **Lowest federal personal tax bracket is 14% for 2026 and later years**, per Bill C-4 (down from 14.5% in 2025 and 15% before that).
 
 ## Reference Files
 

@@ -2,7 +2,7 @@
 
 ## Capital Ratio Worked Example
 
-**Scenario:** A mid-size Schedule I bank with $50B in Risk-Weighted Assets (RWA)
+**Scenario:** A mid-size Schedule I bank (an SMSB, not a D-SIB) with $50B in Risk-Weighted Assets (RWA)
 
 | Capital Component | Amount | Calculation |
 |------------------|--------|-------------|
@@ -20,7 +20,13 @@
 | **Total Capital** | **$9.1B** | |
 | **Total Capital Ratio** | **18.2%** | $9.1B ÷ $50B |
 
-**Interpretation:** All ratios exceed OSFI minimums. CET1 at 13.2% exceeds the 8.0% target (4.5% minimum + 2.5% conservation buffer + 1.0% D-SIB surcharge), providing a 5.2% buffer.
+**Interpretation:** All ratios exceed OSFI minimums. As an SMSB, this institution's
+CET1 target is **7.0%** (4.5% minimum + 2.5% capital conservation buffer), so CET1
+at 13.2% provides a **6.2%** buffer above target. Note the contrast: were this a
+D-SIB, the target would be 4.5% + 2.5% + 1.0% D-SIB surcharge = 8.0%, **plus the
+Domestic Stability Buffer** (3.0% as of June 19, 2026) — an 11.0% supervisory
+expectation, leaving only a 2.2% buffer on the same balance sheet. The D-SIB
+surcharge and DSB do not apply to SMSBs.
 
 ---
 
@@ -90,33 +96,65 @@ For each material risk, document:
 - OSFI floor rate = **5.25%**
 - **Qualifying rate = higher of the two = 7.79%**
 
-**Step 3:** Apply qualifying rate to maximum debt service ratios:
-- **GDS ≤ 39%:** (Annual mortgage payments + property taxes + heat + 50% condo fees) ÷ Gross Annual Income
-- **TDS ≤ 44%:** (GDS items + all other debt payments) ÷ Gross Annual Income
+**Step 2b:** Check the loan-to-income (LTI) multiple. Since fiscal 2025, each
+institution has a limit on the *share of its portfolio* of newly originated uninsured
+mortgages exceeding **4.5x** loan-to-income. Here: $720,000 ÷ $180,000 = **4.0x** —
+below the high-LTI threshold, so this loan does not consume the institution's
+high-LTI allowance. Note this is a portfolio-level constraint: a single loan above
+4.5x is not prohibited, but it counts against the institution's limit.
 
-**Example:**
+**Step 3:** Apply the qualifying rate to debt service ratios.
+
+**Important:** B-20 does **not** prescribe GDS/TDS limits for **uninsured** mortgages.
+OSFI expressly declined to set them (October 2023 consultation response), leaving
+FRFIs to set their own maximums in their Residential Mortgage Underwriting Policy
+(RMUP) and to keep portfolio averages below those maximums. The **39% GDS / 44% TDS**
+limits below are the **insured** mortgage limits, prescribed in law.
+
+- **GDS:** (Annual mortgage payments + property taxes + heat + 50% condo fees) ÷ Gross Annual Income
+- **TDS:** (GDS items + all other debt payments) ÷ Gross Annual Income
+
+**Example (uninsured mortgage — 20% down):**
 - Gross annual income: $180,000
-- Property: $900,000 purchase, 20% down ($180,000), $720,000 mortgage
-- Monthly payment at 7.79% over 25 years: ~$5,320/month
-- Annual mortgage: $63,840; property tax: $7,200; heat: $2,400
-- GDS: ($63,840 + $7,200 + $2,400) ÷ $180,000 = 40.8% → **EXCEEDS 39% limit → does not qualify**
+- Property: $900,000 purchase, 20% down ($180,000), $720,000 mortgage — **uninsured**
+- Monthly payment at 7.79% over 25 years: **~$5,399/month** (nominal annual rate, semi-annual
+  compounding — the Interest Act s.6 convention for Canadian fixed-rate mortgages)
+- Annual mortgage: ~$64,788; property tax: $7,200; heat: $2,400
+- GDS: ($64,788 + $7,200 + $2,400) ÷ $180,000 = **~41.3%**
+- LTI: $720,000 ÷ $180,000 = **4.0x** (below the 4.5x high-LTI threshold)
+
+**Assessment:** At 41.3%, GDS exceeds the 39% *insured* threshold — but this is an
+uninsured mortgage, so no regulatory GDS cap applies. Whether the loan qualifies
+turns on the **lender's own RMUP maximum**. A GDS of 41.3% would exceed most prime
+lenders' stated maximums and would typically require an exception, which B-20
+requires to be identified, escalated, approved and reported under the FRFI's
+exception process.
 
 ---
 
 ## OSFI Regulatory Reporting Calendar
 
-| Report | Frequency | Due Date |
+| Report | Frequency | Maximum reporting lag |
 |--------|-----------|---------|
-| Capital Adequacy Return (CAR) | Quarterly | 30 days after quarter-end |
-| Liquidity Coverage Ratio (LCR) | Monthly | 15 days after month-end |
-| Net Stable Funding Ratio (NSFR) | Quarterly | 30 days after quarter-end |
-| Net Cumulative Cash Flow (NCCF) | Monthly | 15 days after month-end |
-| Large Exposure Return | Monthly | 30 days after month-end |
-| Mortgage data (B-20 related) | Quarterly | 30 days after quarter-end |
-| Annual ICAAP submission | Annual | Within 90 days of fiscal year-end |
-| Recovery Plan update | Annual | As directed by OSFI |
-| Material outsourcing notification | As needed | Before arrangement commences |
-| Cyber/technology incident | As needed | Within 72 hours of discovery |
+| Basel Capital Adequacy Return (BCAR) | Quarterly | Per OSFI's Regulatory Reporting System filing schedule — verify against OSFI's filing schedule |
+| Liquidity Coverage Ratio (LCR) | Monthly | **14 calendar days** (3 business days in stress) |
+| Net Stable Funding Ratio (NSFR) | Quarterly | **30 calendar days** |
+| Net Cumulative Cash Flow (NCCF) | Monthly | **14 calendar days** (3 business days in stress) |
+| Operating Cash Flow Statement (OCFS) | Monthly | 14 calendar days |
+| Intraday liquidity monitoring (Lynx direct clearers only) | Monthly | 14 calendar days |
+| Large Exposure Return | Verify against OSFI's filing schedule | — |
+| Mortgage data (B-20 / LTI related) | Quarterly | Per filing schedule |
+| ICAAP data return — **D-SIBs** | **Quarterly** | **30 days after fiscal quarter-end** |
+| ICAAP data return — **SMSBs** | Annual | 90 days after fiscal year-end |
+| Recovery Plan update | As directed by OSFI | — |
+| Third-party arrangements (B-10) | On request; prompt notification of substantive issues affecting critical operations | — |
+| Technology/cyber incident | As it occurs | **Within 24 hours** of the incident, or sooner |
+| Climate-related financial disclosures (B-15) | Annual | Within 180 days of fiscal year-end |
+
+D-SIBs must have the operational capacity to increase LCR and NCCF reporting to
+weekly or daily at OSFI's discretion; non-D-SIBs, to weekly. Institutions must
+notify OSFI **immediately** if their LCR or NSFR has fallen, or is expected to fall,
+below 100%.
 
 ---
 
@@ -137,13 +175,27 @@ For each material risk, document:
 - GDS/TDS calculations using understated property taxes or heat costs
 - Co-lending arrangements that effectively circumvent LTV caps
 
-**Operational/Technology (B-13):**
+**Operational/Technology (B-13 and E-21):**
 - No formal technology risk appetite statement
-- Cyber incidents not escalated to board within required timeframe
+- Incident escalation protocols not defined, or board and senior management not receiving reporting
+  on material technology and cyber incidents as required by the institution's own approved framework
+  (B-13/E-21 require the protocol and the oversight; OSFI prescribes no board-escalation deadline —
+  the 24-hour clock runs to **OSFI**, not the board)
 - Third-party technology providers not subject to OSFI-compliant contractual controls
 - Insufficient patch management and vulnerability scanning
+- Critical operations not identified or mapped end-to-end (E-21, full adherence
+  due September 1, 2026)
+- Tolerances for disruption of critical operations not set or not board-approved
+- Scenario testing methodology not developed (testing of all critical operations
+  due September 1, 2027)
+- Cyber incidents not reported to OSFI within the 24-hour window
 
-**Outsourcing (B-10):**
-- Material outsourcing arrangements not notified to OSFI in advance
+**Third-Party Risk (B-10):**
+- Third-party arrangements not assessed for risk and criticality, so the guideline
+  is applied with uniform rather than proportionate intensity
+- Substantive issues affecting delivery of critical operations not promptly notified
+  to OSFI
+- Concentration risk (institution-specific and systemic) not assessed
+- Subcontractor risk not identified or managed in critical arrangements
 - Contracts missing audit rights, sub-contracting restrictions, or exit provisions
-- Business continuity testing not conducted for critical outsourced services
+- Business continuity testing not conducted for critical third-party arrangements

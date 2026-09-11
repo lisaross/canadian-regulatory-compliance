@@ -51,7 +51,10 @@ Document an organizational risk assessment covering:
 - Geographic risks (countries transacted with)
 - Distribution channel risks
 
-Frequency: Update at minimum every 2 years, or whenever a significant change occurs.
+Frequency: keep the risk assessment current. It must be reviewed as part of the two-year
+effectiveness review, and updated whenever a significant change occurs — including before
+introducing new developments or technologies that affect clients, products, services,
+delivery channels or geographies.
 
 **3. Compliance Officer**
 - Must be a senior employee with authority to implement the program
@@ -91,15 +94,63 @@ When drafting or documenting a Suspicious Transaction Report:
 
 ## FINTRAC Penalties (Administrative Monetary Penalties — AMPs)
 
-| Violation Level | Per Violation | Annual Cap |
-|----------------|-------------|-----------|
-| Minor | Up to $1,000 | $100,000 |
-| Serious | Up to $100,000 | $500,000 |
-| Very Serious | Up to $500,000 | $1,000,000 |
-| Criminal | Up to $2,000,000 / 5 years imprisonment | N/A |
+**The AMP framework changed on March 26, 2026.** Bill C-12 (Strengthening Canada's
+Immigration System and Borders Act) raised every maximum 40-fold. Which regime applies
+turns on **when the violation occurred**, not when the examination happens.
 
-Penalties are publicly disclosed. Since 2008, FINTRAC has published the names of penalized entities.
+**Violations on or after March 26, 2026:**
+
+| Violation Level | Maximum Per Violation — person | Maximum Per Violation — entity |
+|----------------|-------------------------------|-------------------------------|
+| Minor | $40,000 | $40,000 |
+| Serious | $4,000,000 | $4,000,000 |
+| Very Serious | $4,000,000 | $20,000,000 |
+
+Note: s.73.1(2) fixes a single prescribed-violation ceiling per class of respondent — **$4,000,000 if the
+violation is committed by a person** and **$20,000,000 if committed by an entity**; the Minor/Serious
+amounts above are the prescribed penalties within those ceilings.
+
+- Cumulative penalties on one notice of violation are capped at the greater of **$4,000,000 or 3% of the
+  person's gross global income** (s.73.1(3)(a)), and for an entity at the greater of **$20,000,000 or 3% of
+  the entity's gross global revenue** (s.73.1(3)(b)), the latter calculated at the **group level** for
+  affiliated entities (s.73.1(4)). For large institutions this ceiling can exceed $1 billion.
+- The **"very serious"** category was **expanded**, and a new very serious violation was added: failure to
+  ensure the compliance program is **"reasonably designed, risk-based and effective"** (PCMLTFA s.9.6(1.1)).
+  Not every compliance-program requirement is very serious — each violation's class is fixed by regulation
+  under s.73.1(1)(b); check the current schedule for the specific provision at issue.
+- FINTRAC must now consider the entity's **ability to pay**.
+- New tools: **mandatory compliance agreements** for prescribed violations, and
+  **compliance orders**. Contravening a compliance order carries its own penalty — for
+  entities, up to the greater of $30,000,000 or 3% of gross global revenue.
+
+**Violations entirely before March 26, 2026** keep the former amounts: Minor up to $1,000;
+Serious up to $100,000; Very Serious up to $100,000 (individual) / $500,000 (entity).
+There was **no cumulative cap** under that regime.
+
+**Criminal non-compliance** is prosecuted as an alternative to an AMP, never for the same instance. C-12
+raised the fines, which vary by offence and by mode of prosecution:
+
+| Provision | Conduct | Summary conviction | Indictment |
+|---|---|---|---|
+| s.76 | Contravening s.8 (disclosure) | up to C$1,000,000 | up to C$2,500,000 |
+| s.74 | Knowingly contravening the listed record-keeping, identification and program provisions | up to C$2,500,000 | up to C$5,000,000 |
+| s.75 | Contravening s.7 or 7.1 (suspicious / terrorist-property reporting) | up to C$10,000,000 | up to C$20,000,000 |
+| s.77(1) | Contravening s.9(1) or (3) (prescribed transaction reporting) | up to C$10,000,000 | summary only |
+
+Imprisonment is available on each (s.76: up to 1 year summary / 2 years indictment; ss.74–75: up to 2 years
+less a day summary / 5 years indictment). There is no statutory cumulative cap.
+
+Public naming is **mandatory**: since Bill C-97 (Royal Assent June 21, 2019), s. 73.22 of
+the Act requires FINTRAC to publish the name, nature of violation and penalty amount.
+Before 2019 naming was discretionary. Since December 2023 notices carry fuller detail.
+Notices remain on FINTRAC's site for 5 years.
 
 ## High-Risk Countries (Reference)
 
-FINTRAC and FATF designate certain jurisdictions as high-risk or subject to enhanced monitoring. As of 2025, FATF's high-risk / other monitored jurisdictions include: Iran, North Korea, Myanmar, and countries on the grey list (subject to increased monitoring). Always verify the current FATF list at fatf-gafi.org before assessing geographic risk.
+FINTRAC and FATF designate certain jurisdictions as high-risk or subject to increased
+monitoring. As of the FATF plenary of **19 June 2026**: **DPRK and Iran** are subject to a
+call for action **with countermeasures**; **Myanmar** is subject to a call for **enhanced
+due diligence** without countermeasures (countermeasures to be considered if no progress
+by October 2026). A separate grey list is revised at each plenary. **These lists change
+three times a year (February, June, October) — always verify current lists at
+fatf-gafi.org rather than relying on any list reproduced here.**
