@@ -22,6 +22,7 @@ Conduct a structured compliance review covering all applicable Canadian regulato
 - Corporate Governance (CBCA, OBCA, BCBCA, ABCA, director duties, corporate records)
 - OSFI Prudential (capital adequacy, Basel III/IV, liquidity, OSFI guidelines — federally regulated financial institutions)
 - FCAC Consumer Protection (Bank Act consumer provisions, cost of borrowing disclosures)
+- AI & Technology (automated decision systems, Quebec Law 25 s.12.1, Ontario ESA AI hiring disclosure, Bill C-36/C-34, OSFI E-23, Bill C-8 critical cyber systems, AI-washing under the Competition Act)
 
 ## Output Format
 

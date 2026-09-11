@@ -1,8 +1,8 @@
 # 🍁 Canadian Regulatory Compliance Plugin
 
-> A Claude Code skill that answers Canadian compliance questions across 11 regulatory domains — privacy, employment, CASL, tax, and more.
+> A Claude Code skill that answers Canadian compliance questions across 12 regulatory domains — privacy, employment, CASL, tax, AI, and more.
 
-Canadian regulatory law is complex, spans multiple jurisdictions, and changes often. This plugin gives your team instant access to practical guidance across **eleven regulatory areas**, helping you understand your obligations, review documents, generate checklists, draft notices, and get quick answers — all without having to wade through dense legislation.
+Canadian regulatory law is complex, spans multiple jurisdictions, and changes often. This plugin gives your team instant access to practical guidance across **twelve regulatory areas**, helping you understand your obligations, review documents, generate checklists, draft notices, and get quick answers — all without having to wade through dense legislation.
 
 **Who it's for:** Business owners, operations managers, HR leads, finance teams, banking professionals, and anyone who needs to make informed compliance decisions day-to-day.
 
@@ -118,6 +118,7 @@ These skills load automatically when you discuss a relevant topic — you don't 
 | 🏢 **Corporate Governance** | CBCA · OBCA · BCBCA · ABCA | Director duties, ISC register, minute book, annual filings, shareholder rights |
 | 🏦 **OSFI Prudential** | Basel III/IV · OSFI Guidelines | Capital ratios (CET1/Tier 1), liquidity (LCR/NSFR), ICAAP, B-20, B-13, stress testing |
 | 🛡️ **FCAC Consumer Protection** | Bank Act · Cost of Borrowing Regs | Complaint handling, credit card disclosure, mortgage prepayment, NSF fees, basic banking |
+| 🤖 **AI & Technology** | Bill C-36 · Bill C-34 · Law 25 s.12.1 · OSFI E-23 · Bill C-8 | Automated decisions, AI hiring disclosure, AI chatbots and synthetic content, model risk, cyber incident reporting, AI-washing, ISO/IEC 42001 |
 
 ---
 
@@ -197,6 +198,8 @@ Planned additions for future versions:
 
 ## Changelog
 
+**v0.6.0** — Added `canadian-ai-technology` skill (AI, automated decisions, cybersecurity, platform obligations) — 12 domains.
+
 **v0.5.0** — Accuracy audit — every skill fact-checked against primary sources (verified 2026-09-04); ~190 corrections across all 11 skills including carbon pricing removal, FINTRAC penalty increases (Bill C-12), Bill C-27 → C-36, 2026 payroll/minimum wage rates, OSFI 24-hour incident reporting, FCAC NSF $10 cap; each SKILL.md now carries a `last_verified` date. Landing page and README corrected to 11 domains; install path updated to lisaross fork.
 
 **v0.4.0** — Added OSFI Prudential skill (Basel III/IV, CET1/Tier 1/Total Capital, LCR/NSFR, ICAAP, B-20 stress test, B-13 technology risk, recovery planning) and FCAC Consumer Protection skill (complaint handling, cost of borrowing disclosure, credit card rules, mortgage prepayment rights, NSF fees, basic banking)
@@ -209,4 +212,4 @@ Planned additions for future versions:
 
 ---
 
-*Built by Srivatsa Kasagar · v0.5.0*
+*Built by Srivatsa Kasagar · v0.6.0*
