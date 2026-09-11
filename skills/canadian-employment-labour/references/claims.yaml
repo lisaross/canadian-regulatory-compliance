@@ -1,0 +1,362 @@
+skill: canadian-employment-labour
+last_verified: 2026-09-11
+claims:
+  - id: empl-min-wage-federal
+    statement: "Federal minimum wage (Canada Labour Code)"
+    value: "$18.15/hr effective 1 Apr 2026; next scheduled change 1 Apr 2027 (annual CPI indexation)"
+    where: "SKILL.md — Minimum Wage"
+    source: "https://www.canada.ca/en/employment-social-development/programs/employment-standards/federal-standards/minimum-wage.html"
+    verified: 2026-09-11
+    review_by: 2027-04-01
+    cadence: annual
+    notes: "Indexed to CPI each 1 April; federally regulated employers must pay the higher of this and the provincial rate where the employee works."
+
+  - id: empl-min-wage-ontario
+    statement: "Ontario general minimum wage"
+    value: "$17.60/hr effective 1 Oct 2025; announced increase to $17.95/hr on 1 Oct 2026"
+    where: "SKILL.md — Minimum Wage"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage"
+    verified: 2026-09-11
+    review_by: 2026-10-01
+    cadence: annual
+    notes: "Changes each 1 October; the $17.95 rate is announced but not yet in force at time of verification."
+
+  - id: empl-min-wage-bc
+    statement: "British Columbia general minimum wage"
+    value: "$18.25/hr effective 1 Jun 2026; next scheduled change 1 Jun 2027 (annual BC CPI indexation)"
+    where: "SKILL.md — Minimum Wage"
+    source: "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/wages/minimum-wage"
+    verified: 2026-09-11
+    review_by: 2027-06-01
+    cadence: annual
+    notes: "Indexed to BC CPI each 1 June."
+
+  - id: empl-min-wage-alberta
+    statement: "Alberta general minimum wage"
+    value: "$15.00/hr effective 1 Oct 2018; no change scheduled"
+    where: "SKILL.md — Minimum Wage"
+    source: "https://www.alberta.ca/minimum-wage"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "No indexation and no scheduled change — a change would come by government announcement, so this needs periodic re-checking rather than a fixed date."
+
+  - id: empl-min-wage-quebec
+    statement: "Quebec general minimum wage"
+    value: "$16.60/hr effective 1 May 2026; next scheduled change 1 May 2027"
+    where: "SKILL.md — Minimum Wage"
+    source: "https://www.cnesst.gouv.qc.ca/en/working-conditions/wages/minimum-wage"
+    verified: 2026-09-11
+    review_by: 2027-05-01
+    cadence: annual
+    notes: "Changes each 1 May."
+
+  - id: empl-federal-workforce-share
+    statement: "Share of the Canadian workforce that is federally regulated"
+    value: "Roughly 6%"
+    where: "SKILL.md — Jurisdiction Map"
+    source: "https://www.canada.ca/en/employment-social-development/programs/employment-standards/federal-standards.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: empl-clc-notice-scale
+    statement: "Federal (CLC s.230) individual termination notice scale"
+    value: "2 weeks at 3 months; 3 weeks at 3 years; 4 weeks at 4 years; 5 weeks at 5 years; 6 weeks at 6 years; 7 weeks at 7 years; 8 weeks at 8+ years"
+    where: "SKILL.md — Termination, Federal (Canada Labour Code)"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/L-2/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Scale was amended relatively recently (graduated notice) — confirm against the current Code text."
+
+  - id: empl-clc-severance
+    statement: "Federal (CLC s.235) severance pay entitlement"
+    value: "Owed at 12+ consecutive months of continuous employment (absent just cause): the greater of 2 days' wages per completed year of employment or 5 days' wages; separate from and additional to notice"
+    where: "SKILL.md — Termination, Federal (Canada Labour Code)"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/L-2/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-clc-group-termination
+    statement: "Federal group termination thresholds and timelines (CLC s.212, ss.214–215)"
+    value: "50+ employees at a single industrial establishment within 4 weeks triggers 16 weeks' written notice to the Head of Compliance and Enforcement; Joint Planning Committee of at least 4 members, at least half representing redundant employees, first sitting within 2 weeks of the s.212 notice; arbitrator may be requested if the adjustment program is not completed within 6 weeks; statement of benefits to each affected employee no later than 2 weeks before termination"
+    where: "SKILL.md — Termination, Federal (Canada Labour Code), Group termination"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/L-2/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-on-notice-scale
+    statement: "Ontario ESA s.57 individual termination notice scale"
+    value: "Less than 1 year: 1 week; 1–3 years: 2 weeks; 3–4: 3 weeks; 4–5: 4 weeks; 5–6: 5 weeks; 6–7: 6 weeks; 7–8: 7 weeks; 8+ years: 8 weeks"
+    where: "SKILL.md — Termination, Ontario (ESA, 2000 — Part XV)"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/termination-employment"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-on-severance-threshold
+    statement: "Ontario ESA s.64 severance pay eligibility thresholds and cap"
+    value: "5+ years of employment AND either a global payroll of at least $2.5M or severance of 50 or more employees in a six-month period because all or part of the business permanently closed; calculated as regular wages for a regular work week x (completed years + completed months / 12), to a maximum of 26 weeks"
+    where: "SKILL.md — Termination, Ontario (ESA, 2000 — Part XV)"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/severance-pay"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "The $2.5M payroll threshold is a fixed dollar figure that is periodically revisited."
+
+  - id: empl-on-mass-termination
+    statement: "Ontario mass termination notice scale and Form 1 requirements"
+    value: "50+ employees at one establishment within 4 weeks: 8 weeks (50–199), 12 weeks (200–499), 16 weeks (500+). Form 1 must be filed with the Director of Employment Standards; notice to employees is not effective until the Director receives Form 1. Since 1 July 2025 the employer must also give each affected employee the current Employment Ontario Career Supports information sheet. Since 26 Oct 2023 'establishment' includes the home of an employee working exclusively remotely."
+    where: "SKILL.md — Termination, Ontario (ESA, 2000 — Part XV)"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/termination-employment"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Ontario has amended this area repeatedly since 2023."
+
+  - id: empl-on-job-seeking-leave
+    statement: "Ontario job seeking leave during a mass-termination notice period (ESA s.50.3)"
+    value: "Up to 3 unpaid, job-protected days; in force 27 Nov 2025; does not apply where the employee is given notice that is 25% or less of the required notice period with the remainder as termination pay in lieu"
+    where: "SKILL.md — Termination, Ontario (ESA, 2000 — Part XV)"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Recently in force — watch for interpretive guidance."
+
+  - id: empl-bc-notice-scale
+    statement: "BC Employment Standards Act individual termination notice scale"
+    value: "3–12 months: 1 week; 1–3 years: 2 weeks; 3–4: 3 weeks; 4–5: 4 weeks; 5–6: 5 weeks; 6–7: 6 weeks; 7–8: 7 weeks; 8+ years: 8 weeks"
+    where: "SKILL.md — Termination, BC (Employment Standards Act BC)"
+    source: "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/termination"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-bc-group-termination
+    statement: "BC group termination thresholds (BCESA s.64)"
+    value: "50+ at a single location within 2 months: 8 weeks (50–100), 12 weeks (101–300), 16 weeks (301+); written notice to each affected employee, the Minister of Labour, and any trade union; in addition to individual s.63 compensation for length of service"
+    where: "SKILL.md — Termination, BC (Employment Standards Act BC)"
+    source: "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/termination"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-ab-notice-scale
+    statement: "Alberta Employment Standards Code termination notice scale"
+    value: "90 days–2 years: 1 week; 2–4 years: 2 weeks; 4–6: 4 weeks; 6–8: 5 weeks; 8–10: 6 weeks; 10+ years: 8 weeks. No statutory severance pay in Alberta."
+    where: "SKILL.md — Termination, Alberta (Employment Standards Code)"
+    source: "https://www.alberta.ca/termination-pay"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-ab-group-termination
+    statement: "Alberta group termination notice requirement"
+    value: "50+ employees at a single location within a 4-week period requires at least 4 weeks' written notice to the Minister responsible for Employment Standards, in addition to individual termination notice"
+    where: "SKILL.md — Termination, Alberta (Employment Standards Code)"
+    source: "https://www.alberta.ca/group-terminations"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-chra-protected-grounds
+    statement: "Protected grounds under the Canadian Human Rights Act"
+    value: "Race, national/ethnic origin, colour, religion, age, sex, sexual orientation, gender identity/expression, marital status, family status, genetic characteristics, disability, and conviction for an offence for which a pardon has been granted or in respect of which a record suspension has been ordered"
+    where: "SKILL.md — Human Rights, Protected Grounds"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/h-6/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Grounds have been added over time (genetic characteristics, gender identity/expression) — a list regulators update."
+
+  - id: empl-clc-leaves
+    statement: "Federal (CLC) leave durations and paid-day entitlements"
+    value: "Maternity 17 weeks; parental 63 weeks standard / 71 weeks extended; personal leave 5 days (first 3 paid after 3 months' service); medical leave with pay 10 days/year (3 days accrue after a 30-day qualifying period, then 1 day/month, carryover up to 10); pregnancy loss 8 weeks (stillbirth) / 3 days other, first 3 days paid at 3 months' service, in force 12 Dec 2025; bereavement on death of a child up to 8 weeks, first 3 days paid, in force 12 Dec 2025; bereavement 10 days (3 paid); family violence 10 days (5 paid)"
+    where: "SKILL.md — Leaves of Absence, Federal (Canada Labour Code)"
+    source: "https://www.canada.ca/en/employment-social-development/programs/employment-standards/federal-standards/leaves.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Two entries came into force 12 Dec 2025; this table has changed repeatedly since 2019."
+
+  - id: empl-on-leaves
+    statement: "Ontario ESA leave durations and paid-day entitlements"
+    value: "Pregnancy up to 17 weeks; parental up to 61 weeks (birth parent who took pregnancy leave) / 63 weeks (all other new parents); family medical up to 28 weeks in a 52-week period; sick leave 3 days unpaid (employer cannot require a medical note as of 28 Oct 2024); bereavement 2 days unpaid; long-term illness up to 27 weeks unpaid in a 52-week period (in force 19 Jun 2025); job seeking up to 3 days unpaid (in force 27 Nov 2025); domestic or sexual violence up to 10 days + 15 weeks per calendar year, first 5 days paid"
+    where: "SKILL.md — Leaves of Absence, Ontario (ESA, 2000)"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/pregnancy-and-parental-leave"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Three items changed between Oct 2024 and Nov 2025 — one of the most volatile tables in the skill."
+
+  - id: empl-pay-equity-thresholds
+    statement: "Pay equity employee-count thresholds"
+    value: "Federal Pay Equity Act (in force 2021): federally regulated employers with 10+ employees; pay equity committees required for 100+ employees. Ontario Pay Equity Act: private sector employers with 10+ employees. Quebec Pay Equity Act: employers with 10+ employees."
+    where: "SKILL.md — Pay Equity"
+    source: "https://www.chrc-ccdp.gc.ca/en/pay-equity"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-on-job-posting-rules
+    statement: "Ontario job posting rules (ESA Part III.1, O. Reg. 476/24)"
+    value: "In force 1 Jan 2026 for employers with 25+ employees: publicly advertised postings must state expected compensation or a compensation range, disclose use of AI to screen/assess/select applicants, state whether the posting is for an existing vacancy, and omit any Canadian experience requirement. Employers must tell each interviewed applicant whether a hiring decision has been made within 45 days of the last interview."
+    where: "SKILL.md — Recent changes to verify"
+    source: "https://www.ontario.ca/laws/regulation/240476"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "Recently in force — thresholds and exceptions are the kind of detail that gets amended."
+
+  - id: empl-bc-pay-transparency
+    statement: "BC Pay Transparency Act reporting obligation"
+    value: "Postings must state a pay range; reporting for employers with 50+ employees due by 1 Nov 2026"
+    where: "SKILL.md — Recent changes to verify"
+    source: "https://www2.gov.bc.ca/gov/content/gov/pay-transparency"
+    verified: 2026-09-11
+    review_by: 2026-11-01
+    cadence: annual
+    notes: "The employee-count threshold steps down over the phase-in — verify which cohort is captured this year."
+
+  - id: empl-on-policy-deadlines
+    statement: "Ontario workplace policy deadlines (25+ employees)"
+    value: "Disconnecting-from-work policy due by 1 March; electronic monitoring policy due by 1 March; non-compete ban (ESA Part XV.1) in force 25 Oct 2021"
+    where: "SKILL.md — Recent changes to verify"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0"
+    verified: 2026-09-11
+    review_by: 2027-03-01
+    cadence: annual
+    notes: "Recurring annual deadline."
+
+  - id: empl-federal-harassment-policy
+    statement: "Federal workplace harassment and violence prevention policy obligations"
+    value: "Joint review every 3 years; aggregate report to the Labour Program due by 1 March"
+    where: "SKILL.md — Recent changes to verify"
+    source: "https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html"
+    verified: 2026-09-11
+    review_by: 2027-03-01
+    cadence: annual
+    notes: "Recurring annual reporting deadline."
+
+  - id: empl-overtime-thresholds
+    statement: "Overtime thresholds and rates by jurisdiction"
+    value: "Federal (CLC): after 8 hrs/day or 40 hrs/week, 1.5x. Ontario: after 44 hrs/week, 1.5x. BC: after 8 hrs/day or 40 hrs/week at 1.5x, 2x after 12 hrs/day. Alberta: 8/44 rule — the greater of daily-over-8 or weekly-over-44 totals, 1.5x."
+    where: "references/esa-provincial.md — Overtime Pay Comparison"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/hours-work-and-eating-periods"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-overtime-averaging
+    statement: "Overtime averaging rules, Ontario and Alberta"
+    value: "Ontario: written or electronic agreement with the employee, averaging period max 4 weeks, must state a start and expiry date (expiry no more than 2 years after start for non-unionized employees); Director approval not required since 3 April 2019. Alberta: averaging arrangement may be imposed by the employer without consent on 2 weeks' written notice, period of 1 to 52 weeks; beyond 52 weeks needs a Ministerial or Director's variance."
+    where: "references/esa-provincial.md — Overtime averaging"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/hours-work-and-eating-periods"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-vacation-entitlement
+    statement: "Vacation entitlement and vacation pay rates by jurisdiction"
+    value: "Federal: 2 weeks after 1 yr, 3 weeks after 5 yrs, 4 weeks after 10 yrs; pay 4% / 6% / 8% of wages. Ontario, BC, Alberta: 2 weeks, rising to 3 weeks at 5+ years; pay 4% / 6%."
+    where: "references/esa-provincial.md — Vacation Entitlement"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/vacation"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-stat-holidays-ontario
+    statement: "Ontario public holidays and public holiday pay formula"
+    value: "9 public holidays: New Year's Day, Family Day, Good Friday, Victoria Day, Canada Day, Labour Day, Thanksgiving Day, Christmas Day, Boxing Day. Pay formula: total regular wages + vacation pay earned in the 4 work weeks before the holiday / 20."
+    where: "references/esa-provincial.md — Statutory Holidays, Ontario"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/public-holidays"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "Holiday lists are periodically added to (e.g. Truth and Reconciliation Day in other jurisdictions)."
+
+  - id: empl-stat-holidays-bc
+    statement: "BC statutory holidays"
+    value: "11 statutory holidays: New Year's Day, Family Day, Good Friday, Victoria Day, Canada Day, B.C. Day, Labour Day, National Day for Truth and Reconciliation (Sept 30), Thanksgiving Day, Remembrance Day (Nov 11), Christmas Day. No Boxing Day; neither Easter Sunday nor Easter Monday is statutory."
+    where: "references/esa-provincial.md — Statutory Holidays, BC"
+    source: "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/statutory-holidays"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: empl-stat-holidays-alberta
+    statement: "Alberta general holidays and qualifying rule"
+    value: "9 public holidays: New Year's Day, Alberta Family Day, Good Friday, Victoria Day, Canada Day, Labour Day, Thanksgiving Day, Remembrance Day, Christmas Day. Employee must have worked 30 workdays in the 12 months before the holiday to qualify."
+    where: "references/esa-provincial.md — Statutory Holidays, Alberta"
+    source: "https://www.alberta.ca/general-holidays-pay"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: empl-stat-holidays-federal
+    statement: "Federal general holidays (CLC s.166)"
+    value: "10 general holidays: New Year's Day, Good Friday, Victoria Day, Canada Day, Labour Day, National Day for Truth and Reconciliation (Sept 30), Thanksgiving Day, Remembrance Day, Christmas Day, Boxing Day. No Family Day."
+    where: "references/esa-provincial.md — Statutory Holidays, Federal"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/L-2/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "Truth and Reconciliation Day was added in 2021 — list is subject to statutory addition."
+
+  - id: empl-records-ontario
+    statement: "Ontario ESA record retention periods (ss.15, 15.1, 16)"
+    value: "Hours worked: 3 years after the day or week of work; wage statement information: 3 years after it was given; name/address/start date: 3 years after the employee stops working; vacation time and vacation pay records: 5 years after the record was made (s.15.1); excess hours / overtime averaging agreements: 3 years after the last day of work under the agreement; disconnecting-from-work and electronic-monitoring policies: 3 years after the policy ceases to be in effect"
+    where: "references/esa-provincial.md — Record-Keeping Obligations, Ontario"
+    source: "https://www.ontario.ca/document/your-guide-employment-standards-act-0/record-keeping"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-records-bc
+    statement: "BC payroll and time record retention (BCESA s.28)"
+    value: "Payroll records retained 7 years after the employment terminates (s.28(2)(c)); time records showing start/end, breaks and hours worked each day required for every employee regardless of pay basis (s.28(1)(d))"
+    where: "references/esa-provincial.md — Record-Keeping Obligations, BC"
+    source: "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/records"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-records-alberta
+    statement: "Alberta employment record retention (ESC ss.14–15)"
+    value: "At least 3 years from the date each record is made (s.15) — not 3 years after employment ends"
+    where: "references/esa-provincial.md — Record-Keeping Obligations, Alberta"
+    source: "https://www.alberta.ca/employment-standards-records"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: empl-on-misclassification-onus
+    statement: "Ontario ESA misclassification provision and burden of proof"
+    value: "ESA s.5.1(1) prohibits treating an employee as a non-employee; misclassification can draw a notice of contravention, prosecution, or both. The reverse onus in the former s.5.1(2) was repealed effective 1 January 2019 (Bill 47, Making Ontario Open for Business Act, 2018); the burden of proving employee status now rests with the individual."
+    where: "references/esa-provincial.md — Independent Contractor vs. Employee"
+    source: "https://www.ontario.ca/laws/statute/00e41"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
