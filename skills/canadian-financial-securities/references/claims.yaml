@@ -1,0 +1,322 @@
+skill: canadian-financial-securities
+last_verified: 2026-09-11
+claims:
+  - id: fin-lctr-threshold
+    statement: "Large Cash Transaction Report (LCTR) trigger and filing deadline"
+    value: "Receipt of $10,000+ in cash in a single transaction (or aggregated under the 24-hour rule); file within 15 calendar days"
+    where: "SKILL.md — FINTRAC — AML/ATF Framework > Reporting Requirements"
+    source: "https://fintrac-canafe.canada.ca/reporting-declaration/Info/rpt-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-lvctr-threshold
+    statement: "Large Virtual Currency Transaction Report (LVCTR) trigger and deadline"
+    value: "Receipt of $10,000+ in virtual currency; file within 5 working days"
+    where: "SKILL.md — FINTRAC — AML/ATF Framework > Reporting Requirements"
+    source: "https://fintrac-canafe.canada.ca/reporting-declaration/Info/rpt-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-eftr-threshold
+    statement: "Electronic Funds Transfer Report (EFTR) trigger and deadline"
+    value: "International EFT of $10,000+ initiated or finally received; file within 5 working days"
+    where: "SKILL.md — FINTRAC — AML/ATF Framework > Reporting Requirements"
+    source: "https://fintrac-canafe.canada.ca/reporting-declaration/Info/rpt-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-casino-disbursement-threshold
+    statement: "Casino Disbursement Report trigger and deadline"
+    value: "Casino disburses $10,000+; file within 15 calendar days"
+    where: "SKILL.md — FINTRAC — AML/ATF Framework > Reporting Requirements"
+    source: "https://fintrac-canafe.canada.ca/reporting-declaration/Info/rpt-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-str-trigger-scope
+    statement: "STR trigger scope and filing timing"
+    value: "Reasonable grounds to suspect money laundering, terrorist activity financing, or sanctions evasion; file as soon as practicable after completing the measures that establish RGS — no fixed outer limit"
+    where: "SKILL.md — FINTRAC — AML/ATF Framework > Reporting Requirements"
+    source: "https://fintrac-canafe.canada.ca/reporting-declaration/Info/rpt-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; sanctions-evasion ground is a recent addition"
+
+  - id: fin-pep-30-day-window
+    statement: "Deadline to complete prescribed PEP/HIO measures (source of funds, source of wealth, senior management approval)"
+    value: "Within 30 days after the day the account is opened or the fact is detected (s.121(3))"
+    where: "SKILL.md — FINTRAC — AML/ATF Framework > Politically Exposed Persons (PEPs) and HIOs"
+    source: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-184/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-beneficial-ownership-threshold
+    statement: "Beneficial ownership identification threshold"
+    value: "Identify all individuals who own or control 25%+ of a corporation"
+    where: "SKILL.md — FINTRAC — AML/ATF Framework > Know Your Client (KYC)"
+    source: "https://fintrac-canafe.canada.ca/guidance-directives/client-clientele/bor-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-re-sector-coverage-dates
+    statement: "Newly covered reporting-entity sectors and their coverage start dates"
+    value: "Armoured car services since July 2024; mortgage administrators, brokers and lenders since October 2024; cheque cashing, factoring companies and financing/leasing entities since April 1, 2025; acquirer services for private ABMs and title insurers since October 1, 2025"
+    where: "SKILL.md — FINTRAC — AML/ATF Framework > Who Must Comply (Reporting Entities)"
+    source: "https://fintrac-canafe.canada.ca/re-ed/sector-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; PCMLTFA sector coverage has been expanding in phases"
+
+  - id: fin-msb-registration-renewal
+    statement: "MSB registration renewal period with FINTRAC"
+    value: "Registration required before conducting business; renewal every 2 years; operating without registration is a criminal offence"
+    where: "SKILL.md — FINTRAC — AML/ATF Framework > Core Obligations > Registration (MSBs)"
+    source: "https://fintrac-canafe.canada.ca/msb-esm/intro-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-record-retention-5-years
+    statement: "FINTRAC record-keeping retention periods"
+    value: "Client identification records 5 years after last transaction; transaction records 5 years after transaction date; business relationship records 5 years after end of relationship; STR copies 5 years after filing"
+    where: "SKILL.md — FINTRAC — AML/ATF Framework > Record-Keeping"
+    source: "https://fintrac-canafe.canada.ca/guidance-directives/recordkeeping-document/record/1-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-effectiveness-review-cadence
+    statement: "Independent compliance-program effectiveness review frequency"
+    value: "Every 2 years (or more frequently based on risk), conducted by someone independent of the compliance function"
+    where: "references/fintrac-aml.md — Compliance Program Template > Independent Effectiveness Review"
+    source: "https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/Guide4/4-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-amp-regime-change-date
+    statement: "Date the FINTRAC administrative monetary penalty regime changed"
+    value: "March 26, 2026 — Bill C-12 (Strengthening Canada's Immigration System and Borders Act) raised every maximum 40-fold; which regime applies turns on when the violation occurred"
+    where: "references/fintrac-aml.md — FINTRAC Penalties (Administrative Monetary Penalties — AMPs)"
+    source: "https://fintrac-canafe.canada.ca/pen/1-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-amp-maxima-post-2026
+    statement: "FINTRAC AMP maxima per violation for violations on or after March 26, 2026"
+    value: "Minor $40,000; Serious $4,000,000; Very Serious $20,000,000"
+    where: "references/fintrac-aml.md — FINTRAC Penalties (Administrative Monetary Penalties — AMPs)"
+    source: "https://fintrac-canafe.canada.ca/pen/1-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-amp-cumulative-cap
+    statement: "FINTRAC cumulative AMP cap (post March 26, 2026 regime)"
+    value: "Greater of $20,000,000 or 3% of gross global revenue, calculated at the group level for affiliated entities"
+    where: "references/fintrac-aml.md — FINTRAC Penalties (Administrative Monetary Penalties — AMPs)"
+    source: "https://fintrac-canafe.canada.ca/pen/1-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-amp-maxima-pre-2026
+    statement: "FINTRAC AMP maxima for violations entirely before March 26, 2026"
+    value: "Minor up to $1,000; Serious up to $100,000; Very Serious up to $100,000 (individual) / $500,000 (entity); no cumulative cap"
+    where: "references/fintrac-aml.md — FINTRAC Penalties (Administrative Monetary Penalties — AMPs)"
+    source: "https://fintrac-canafe.canada.ca/pen/1-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-compliance-order-penalty
+    statement: "Penalty for contravening a FINTRAC compliance order"
+    value: "For entities, up to the greater of $30,000,000 or 3% of gross global revenue"
+    where: "references/fintrac-aml.md — FINTRAC Penalties (Administrative Monetary Penalties — AMPs)"
+    source: "https://fintrac-canafe.canada.ca/pen/1-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-criminal-fines
+    statement: "Criminal fine range for PCMLTFA non-compliance after Bill C-12"
+    value: "Roughly C$2.5M to C$20M depending on the offence, with imprisonment available and no statutory cumulative cap"
+    where: "references/fintrac-aml.md — FINTRAC Penalties (Administrative Monetary Penalties — AMPs)"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-amp-publication-retention
+    statement: "FINTRAC mandatory public naming and how long notices stay posted"
+    value: "Mandatory since Bill C-97 (Royal Assent June 21, 2019), s. 73.22; notices remain on FINTRAC's site for 5 years; fuller detail since December 2023"
+    where: "references/fintrac-aml.md — FINTRAC Penalties (Administrative Monetary Penalties — AMPs)"
+    source: "https://fintrac-canafe.canada.ca/pen/1-eng"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-fatf-call-for-action
+    statement: "FATF high-risk jurisdictions subject to a call for action (black list)"
+    value: "As of the FATF plenary of 19 June 2026: DPRK and Iran subject to a call for action with countermeasures; Myanmar subject to a call for enhanced due diligence without countermeasures (countermeasures to be considered if no progress by October 2026)"
+    where: "references/fintrac-aml.md — High-Risk Countries (Reference)"
+    source: "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions.html"
+    verified: 2026-09-11
+    review_by: 2026-10-31
+    cadence: on-event
+    notes: "Lists change three times a year at the February, June and October plenaries. Next plenary after the June 2026 one is October 2026."
+
+  - id: fin-fatf-grey-list
+    statement: "FATF grey list (jurisdictions under increased monitoring) revision cadence"
+    value: "A separate grey list is revised at each plenary; lists change three times a year (February, June, October) — always verify at fatf-gafi.org"
+    where: "references/fintrac-aml.md — High-Risk Countries (Reference)"
+    source: "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions.html"
+    verified: 2026-09-11
+    review_by: 2026-10-31
+    cadence: on-event
+    notes: "Skill deliberately reproduces no grey-list membership; re-check at the October 2026 plenary."
+
+  - id: fin-ai-financial-assets-1m
+    statement: "Accredited investor — financial assets test (NI 45-106 s. 1.1 para (j))"
+    value: "Financial assets alone or with a spouse exceeding $1,000,000, before taxes net of related liabilities"
+    where: "SKILL.md — Securities Compliance > Prospectus Exemptions (common)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/4/45-106"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-ai-financial-assets-5m
+    statement: "Accredited investor — $5M financial assets branch (NI 45-106 s. 1.1 para (j.1))"
+    value: "Financial assets exceeding $5,000,000, individual only, no spousal aggregation; the only individual branch exempt from the Form 45-106F9 risk acknowledgement"
+    where: "SKILL.md — Securities Compliance > Prospectus Exemptions (common)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/4/45-106"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-ai-net-income
+    statement: "Accredited investor — net income test (NI 45-106 s. 1.1 para (k))"
+    value: "Net income before taxes exceeding $200,000 (or $300,000 combined with a spouse) in each of the 2 most recent calendar years, with a reasonable expectation of the same in the current year"
+    where: "SKILL.md — Securities Compliance > Prospectus Exemptions (common)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/4/45-106"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-ai-net-assets
+    statement: "Accredited investor — net assets test (NI 45-106 s. 1.1 para (l))"
+    value: "Net assets alone or with a spouse of at least $5,000,000; net assets include the principal residence and the mortgage on it"
+    where: "SKILL.md — Securities Compliance > Prospectus Exemptions (common)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/4/45-106"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-minimum-amount-investment
+    statement: "Minimum amount investment prospectus exemption (NI 45-106 s. 2.10)"
+    value: "Acquisition cost of at least $150,000 in cash, securities of a single issuer, purchaser as principal; not available to individuals — non-individuals only, since the 2015 amendments"
+    where: "SKILL.md — Securities Compliance > Prospectus Exemptions (common)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/4/45-106"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-cd-annual-financials
+    statement: "Continuous disclosure deadline — audited annual financial statements (NI 51-102)"
+    value: "90 days for non-venture issuers; 120 days for venture issuers"
+    where: "SKILL.md — Securities Compliance > Continuous Disclosure (public companies)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/5/51-102"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-cd-interim-financials
+    statement: "Continuous disclosure deadline — interim financial report (NI 51-102)"
+    value: "45 days for non-venture issuers; 60 days for venture issuers"
+    where: "SKILL.md — Securities Compliance > Continuous Disclosure (public companies)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/5/51-102"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-cd-aif
+    statement: "Continuous disclosure deadline — annual information form (AIF)"
+    value: "90 days for non-venture issuers; not required for venture issuers"
+    where: "SKILL.md — Securities Compliance > Continuous Disclosure (public companies)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/5/51-102"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-material-change-report
+    statement: "Material change reporting deadline"
+    value: "Press release immediately; Form 51-102F3 material change report as soon as practicable and in any event within 10 days of the change"
+    where: "SKILL.md — Securities Compliance > Continuous Disclosure (public companies)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/5/51-102"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-insider-reporting-deadlines
+    statement: "Insider reporting deadlines (NI 55-104)"
+    value: "Initial report within 10 days of becoming a reporting insider; subsequent reports within 5 days of each change"
+    where: "SKILL.md — Securities Compliance > Continuous Disclosure (public companies)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/5/55-104"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-registration-categories
+    statement: "Registration firm categories under NI 31-103"
+    value: "Five dealer categories under s. 7.1 (investment dealer, mutual fund dealer, scholarship plan dealer, exempt market dealer, restricted dealer); two adviser categories under s. 7.2 (portfolio manager, restricted portfolio manager); plus investment fund manager. Ontario: ss.7.1(4) and 7.2(3) do not apply"
+    where: "SKILL.md — Securities Compliance > Registration Categories (NI 31-103)"
+    source: "https://www.osc.ca/en/securities-law/instruments-rules-policies/3/31-103"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: fin-ciro-sro-consolidation
+    statement: "Self-regulatory organization for investment and mutual fund dealers"
+    value: "CIRO (Canadian Investment Regulatory Organization), successor to IIROC + MFDA"
+    where: "SKILL.md — Key Regulators"
+    source: "https://www.ciro.ca/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "CIRO is consolidating the legacy IIROC and MFDA rule books; rule-set citations change as consolidated rules are adopted."
