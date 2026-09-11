@@ -3,13 +3,13 @@ last_verified: 2026-09-11
 claims:
   - id: ai-c36-status
     statement: "Bill C-36 / PPCDA legislative status"
-    value: "Tabled 15 June 2026 by the Minister of AI and Digital Innovation; first reading only; not in force. CIF by order-in-council tied to standing up the new Commission, which depends on C-34 passing"
+    value: "Tabled 15 June 2026 by the Minister of AI and Digital Innovation; given first reading 15 June 2026; at the second reading stage, no second-reading activity yet; not in force. CIF by order-in-council tied to standing up the new Commission, which depends on C-34 passing"
     where: "SKILL.md — Federal Landscape / Bill C-36 / PPCDA; Watch List"
     source: "https://www.parl.ca/LegisInfo/en/bill/45-1/C-36"
     verified: 2026-09-11
     review_by: 2026-12-10
     cadence: on-event
-    notes: "Bill at first reading — 90-days-out review. Note the privacy skill records C-36 at second reading as of September 2026; reconcile the two skills on next review."
+    notes: "Bill at the second reading stage with no second-reading activity yet — 90-days-out review. Confirmed on LEGISinfo 2026-09-11 and reconciled with the privacy skill's priv-c36-status claim; both now match."
 
   - id: ai-c34-status
     statement: "Bill C-34 / Safe Social Media Act legislative status"

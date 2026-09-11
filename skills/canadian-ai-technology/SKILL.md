@@ -38,7 +38,7 @@ AI obligations therefore arrive through **three vehicles**, and all three must b
 ## Federal Landscape
 
 ### Bill C-36 / PPCDA — automated decision systems (**not in force**)
-Tabled **15 June 2026** by the Minister of AI and Digital Innovation; enacts the Protecting Privacy and Consumer Data Act, repealing PIPEDA Part 1. **First reading only.** Coming into force is by order-in-council tied to standing up the new Commission, which itself depends on Bill C-34 passing.
+Tabled **15 June 2026** by the Minister of AI and Digital Innovation; enacts the Protecting Privacy and Consumer Data Act, repealing PIPEDA Part 1. **First reading 15 June 2026; at the second reading stage, no second-reading activity yet — not law.** Coming into force is by order-in-council tied to standing up the new Commission, which itself depends on Bill C-34 passing.
 
 **Definition (s.2(1))** — "automated decision system" is any technology that **assists or replaces** the judgment of human decision-makers, via rules-based systems, regression, predictive analytics, machine learning, deep learning, neural networks or other technique. Note **"assists"** — materially broader than Quebec s.12.1's "exclusively automated."
 
@@ -201,7 +201,7 @@ The Consultation on Copyright in the Age of Generative AI ran 12 October 2023 �
 
 | Item | Status | Next expected event |
 |---|---|---|
-| **Bill C-36 / PPCDA** | First reading 15 June 2026 — **not law** | Second reading and committee; amendments likely. CIF by order-in-council tied to standing up the Commission, which depends on C-34 passing. **No date.** |
+| **Bill C-36 / PPCDA** | First reading 15 June 2026; at the second reading stage, no second-reading activity yet — **not law** | Second reading and committee; amendments likely. CIF by order-in-council tied to standing up the Commission, which depends on C-34 passing. **No date.** |
 | **Bill C-34 / Safe Social Media Act** | First reading 10 June 2026 — **not law** | Regulations setting the user-number thresholds defining a "regulated chatbot service," excluded categories, age verification and Digital Safety Plan contents |
 | **CCSPA (Bill C-8 Part 2)** | Royal Assent 15 June 2026; Part 2 **not in force** | Order-in-council proclamation; regulations designating operators and setting the reporting period within the 72-hour ceiling |
 | **Ontario EDSTA AI regulations** | Framework in force 29 Jan 2025; AI regs **not made** | Prescribed entities and circumstances, accountability framework contents, prohibited uses, Minister's technical standards. **No published timeline** |

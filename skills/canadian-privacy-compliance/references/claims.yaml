@@ -3,13 +3,13 @@ last_verified: 2026-09-11
 claims:
   - id: priv-c36-status
     statement: "Bill C-36 / PPCDA legislative status"
-    value: "Introduced 15 June 2026; at second reading as of September 2026; not in force"
+    value: "Introduced and given first reading 15 June 2026; at the second reading stage in the House of Commons, with no second-reading activity recorded as of September 2026; not in force"
     where: "SKILL.md — Governing Legislation / Federal"
     source: "https://www.parl.ca/LegisInfo/en/bill/45-1/C-36"
     verified: 2026-09-11
     review_by: 2026-12-10
     cadence: on-event
-    notes: "Bill status is the most volatile item in this skill; check LEGISinfo. 90-days-out review applied because the bill is still in pre-Royal-Assent stages."
+    notes: "Bill status is the most volatile item in this skill; check LEGISinfo. 90-days-out review applied because the bill is still in pre-Royal-Assent stages. Confirmed on LEGISinfo 2026-09-11: current status 'At second reading in the House of Commons'; last completed stage is first reading (15 June 2026); second reading shows no activity yet."
 
   - id: priv-c36-first-reading-date
     statement: "Bill C-36 / PPCDA first reading date"

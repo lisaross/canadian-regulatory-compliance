@@ -46,7 +46,7 @@ requirements governing **communication** to third parties are separate (s.13).
 
 | Area | PIPEDA (in force) | Bill C-36 / PPCDA (proposed, 1st reading 2026-06-15) |
 |------|-----------------|----------------------------|
-| Status | Operative federal private-sector law | At second reading; **not in force** |
+| Status | Operative federal private-sector law | Introduced and given first reading 15 June 2026; at the second reading stage, with no second-reading activity recorded as of September 2026; **not in force** |
 | Privacy as a right | "right of privacy of individuals" | "**fundamental** right of privacy of individuals" |
 | Consent | Meaningful consent (Sch. 1, Principle 3) | Meaningful consent retained, with codified exceptions incl. legitimate interest |
 | De-identification | No specific provision | Consent exception permitting de-identification and anonymization (s.20), plus a requirement that technical and administrative measures be **proportionate** to the purpose, the sensitivity of the information and the risk of re-identification (s.74) |
