@@ -1,0 +1,392 @@
+skill: canadian-tax-compliance
+last_verified: 2026-09-11
+claims:
+  - id: tax-hst-rate-ontario
+    statement: "Ontario combined HST rate"
+    value: "13% HST"
+    where: "SKILL.md — GST/HST Rates by Province/Territory"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: tax-hst-rate-nova-scotia
+    statement: "Nova Scotia HST rate after provincial portion reduction"
+    value: "14% HST (provincial portion reduced from 10% to 9% effective April 1, 2025; GST/HST Notices 342 and 343)"
+    where: "SKILL.md — GST/HST Rates by Province/Territory"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed; most recently changed province — highest risk of further change"
+
+  - id: tax-hst-rate-atlantic-15
+    statement: "New Brunswick, Newfoundland & Labrador, and PEI HST rate"
+    value: "15% HST"
+    where: "SKILL.md — GST/HST Rates by Province/Territory"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: tax-pst-rates-provincial
+    statement: "Provincial sales tax rates separate from GST (BC PST, SK PST, QC QST, MB RST)"
+    value: "BC PST 7% (12% on carbonated beverages/liquor); Saskatchewan PST 6%; Quebec QST 9.975%; Manitoba RST 7%; federal GST 5%"
+    where: "SKILL.md — Provincial Sales Taxes (PST/QST/RST)"
+    source: "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed; four separate provincial administrations, each can move independently"
+
+  - id: tax-gst-registration-threshold
+    statement: "GST/HST mandatory registration / small supplier threshold"
+    value: "$30,000 in a single calendar quarter or over 4 consecutive quarters; same $30,000 threshold for non-resident digital services simplified regime"
+    where: "SKILL.md — Registration Thresholds"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-gst-filing-frequency-thresholds
+    statement: "GST/HST filing frequency thresholds and return due dates"
+    value: "Up to $1.5M annual (due 3 months after fiscal year-end); $1.5M–$6M quarterly (1 month after quarter-end); over $6M monthly (1 month after month-end); annual filers with $3,000+ net tax must make quarterly instalments"
+    where: "SKILL.md — Filing Periods and Deadlines"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/complete-file-return.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-itc-claim-period
+    statement: "Time limit to claim Input Tax Credits"
+    value: "4 years from the reporting period they relate to (2 years for large businesses)"
+    where: "SKILL.md — Input Tax Credits (ITCs)"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-input-tax-credits.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-itc-documentation-thresholds
+    statement: "GST/HST ITC supporting documentation dollar thresholds"
+    value: "Under $100 / $100–$499.99 / $500 or more tiers; raised from $30 / $150 to $100 / $500 effective April 20, 2021"
+    where: "references/tax-details.md — GST/HST ITC Documentation Requirements"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-input-tax-credits.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-cpp-rate-2026
+    statement: "CPP contribution rate, earnings range, and annual maximum (2026)"
+    value: "5.95% employee on earnings $3,500–$74,600; employer matches; employee annual maximum $4,230.45"
+    where: "SKILL.md — Payroll 2026 Rates table"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Changes each January; CRA announces the following year's figures in early November."
+
+  - id: tax-cpp2-rate-2026
+    statement: "CPP2 (second additional) rate, earnings range, and annual maximum (2026)"
+    value: "4.00% on earnings $74,600–$85,000; employer matches; employee annual maximum $416.00"
+    where: "SKILL.md — Payroll 2026 Rates table"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Changes each January."
+
+  - id: tax-cpp-combined-max-2026
+    statement: "Combined maximum employee CPP + CPP2 contribution (2026)"
+    value: "$4,646.45"
+    where: "SKILL.md — Payroll 2026 Rates table"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-ympe-yampe-2026
+    statement: "Key CPP pensionable earnings figures (2026)"
+    value: "YMPE $74,600 · YAMPE $85,000 · basic exemption $3,500 · MIE $68,900"
+    where: "SKILL.md — Payroll 2026 Rates table"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Announced each November for the following calendar year."
+
+  - id: tax-ei-rate-2026
+    statement: "EI premium rate and maximums outside Quebec (2026)"
+    value: "1.63% employee up to $68,900 MIE; employer 1.63% x 1.4 = 2.282%; employee maximum $1,123.07, employer maximum $1,572.30"
+    where: "SKILL.md — Payroll 2026 Rates table"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Changes each January; announced by the Canada Employment Insurance Commission in September."
+
+  - id: tax-ei-rate-quebec-2026
+    statement: "EI premium rate and maximums for Quebec (2026)"
+    value: "1.30% employee up to $68,900; employer 1.30% x 1.4 = 1.82%; employee maximum $895.70, employer maximum $1,253.98"
+    where: "SKILL.md — Payroll 2026 Rates table"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Quebec has a reduced rate because of the Quebec Parental Insurance Plan; changes each January."
+
+  - id: tax-remittance-thresholds
+    statement: "Payroll remitter type thresholds by Average Monthly Withholding Amount"
+    value: "Quarterly new small employer MWA under $1,000; quarterly small employer under $3,000; Regular under $25,000 (monthly, 15th); Accelerated Threshold 1 $25,000–$99,999.99; Accelerated Threshold 2 $100,000 or more. AMWA generally based on remittances from two calendar years ago."
+    where: "SKILL.md — Remittance Schedules"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/remitting-source-deductions.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-late-remittance-penalty
+    statement: "Penalty for late payroll remittance"
+    value: "3% (1–3 days late), 5% (4–5 days), 7% (6–7 days), 10% (more than 7 days or no amount remitted); generally applied only to the portion of the failure exceeding $500; 20% for a second or later failure in the same calendar year made knowingly or with gross negligence; 3% for remitting on the due date but not at a financial institution"
+    where: "SKILL.md — Remittance Schedules (Penalty for late remittance)"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/remitting-source-deductions.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-t4-deadline
+    statement: "T4 slip and summary filing deadline"
+    value: "Last day of February following the calendar year; next business day if it falls on a Saturday, Sunday or CRA-recognized holiday (for the 2025 tax year: March 2, 2026)"
+    where: "SKILL.md — T4 Slips and Summaries"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/completing-filing-information-returns.html"
+    verified: 2026-09-11
+    review_by: 2027-02-28
+    cadence: annual
+    notes: "The weekend-shifted date must be recalculated each year."
+
+  - id: tax-t4a-threshold
+    statement: "T4A reporting threshold for contractor payments"
+    value: "More than $500 in a calendar year (fees for services, Box 048)"
+    where: "SKILL.md — T4 Slips and Summaries"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/completing-filing-information-returns.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-information-return-penalties
+    statement: "Penalty for late-filed information returns (T4/T5), by number of slips"
+    value: "Greater of $100 and a per-day amount, max 100 days, per type of return — 1–50: $10/day (max $1,000) · 51–500: $15/day (max $1,500) · 501–2,500: $25/day (max $2,500) · 2,501–10,000: $50/day (max $5,000) · 10,001+: $75/day (max $7,500). Paper filing more than 5 slips of one type: $125–$2,500."
+    where: "SKILL.md — T4 Slips and Summaries"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/completing-filing-information-returns.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-roe-deadlines
+    statement: "Record of Employment filing deadlines"
+    value: "Electronic ROEs due 5 calendar days after the end of the pay period in which the interruption of earnings occurs (monthly or 13-period payrolls: earlier of that date or 15 calendar days after the first day of interruption); paper ROEs due within 5 calendar days of the interruption or of becoming aware of it"
+    where: "references/tax-details.md — Payroll Compliance Checklist"
+    source: "https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/roe-guide.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: tax-corporate-rates-2026
+    statement: "General corporate income tax rates, federal and selected provinces (2026)"
+    value: "Federal 15%; Ontario 11.5%; BC 12%; Alberta 8%. Combined general approx. Ontario 26.5%, BC 27%, Alberta 23%."
+    where: "SKILL.md — Corporate Income Tax, Federal and Provincial Rates (2026)"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Provincial rates change with each provincial budget."
+
+  - id: tax-small-business-rates-2026
+    statement: "Small business income tax rates, federal and selected provinces (2026)"
+    value: "Federal 9% on first $500K active income; Ontario 3.2% falling to 2.2% on July 1, 2026 (2.70% calendar-2026 blended); BC 2%; Alberta 2%. Combined small business approx. Ontario 12.2% falling to 11.2% after July 1, 2026; BC 11%; Alberta 11%."
+    where: "SKILL.md — Corporate Income Tax, Federal and Provincial Rates (2026)"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Ontario rate changes mid-year on 1 July 2026 — the blended figure is year-specific."
+
+  - id: tax-sbd-grinds
+    statement: "Small business deduction grind thresholds"
+    value: "Taxable capital grind: straight-line reduction between $10M and $50M taxable capital employed in Canada (associated-group basis), nil at $50M. Passive investment income grind: $5 reduction for every $1 of adjusted aggregate investment income above $50,000, nil at $150,000. Ontario and New Brunswick do not parallel the passive-income grind provincially."
+    where: "SKILL.md — Corporate Income Tax, Small business deduction"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-provincial-sbd-limits
+    statement: "Provincial small business limits that differ from the $500,000 federal limit"
+    value: "Nova Scotia $700,000; Prince Edward Island $600,000; Saskatchewan $600,000"
+    where: "SKILL.md — Corporate Income Tax, Provincial small business limits vary"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "source URL unconfirmed; set by provincial budgets"
+
+  - id: tax-t2-deadlines
+    statement: "T2 corporate return and balance-owing deadlines"
+    value: "T2 return within 6 months of fiscal year-end; balance of tax owing within 2 months of fiscal year-end (3 months for CCPCs claiming the small business deduction); instalments quarterly, monthly for large corporations"
+    where: "SKILL.md — Corporate Income Tax, Filing Deadlines"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-income-tax-return.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-sred-federal-rates
+    statement: "SR&ED federal investment tax credit rates and expenditure limit"
+    value: "15% ITC on qualifying expenditures (non-refundable for most corporations); 35% fully refundable for CCPCs up to the annual expenditure limit of $6 million for tax years beginning after December 15, 2024 (up from $3 million) — worth up to $2.1 million per year. Phase-out on taxable capital between $15M and $75M. Eligible Canadian public corporations now also eligible for the 35% rate; capital expenditures made after December 15, 2024 again qualify."
+    where: "SKILL.md — SR&ED Tax Credits"
+    source: "https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Recently expanded — confirm against the most recent federal budget."
+
+  - id: tax-sred-provincial-rates
+    statement: "Provincial SR&ED credit rates"
+    value: "Ontario 3.5–8%; BC 10%"
+    where: "SKILL.md — SR&ED Tax Credits (Provincial)"
+    source: "https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-sred-claim-deadline
+    statement: "SR&ED claim filing deadline"
+    value: "18 months after the end of the fiscal year in which the expenditures were incurred (Form T661 filed with the T2)"
+    where: "SKILL.md — SR&ED Tax Credits"
+    source: "https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-reassessment-periods
+    statement: "CRA normal reassessment period"
+    value: "3 years from the original notice of assessment for individuals, most trusts and CCPCs; 4 years for non-CCPC corporations and mutual fund trusts; no time limit where there has been misrepresentation attributable to neglect, carelessness, wilful default or fraud"
+    where: "SKILL.md — Contractor vs. Employee, Tax consequences of misclassification"
+    source: "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-cpt1-deadline
+    statement: "Deadline to request a CPT1 worker status ruling"
+    value: "Before June 30 of the year following the year in question"
+    where: "SKILL.md — Contractor vs. Employee, Ruling request"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/canada-pension-plan-cpp-employment-insurance-ei-rulings.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-t1-deadlines
+    statement: "Personal income tax filing deadlines"
+    value: "T1 due April 30 with balance owing April 30; self-employed individuals' T1 due June 15 (balance still due April 30); T3 trust returns 90 days after the trust's tax year-end (March 31 for a December 31 year-end)"
+    where: "SKILL.md — Key CRA Deadlines Calendar"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/important-dates-individuals.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed; weekend shifts change the effective date each year"
+
+  - id: tax-federal-brackets-2026
+    statement: "Federal personal income tax brackets and basic personal amount (2026)"
+    value: "14% to $58,523 · 20.5% to $117,045 · 26% to $181,440 · 29% to $258,482 · 33% above; BPA $16,452"
+    where: "SKILL.md — Key CRA Deadlines Calendar (April 30 row)"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/canadian-income-tax-rates-individuals-current-previous-years.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Indexed annually; CRA publishes the following year's brackets in November."
+
+  - id: tax-lowest-bracket-rate
+    statement: "Lowest federal personal tax bracket rate"
+    value: "14% for 2026 and later years per Bill C-4 (down from 14.5% in 2025 and 15% before that)"
+    where: "SKILL.md — 2025–2026 changes still current"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/canadian-income-tax-rates-individuals-current-previous-years.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-capital-gains-inclusion
+    statement: "Capital gains inclusion rate and Lifetime Capital Gains Exemption"
+    value: "Inclusion rate stays 1/2 — the proposed increase to 2/3 was cancelled effective March 21, 2025; the $1.25 million LCGE increase was kept"
+    where: "SKILL.md — 2025–2026 changes still current"
+    source: "https://www.canada.ca/en/department-finance.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: on-event
+    notes: "source URL unconfirmed; previously reversed once — verify against the latest budget"
+
+  - id: tax-dst-repeal
+    statement: "Digital Services Tax status"
+    value: "Repealed via Bill C-15, which received Royal Assent March 26, 2026"
+    where: "SKILL.md — 2025–2026 changes still current"
+    source: "https://www.parl.ca/legisinfo/en/bills"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: tax-uht-status
+    statement: "Underused Housing Tax status"
+    value: "Eliminated for 2025 and later years; obligations for 2022–2024 still stand and must still be met"
+    where: "SKILL.md — 2025–2026 changes still current"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/excise-taxes-duties-levies/underused-housing-tax.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: on-event
+    notes: "source URL unconfirmed"
+
+  - id: tax-meals-itc-restriction
+    statement: "ITC recovery limit on meals and entertainment"
+    value: "Only 50% of GST/HST paid on meals and entertainment is recoverable as an ITC"
+    where: "references/tax-details.md — GST/HST ITC Documentation Requirements"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-input-tax-credits.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-payroll-record-retention
+    statement: "Payroll record retention period"
+    value: "6 years after the year to which the records relate"
+    where: "references/tax-details.md — Payroll Compliance Checklist"
+    source: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/small-businesses-self-employed-income/keeping-records.html"
+    verified: 2026-09-11
+    review_by: 2027-03-11
+    cadence: annual
+    notes: "source URL unconfirmed"
+
+  - id: tax-payroll-worked-example-2026
+    statement: "Worked payroll example figures for an Ontario employee at $75,000 (2026)"
+    value: "Monthly CPP ~$352.54; CPP2 ~$1.33 ($16.00/yr); EI ~$101.88 (annual max $1,123.07); employer EI ~$142.63 (annual max $1,572.30); net pay ~$4,488.58; total monthly remittance ~$2,256.59"
+    where: "references/tax-details.md — Payroll Deduction Worked Example"
+    source: "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/payroll-deductions-online-calculator.html"
+    verified: 2026-09-11
+    review_by: 2026-12-15
+    cadence: annual
+    notes: "Entirely derived from the annual rate table — must be regenerated from CRA PDOC each January."
